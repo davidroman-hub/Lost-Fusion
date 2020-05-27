@@ -1,13 +1,17 @@
 
+
+
 body{
     background-color:#080517;
     color: #fff;
 }
 
+$cursive: 'Pacifico', cursive ; 
+$open:'Open Sans Condensed', sans-serif;
 
 .header-logo{
     display:flex;
-    justify-content:center;
+    justify-content:center
 }
 
 
@@ -22,8 +26,10 @@ body{
 /// animaciones de letras ///
  .titulo-naranja-neon{ 
 margin-bottom: 0;
-font-size: 60px;
-animation: naranja-neon 6s infinite alternate
+font-size: 18px;
+animation: naranja-neon 6s infinite alternate;
+font-family: $open;
+
 
 }
 
