@@ -30,20 +30,16 @@ return (
     <div className="header-text">   
          <p className='Logo1'>      
       </p>
-            <h4 className="arrow">
-                Developing &  Web Design
-            </h4>
+           
                 <hr/>
-            <div className="figure text-center"/>    
-            <h6 className="arrow-2"> We can build awesome things together</h6>    
+            {/* <div className="figure text-center"/>     */}
+       
             <br/>
-            <Link 
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}         
-            className="botton1 btn btn-primary btn-xl js-scroll-trigger">READ MORE</Link>
+            <img className='Logo2'
+            style={{maxHeight:''}} 
+            src={Logo}
+            alt='Header Logo'
+         />
     </div>
 
 </header>
