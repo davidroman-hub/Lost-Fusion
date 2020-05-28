@@ -119,34 +119,23 @@ return (
           <br/>
           <br/> 
                       “Estos jovenes vienen directo desde Xochimilco para presentar su música con amor y locura,
-                       se vale cantar, bailar y sobre todo disfrutar esta mezcla exquisita de ritmos. Comparten canciones de libertad y nos reunimos en este camino del guerrero."<br/> 
-                       <span className='animation'style={{fontSize:'25px'}}>Montserrat Muñoz, Radio UNAM 96.1FM </span>
+                       se vale cantar, bailar y sobre todo disfrutar esta mezcla exquisita de ritmos. Comparten canciones de libertad y nos reunimos en este camino del guerrero."
+                       <br/> 
+                       <span className='animation'style={{fontSize:'20px'}}>Montserrat Muñoz, Radio UNAM 96.1FM </span>
                       <br/>
                       <br/> 
-                       La amplia gama de sonidos que surgen de sus instrumentos han electrizado desde CDMX, Mazunte, Jalisco, Toluca, Puerto Vallarta, Edo. De México, hasta Michoacán, Puebla, Veracruz y próximamente 
-                       Sudamérica y Europa; con orgullo siempre poniendo en alto el nombre de México. 
+                      “Son jóvenes con un camino extenso por delante, son entregados y transmiten toda su energía a través de sus canciones llenas de sentimientos y texturas." 
+                      <br/>
+                      <span className='animation'style={{fontSize:'20px'}}> Ricardo Raphael, Canal ONCE</span> 
+
                       <br/>
                       <br/> 
-                       Precursores del <span className='animation'>sonido ecléctico</span> que los caracteriza, han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el Rock, Funk, Reggae, 
-                       Disco, Hip Hop, hasta un sonido más urbano y latino, dando como resultado una experiencia musical variada para todos los gustos y frescura que incita a bailar a todo aquel que los escucha. 
+                      "La dualidad entre sus sonidos electrónicos y acústicos crean una atmosfera ideal para percibir su música llena de tintes y emociones.
+                       Verlos en vivo es la mejor forma de disfrutarlos por toda la buena energía que te transmiten." 
                        <br/>
-                       <br/> 
-                       <span className='animation' style={{fontSize:'30px'}}>Lost Fusión</span> <span style={{fontSize:'30px'}} >es:</span>
+                       <span className='animation'style={{fontSize:'20px'}}>Sofía Navarro, UAM Radio 94.1FM </span>
                        <br/>
-                       <br/> 
-                         • MAYRA GARCÍA - Voz y Teclado 
-                         <br/>
-                         • <span>INDIRA VALDELAMAR </span>- Voz y Guitarra 
-                         <br/>
-                         • MIGUEL OVIEDO - Voz y Percusión 
-                         <br/>
-                         • ALBERTO PERALTA - Bajo 
-                         <br/>
-                         • MARCO FIGUEROA - Batería 
-                         <br/>
-                         <br/>
-                         <span className='grey1'>Los cinco músicos indican cuando comienza la fusión</span> 
-                       
+                       <br/>  
                    </div>
 
     {/* SKILLS */}
