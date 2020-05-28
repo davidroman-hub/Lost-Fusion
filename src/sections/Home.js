@@ -82,7 +82,7 @@ return (
                          <span className='grey1'>Los cinco músicos indican cuando comienza la fusión</span> 
                    </div>
 
-                   <div className='band-1'>
+                   <div className='band-1 text-center'>
          <img className='img img-fluid'
           style={{maxHeight:''}} 
           src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590638872/lost%20Fusion/foto2-removebg-preview_yaqcwb.png'
