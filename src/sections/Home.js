@@ -7,6 +7,7 @@ import ReactJkMusicPlayer from "react-jinke-music-player";
 import "react-jinke-music-player/assets/index.css";
 import {audioList1} from './audioList'
 
+import NavBar from './NavBar'
 //Music Reproductor functions
 //https://github.com/lijinke666/react-music-player/blob/master/example/example.js
 
@@ -23,7 +24,7 @@ const options = {
 
 return (
   <Fragment>
-
+<NavBar/>
   {/* HEADER */}
  
 <header className="header-content "  id="header-content">
