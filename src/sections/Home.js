@@ -30,7 +30,7 @@ const options = {
 
       <main>
       <div className='header-logo'>
-        <img className='img img-fluid'
+        <img className=''
          style={{maxHeight:''}} 
          src={Logo}
          alt='Header Logo'
