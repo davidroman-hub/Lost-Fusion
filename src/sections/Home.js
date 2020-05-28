@@ -93,22 +93,28 @@ return (
 
   {/* GITHUB SECTION */}
 
-<div className="github-section text-center">
-  <br/>
-              <h4 className="text-center">
-                CHECK MY CODE ON GITHUB
-                </h4>
-                <div className="figure"/>  
-                <p className="text-git">I have specialized mainly in MERN applications, 
-                  I invite you to visit my Github portfolio to see the process of each of my Rest API's and
-                   Applications I have created 
-                </p>
-             
-                <i className="git-icon fab fa-github"></i>
-                <br/>
-                <a className="git-btn btn mb-4 "  href="https://github.com/davidroman-hub" target="_blank" rel="noopener noreferrer">Github</a>
-            
+  <div className="prensa">
+     <div className='prensa1'>
+       <img className='img img-fluid'
+        style={{maxHeight:''}} 
+        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630752/lost%20Fusion/02_er5hap.png'
+        alt='prensa1'
+       />
+     </div>
+     <div className="prensa1">
+      <h2 className="titles-desc">
+       
+      </h2>
+     </div>
+     <div className='prensa1'>
+       <img className='img img-fluid'
+         style={{maxHeight:''}} 
+        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630749/lost%20Fusion/03_j4jzke.png'
+         alt='prensa2'
+        />
       </div>
+     </div>
+    
 
     {/* SKILLS */}
 

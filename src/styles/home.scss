@@ -66,7 +66,7 @@ body{
 
 $cursive: 'Pacifico', cursive ; 
 $open:'Open Sans Condensed', sans-serif;
-
+$titles:'Chelsea Market', cursive;
 // colors
 
 $orange: #C84D44;
@@ -191,6 +191,30 @@ font-family: $open;
 .grey1{
 	color: $grey2;
 }
+////////PRENSA
+// ///// prensa
+    .prensa {
+        display:flex;
+        
+    }
+
+
+    .prensa1{
+        width:40%;
+    }
+
+    // .titles-desc{
+    //     font-family:$titles;
+    //     margin-top: 200px;
+    //     @media(max-width: 769px){ 
+    //         margin-top: 25px; 
+    //         font-size: 2rem;
+    //         margin-right: 0px;
+    //     }
+    
+    // }
+
+
 
 /////////////// github /////////////
 
