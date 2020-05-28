@@ -136,11 +136,11 @@ font-family:'Pacifico', cursive ;
 
 // // //flex box
 
-// display: flex;
-// flex-direction: column;
-// justify-content: center;
-// align-items: center;
-// text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
 
 // // z-index: 1;
 
@@ -148,12 +148,12 @@ font-family:'Pacifico', cursive ;
 
 
  .Logo2{
-	 height: 200px;
-	 margin-top:300px;
-	 @media(max-width: 769px){ 
-		margin-bottom: 60px;
-	  
-	}
+     //width:100%;
+	  //height: auto;
+      margin-top:400px;
+      //margin-left:200px;
+    
+	
  }
 
 ////////////////////////////////////////////////////////////////

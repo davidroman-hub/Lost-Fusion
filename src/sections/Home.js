@@ -28,21 +28,20 @@ return (
   {/* HEADER */}
  
 <header className="header-content "  id="header-content">
-    <div className="header-text">   
-      
-{/*            
-                <hr/> */}
+     
+ 
             {/* <div className="figure text-center"/>     */}
        
             <br/>
-            <img className='Logo2' text-center
-            style={{maxHeight:''}} 
+            <img className='Logo2' 
+             height="200px"
+             width="400px"
+           // style={{maxHeight:''}} 
             src={Logo}
             alt='Header Logo'
          />
           {/* <ReactJkMusicPlayer {...options} /> */}
-    </div>
-
+   
 </header>
 
      {/* ABOUT */}
