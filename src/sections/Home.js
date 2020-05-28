@@ -40,7 +40,7 @@ return (
             src={Logo}
             alt='Header Logo'
          />
-          {/* <ReactJkMusicPlayer {...options} /> */}
+         
    
 </header>
 
@@ -79,6 +79,7 @@ return (
                          <br/>
                          <br/>
                          <span className='grey1'>Los cinco músicos indican cuando comienza la fusión</span> 
+                         <ReactJkMusicPlayer {...options} />
                    </div>
 
                    <div className='band-1 text-center'>
