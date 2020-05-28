@@ -101,9 +101,9 @@ return (
         alt='prensa1'
        />
      </div>
-     <div className="prensa1">
+     <div className="prensa2">
       <h2 className="titles-desc">
-       
+       PRENSA
       </h2>
      </div>
      <div className='prensa1'>
@@ -113,6 +113,8 @@ return (
          alt='prensa2'
         />
       </div>
+
+      
      </div>
     
 
@@ -121,7 +123,8 @@ return (
 <div className="services" id='skills'>
         <br/>
         <h4 className='text-center mb-4'>FRAMEWORKS AND PLATFORMS SKILLS</h4> 
-        <div className='figure2'/>
+        
+        {/* <div className='figure2'/>
         <div className="Hobbies-icon">
             <p className='H-icons'>
               <i className="frame fab fa-react"></i>
@@ -146,14 +149,14 @@ return (
             </p>
             <br/>
         
-        </div>
+        </div> */}
 </div> 
 
 
 {/* PORTFOLIO */}
 
 
-<div className="portfolio" id='projects'>
+{/* <div className="portfolio" id='projects'>
 <hr/>
 <h4 className="text-center">PROJECTS</h4> 
 <div className='figure2'/>
@@ -216,7 +219,7 @@ return (
     </div>
 </div>
 </div>
-</div>        
+</div>         */}
 
     {/* RESUME */}
 
@@ -239,6 +242,8 @@ return (
          Get in touch with me!
     </div>
     <div className='figure2 mb-5'/>
+    
+    
     <div className="font-figures">
       
          <div className="mailes">
@@ -261,11 +266,11 @@ return (
              
               </i>
          
-         {/* <i class="fab fa-whatsapp-square">
+         <i class="fab fa-whatsapp-square">
               <p>Phone</p>
               <p className="text-p">+33 7 87 42 20 67 (only calls- France)</p>
        
-           </i> */}
+           </i>
 
      </div> 
 
