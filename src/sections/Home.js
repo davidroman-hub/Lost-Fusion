@@ -171,10 +171,28 @@ return (
       </div>
      </div>
 
-<div className="services" id='skills'>
+     <div className="desc container text-center">
+          <br/>
+          <br/>
+          <br/> 
+
+          <i class="fas fa-trophy" style={{color:'#ceb916'}}/> Ganadores del concurso  <span className='animation'>“Coyote Sounds”</span> de los “Músicos de José” (2018) 
+          <br/>
+          <br/>
+          <i class="fas fa-trophy" style={{color:'#ceb916'}}/> Ganadores en los Premios ETV" de <span className='animation'>“EvoluciónTV” </span> en la categoría “Fusión" (2018) 
+          <br/>
+          <br/>
+          <i class="fas fa-trophy" style={{color:'#ceb916'}}/> Ganadores del concurso  <span className='animation'>"La Música Nos Une”</span> de la delegación Tlalpan (2017) 
+          <br/>
+          <br/>
+          <i class="fas fa-trophy" style={{color:'#ceb916'}}/> Ganadores del concurso  <span className='animation'>"El Sur Hace Ruido"</span>  de la delegación Xochimilco (2017) HIGHLIGHTS
+          <br/>        
+          <br/>                   
+      </div>
+{/* <div className="services" id='skills'>
         <br/>
         <h4 className='text-center mb-4'>FRAMEWORKS AND PLATFORMS SKILLS</h4> 
-        
+         */}
         {/* <div className='figure2'/>
         <div className="Hobbies-icon">
             <p className='H-icons'>
@@ -201,7 +219,7 @@ return (
             <br/>
         
         </div> */}
-</div> 
+{/* </div>  */}
 
 
 {/* PORTFOLIO */}
@@ -274,56 +292,9 @@ return (
 
     {/* RESUME */}
 
-<div className="resume">
-<br/>
-<h4 className="info5 text-center">WOULD YOU LIKE TO CHECK OUT MY RESUME?</h4>
-<div className="figure"/>
-<div className="spacer3"/>
-
-</div>
-
 
   {/* Contact */}
 
-<div >
-         <div id='contact'></div>
-     </div>
-   
-    <div className="info">
-         Get in touch with me!
-    </div>
-    <div className='figure2 mb-5'/>
-    
-    
-    <div className="font-figures">
-      
-         <div className="mailes">
-            <i class="fas fa-envelope-open">
-     
-               {/* <p className="text-p">Jobroman83@gmail.com</p> */}
-              <a  className='mail' href="mailto:jobroman83@gmail.com">Jobroman83@gmail.com</a>
-              <br/>
-             
-              </i>
-         </div>
-         
-            <i class="fas fa-phone mt-4 ml-5">
-             
-              <p className="text-p">+33 7 87 42 20 67 FR <br/>
-              +52 55 18 52 64 12 MX
-              </p>
-             
-              <br/>
-             
-              </i>
-         
-         <i class="fab fa-whatsapp-square">
-              <p>Phone</p>
-              <p className="text-p">+33 7 87 42 20 67 (only calls- France)</p>
-       
-           </i>
-
-     </div> 
 
 
 </Fragment>
