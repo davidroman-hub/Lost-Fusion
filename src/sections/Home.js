@@ -136,9 +136,13 @@ return (
                        <span className='animation'style={{fontSize:'20px'}}>Sofía Navarro, UAM Radio 94.1FM </span>
                        <br/>
                        <br/>  
+                       
                    </div>
 
     {/* PREMIOS */}
+    <div>
+    <div className='titles-descP text-center'> PREMIOS </div>
+    </div>
 
     <div className="prensa">
      <div className='prensa1'>
@@ -149,9 +153,9 @@ return (
        />
      </div>
      <div className="prensa2">
-      <h2 className="titles-desc">
+      {/* <h2 className="titles-descP">
        PREMIOS
-      </h2>
+      </h2> */}
        <img className='img img-fluid'
         style={{maxHeight:''}} 
         src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630743/lost%20Fusion/05_cbcwj6.png'
