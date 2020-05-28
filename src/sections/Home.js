@@ -152,7 +152,7 @@ return (
         alt='prensa1'
        />
      </div>
-     <div className="prensa2">
+     <div className="premios2">
       {/* <h2 className="titles-descP">
        PREMIOS
       </h2> */}
