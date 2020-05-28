@@ -210,16 +210,16 @@ font-family:'Pacifico', cursive ;
      color: #fff;
      background:black;
      background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
-     background-size: 1500px;
+     background-size: 1000px;
      background-repeat: no-repeat;
      background-position: center; 
     background-attachment: fixed; // we can move while the photo its static
     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
     filter: grayscale(50%);
-	@media(max-width: 500px){ 
-		 		background-size:450px;
+	// @media(max-width: 500px){ 
+	// 	 		background-size:450px;
 			   
-		 	}
+	// 	 	}
 // ///position static photo///
 
 // // position: relative;
