@@ -30,8 +30,8 @@ return (
     <div className="header-text">   
          <p className='Logo1'>      
       </p>
-           
-                <hr/>
+{/*            
+                <hr/> */}
             {/* <div className="figure text-center"/>     */}
        
             <br/>
