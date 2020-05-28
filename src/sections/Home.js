@@ -138,7 +138,34 @@ return (
                        <br/>  
                    </div>
 
-    {/* SKILLS */}
+    {/* PREMIOS */}
+
+    <div className="prensa">
+     <div className='prensa1'>
+       <img className='img img-fluid'
+        style={{maxHeight:''}} 
+        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630746/lost%20Fusion/04_panhsd.png'
+        alt='prensa1'
+       />
+     </div>
+     <div className="prensa2">
+      <h2 className="titles-desc">
+       PREMIOS
+      </h2>
+       <img className='img img-fluid'
+        style={{maxHeight:''}} 
+        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630743/lost%20Fusion/05_cbcwj6.png'
+        alt='prensa1'
+       />
+     </div>
+     <div className='prensa1'>
+       <img className='img img-fluid'
+         style={{maxHeight:''}} 
+        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630740/lost%20Fusion/06_zzodq6.png'
+         alt='prensa2'
+        />
+      </div>
+     </div>
 
 <div className="services" id='skills'>
         <br/>
