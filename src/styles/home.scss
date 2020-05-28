@@ -48,7 +48,8 @@ $open:'Open Sans Condensed', sans-serif;
 .header-logo{
     display:flex;
 	justify-content:center;
-	margin-top: -370px;  
+	margin-top: -370px;
+	width:50%  ;
 	
 	@media(max-width: 769px){ 
 		// display:flex;
