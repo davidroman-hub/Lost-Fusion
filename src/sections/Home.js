@@ -29,14 +29,13 @@ return (
  
 <header className="header-content "  id="header-content">
     <div className="header-text">   
-         <p className='Logo1'>      
-      </p>
+      
 {/*            
                 <hr/> */}
             {/* <div className="figure text-center"/>     */}
        
             <br/>
-            <img className='Logo2'
+            <img className='Logo2' text-center
             style={{maxHeight:''}} 
             src={Logo}
             alt='Header Logo'
