@@ -9,6 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Fragment>
+          <NavBar/>
           <Home />
       </Fragment>
     </BrowserRouter>

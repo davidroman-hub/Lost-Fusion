@@ -24,7 +24,7 @@ const options = {
 
 return (
   <Fragment>
-<NavBar/>
+{/* <NavBar/> */}
   {/* HEADER */}
  
 <header className="header-content "  id="header-content">
