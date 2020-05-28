@@ -275,6 +275,14 @@ animation:morado-neon 5s infinite alternate;
 }
 
 
+.spacer{
+   padding-bottom:200px;
+   @media(max-width: 769px){ 
+    
+    margin-bottom: -60px;
+    }
+}
+
 /////////////// github /////////////
 
 .github-section{
