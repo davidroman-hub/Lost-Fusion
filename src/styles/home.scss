@@ -51,8 +51,10 @@ $open:'Open Sans Condensed', sans-serif;
 	margin-top: -370px;  
 	
 	@media(max-width: 769px){ 
+		// display:flex;
+	    // justify-content:center;
 		margin-top: 20px;
-
+		width: 50%;
 		margin-top: -170px;
 	   
 	}
