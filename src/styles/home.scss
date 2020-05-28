@@ -4,70 +4,8 @@ body{
     color: #fff;
 }
 
-// $cursive: 'Pacifico', cursive ; 
-// $open:'Open Sans Condensed', sans-serif;
-
-// .header-content {
-// 	background-color:black;
-// 	width: 100%;
-//     height: 70vh;
-    
-//     //color: #fff;
-//     background:black;
-//     background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
-//     background-size:1000px;
-//     background-repeat: no-repeat;
-// 	background-position: center; 
-// 	background-attachment: fixed;
-// 	margin-bottom:100px;
-// 	@media(max-width: 769px){ 
-// 		background-size:750px;
-	   
-// 	}
-// 	@media(max-width: 500px){ 
-// 		background-size:450px;
-	   
-// 	}
-// }
 
 
-// .header-photo{
-//     display:flex;
-// 	justify-content:center;
-// 	margin-top: -85px;
-// }
-
-// .header-photo img{
-     
-//         //width:100%;
-//         //max-height:700px;
-//         object-fit: 60px
-       
-// }
-
-// .header-logo{
-//     display:flex;
-// 	justify-content:center;
-// 	margin-top: -370px;
-// 	width:50%  ;
-	
-// 	@media(max-width: 769px){ 
-// 		// display:flex;
-// 	    // justify-content:center;
-// 		margin-top: 20px;
-// 		width: 50%;
-// 		margin-top: -170px;
-	   
-// 	}
-// }
-
-// .header-logo img{
-     
-//         //width:100%;
-//         //max-height:700px;
-//         object-fit: 60px
-       
-// }
 // ////////////////////////////////////////////////////////////////
 // ///// FIGURES
 
@@ -88,41 +26,11 @@ body{
 // }
 
 
-// /// animaciones de letras ///
-//  .animation{ 
-// //margin-bottom: 0;
-// //font-size: 18px;
-// animation: naranja-neon 6s infinite alternate;
-// //font-family: $open;
-
-
-// }
-
-// @keyframes naranja-neon {
-// 	0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
-// 		text-shadow: 0 -1px 4px #fff, 
-// 					 0 -2px 10px #ff0,
-// 					 0 -10px 20px #ee46b8;
-// 	}
-
-// 	10%, 15%, 60% {
-// 		text-shadow: none;
-// 	}
-// }
-
 // /////////////////////////
 // //////// MAIN
 
-// .desc{
-// 	font-size:20px;
-// 	 @media(max-width: 769px){ 
-// 		font-size:16px
-// 	}
-// }
 
-// .grey1{
-// 	color: grey;
-// }
+
 
 // ///////////////////////////////
 
@@ -247,6 +155,41 @@ text-align: center;
 	  
 	}
  }
+
+////////////////////////////////////////////////////////////////
+////Main Styles
+
+ /// animaciones de letras ///
+ .animation{ 
+margin-bottom: 0;
+font-size: 18px;
+animation: naranja-neon 6s infinite alternate;
+font-family: $open;
+
+}
+
+@keyframes naranja-neon {
+	0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
+		text-shadow: 0 -1px 4px #fff, 
+					 0 -2px 10px #ff0,
+					 0 -10px 20px #ee46b8;
+	}
+
+	10%, 15%, 60% {
+		text-shadow: none;
+	}
+}
+
+.desc{
+	font-size:20px;
+	 @media(max-width: 769px){ 
+		font-size:16px
+	}
+}
+
+.grey1{
+	color: $grey2;
+}
 
 /////////////// github /////////////
 
