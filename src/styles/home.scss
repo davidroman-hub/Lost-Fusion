@@ -1,6 +1,4 @@
 
-
-
 body{
     background-color:#080517;
     color: #fff;
@@ -9,26 +7,90 @@ body{
 $cursive: 'Pacifico', cursive ; 
 $open:'Open Sans Condensed', sans-serif;
 
-.header-logo{
-    display:flex;
-    justify-content:center
+.header-content {
+	background-color:black;
+	width: 100%;
+    height: 70vh;
+    
+    //color: #fff;
+    background:black;
+    background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
+    background-size:1000px;
+    background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+	margin-bottom:100px;
+	@media(max-width: 769px){ 
+		background-size:750px;
+	   
+	}
+	@media(max-width: 500px){ 
+		background-size:450px;
+	   
+	}
 }
 
 
-.header-logo img{
+.header-photo{
+    display:flex;
+	justify-content:center;
+	margin-top: -85px;
+}
+
+.header-photo img{
      
         //width:100%;
-        //max-height:400px;
+        //max-height:700px;
         object-fit: 60px
        
 }
 
+.header-logo{
+    display:flex;
+	justify-content:center;
+	margin-top: -370px;  
+	
+	@media(max-width: 769px){ 
+		margin-top: 20px;
+
+		margin-top: -170px;
+	   
+	}
+}
+
+.header-logo img{
+     
+        //width:100%;
+        //max-height:700px;
+        object-fit: 60px
+       
+}
+////////////////////////////////////////////////////////////////
+///// FIGURES
+
+.figure {
+	 //width:300px;
+	 display:flex;
+	 flex-direction:column;
+	 border-top: 1px solid #FF51C9;
+	// align-items: center;
+	// justify-content: center;
+	margin:50px;
+	// margin-left: 450px;
+	 margin-top: -30px;
+	// @media(max-width: 769px){ 
+	// 	margin-left: 0px;
+	// 	width:200px;
+	// }
+}
+
+
 /// animaciones de letras ///
- .titulo-naranja-neon{ 
-margin-bottom: 0;
-font-size: 18px;
+ .animation{ 
+//margin-bottom: 0;
+//font-size: 18px;
 animation: naranja-neon 6s infinite alternate;
-font-family: $open;
+//font-family: $open;
 
 
 }
@@ -44,3 +106,47 @@ font-family: $open;
 		text-shadow: none;
 	}
 }
+
+/////////////////////////
+//////// MAIN
+
+.desc{
+	font-size:20px;
+	 @media(max-width: 769px){ 
+		font-size:16px
+	}
+}
+
+.grey1{
+	color: grey;
+}
+
+///////////////////////////////
+
+.band-1{
+	display:flex;
+	justify-content:center;
+	width:100%;
+    max-height:700px;
+	//margin-top: -85px;
+}
+
+///// prensa
+.prensa {
+	display:flex;
+}
+
+
+.prensa1{
+	width:40%;
+}
+// .prensa2{
+// 	width:40%;
+// 	margin-top: -660px;
+// 	margin-left: 660px;
+// 	@media(max-width: 769px){ 
+// 		margin-top: -154px;
+// 		margin-left: 210px;
+// 	}
+
+//}
