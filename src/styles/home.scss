@@ -19,7 +19,7 @@ body{
 // 	margin:50px;
 // 	// margin-left: 450px;
 // 	 margin-top: -30px;
-// 	// @media(max-width: 769px){ 
+// 	// @media(max-width: 769px){
 // 	// 	margin-left: 0px;
 // 	// 	width:200px;
 // 	// }
@@ -55,7 +55,7 @@ body{
 // 	width:40%;
 // 	margin-top: -660px;
 // 	margin-left: 660px;
-// 	@media(max-width: 769px){ 
+// 	@media(max-width: 769px){
 // 		margin-top: -154px;
 // 		margin-left: 210px;
 // 	}
@@ -64,7 +64,7 @@ body{
 
 // letters
 
-$cursive: 'Pacifico', cursive ; 
+$cursive: 'Pacifico', cursive ;
 $open:'Open Sans Condensed', sans-serif;
 $titles:'Chelsea Market', cursive;
 // colors
@@ -79,12 +79,15 @@ $grey3:#343A40;
 $blue:#1464ba;
 
 *{
-    //universal selector 
+    //universal selector
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.fusion img{
+    display:none
+}
 
 .content{
     margin: 0;
@@ -106,28 +109,32 @@ margin-bottom: 30px;
 
 .regular-text{
 font-weight: 400;
-font-family:'Pacifico', cursive ; 
+font-family:'Pacifico', cursive ;
 }
 
-/////// Header ///////////  
+/////// Header ///////////
 
   .header-content{
 //      width: 100%;
       height: 100vh;
-    
+
 //      color: #fff;
       background:black;
       background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
-      background-size: 850px;
+      background-size: 1000px;
       background-repeat: no-repeat;
-      background-position: center; 
+      background-position: center;
 //     //background-attachment: fixed; // we can move while the photo its static
 //     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
 //     filter: grayscale(50%);
-	@media(max-width: 769px){ 
-		 		background-size:450px;
-				 height: 80vh;
-		 	}
+@media(max-width: 769px){
+    background-size:450px;
+    height: 80vh;
+}
+	// @media(min-width: 969px){
+	// 	 		background-size:650px;
+	// 			 height: 80vh;
+	// 	 	}
 // // ///position static photo///
 
 // // // position: relative;
@@ -153,15 +160,15 @@ font-family:'Pacifico', cursive ;
      //height: auto;
       margin-top:400px;
       //margin-left:200px;
-    
-	
+
+
  }
 
 ////////////////////////////////////////////////////////////////
 ////Main Styles
 
  /// animaciones de letras ///
- .animation{ 
+ .animation{
 margin-bottom: 0;
 font-size: 16px;
 animation: naranja-neon 6s infinite alternate;
@@ -171,7 +178,7 @@ font-family: $open;
 
 @keyframes naranja-neon {
 	0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
-		text-shadow: 0 -1px 4px #fff, 
+		text-shadow: 0 -1px 4px #fff,
 					 0 -2px 10px #ff0,
 					 0 -10px 20px #ee46b8;
 	}
@@ -183,7 +190,7 @@ font-family: $open;
 
 .desc{
 	font-size:20px;
-	 @media(max-width: 769px){ 
+	 @media(max-width: 769px){
 		font-size:16px
 	}
 }
@@ -193,7 +200,7 @@ font-family: $open;
 }
 ////////PRENSA
 // ///// prensa
-    
+
 .prensa {
     width: auto;
     float: left;
@@ -216,34 +223,34 @@ font-family: $open;
     .prensa2{
         width:40%;
         margin-left:20px;
-    
+
     }
 
     .titles-desc{
         font-size:50px;
         font-family:$titles;
         animation:morado-neon  5s infinite alternate;
-        @media(max-width: 769px){ 
+        @media(max-width: 769px){
             font-size:30px;
         }
     }
     // .titles-desc{
     //     font-family:$titles;
     //     margin-top: 200px;
-    //     @media(max-width: 769px){ 
-    //         margin-top: 25px; 
+    //     @media(max-width: 769px){
+    //         margin-top: 25px;
     //         font-size: 2rem;
     //         margin-right: 0px;
     //     }
-    
+
     // }
     @keyframes morado-neon {
         0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
-            text-shadow: 0 -1px 4px #fff, 
+            text-shadow: 0 -1px 4px #fff,
                        //  0 -2px 10px #ff0,
                          0 -10px 20px #ee46b8;
         }
-    
+
         10%, 15%, 60% {
             text-shadow: none;
         }
@@ -255,8 +262,8 @@ font-size:50px;
 font-family:$titles;
 margin-bottom: 30px;
 animation:morado-neon 5s infinite alternate;
-//margin-top:350px; 
-@media(max-width: 769px){ 
+//margin-top:350px;
+@media(max-width: 769px){
     margin-top: 0px;
     font-size:50px;
     margin-bottom: -50px;
@@ -277,8 +284,8 @@ animation:morado-neon 5s infinite alternate;
 
 .spacer{
    padding-bottom:200px;
-   @media(max-width: 769px){ 
-    
+   @media(max-width: 769px){
+
     margin-bottom: -60px;
     }
 }
@@ -286,17 +293,17 @@ animation:morado-neon 5s infinite alternate;
 /////////////// github /////////////
 
 .github-section{
-  
+
     //filter: grayscale(35%);
     //height: 80vh;
     color: #fff;
     background-color:$blue;
     font-family:'Open Sans Condensed', sans-serif;
-    
+
     //background-attachment:cover;
    //background-image: url(./img/banner.jpg);
-    
-    //background-position: center; 
+
+    //background-position: center;
    // background-attachment: fixed; // we can move while the photo its static
 
 }
@@ -311,7 +318,7 @@ animation:morado-neon 5s infinite alternate;
     color: #fff;
     font-family:$open;
     margin:25px
-  
+
 }
 
 
@@ -350,7 +357,7 @@ animation:morado-neon 5s infinite alternate;
     width: 20%;
     margin-left: 40%;
     margin-bottom:20px
-    
+
 }
 
 ///////////////////
@@ -386,18 +393,18 @@ font-size: 60px;
 animation: orange-neon 2s infinite alternate;
 
 
-} 
+}
  @media(max-width: 769px){
     .header-text .orange-neon-title
       {
       font-size: 40px;
-      
+
     }
     .header-text .description{
 
         margin-top: 40px;
         font-size: 15px;
-        
+
 
     }
     .header-text .title{
@@ -461,7 +468,7 @@ font-size: 18px;
  background: #fff;
 }
 
- .container { 
+ .container {
 //padding: 50px 0;
 width: 90%;
 max-width: 1000px;
@@ -496,16 +503,16 @@ color:$orange ;
      @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
               margin-top: 20px;
               flex-direction: column;
-             
+
         }
 
     .about-us-des{
-        
+
         margin-left: 30px;
-        
+
     }
-    
-    
+
+
 }
 
 .text-after{
@@ -522,7 +529,7 @@ color:$orange ;
 .card-text{
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
         font-size: 12px;
-       
+
   }
 }
 
@@ -550,12 +557,12 @@ display: flex;
 //     margin-bottom: 15px;
 //     width: 280px;
 
-    }    
+    }
 }
 
 .mongo img{
-  
-    
+
+
     margin-left: 70px ;
 }
 
@@ -569,7 +576,7 @@ display: flex;
 
 /// Titles//
 .arrow {
- 
+
     font-family: 'PT Serif', serif;
     font-size: 40px;
 }
@@ -580,8 +587,8 @@ display: flex;
 
 }
 .arrow-2{
-  
-   font-size: 1.20rem; 
+
+   font-size: 1.20rem;
    color:rgba(255, 255, 255, 0.7)
 }
 
@@ -597,7 +604,7 @@ display: flex;
 .botton1:hover{
     background-color:$dorado;
     border-color:$dorado;
-   
+
 }
 
 .botton{
@@ -610,7 +617,7 @@ display: flex;
 .botton:hover{
     background-color:$dorado;
     border-color:$dorado;
-   
+
 }
 
 //////////////
@@ -676,8 +683,8 @@ height: 250px;
      justify-content: center;
      margin-left: 50px;
      margin-bottom: 0px;
-    
-    } 
+
+    }
 }
 
 .container-card .card{
@@ -734,7 +741,7 @@ height: 250px;
 .resume {
     color: #fff;
     background-color:$blue;
-    
+
     height: 250px;
     display: flex;
     align-items: center;
@@ -747,8 +754,8 @@ height: 250px;
 }
 
 .resume-btn{
-   
-   
+
+
     color: #000;
     background-color: rgba(255, 255, 255, 0.7);;
     margin-right: 200px;
@@ -758,7 +765,7 @@ height: 250px;
     font-weight:550;
     font-size:20px;
     padding:1rem 2rem;
-    
+
 
 }
 .resume-btn:hover {
@@ -766,7 +773,7 @@ height: 250px;
     background-color:#212529;
    // border-color:$dorado;
     transition: .5s ease;
-   
+
 }
 
 
@@ -802,18 +809,18 @@ height: 250px;
     justify-content: center;
     text-align: center;
     font-size: 3.5em;
-   
+
 
     .mailes{
         // border-right: 2px solid #C84D44 ;
         // border-left: 2px solid #C84D44;
         //margin-top: 12px;
         margin-bottom: 15px;
-        
+
 
     }
-    
-  
+
+
 }
 
 .mail{
@@ -825,11 +832,11 @@ height: 250px;
     color:$grey3;
     margin-top: 26px;
     @media(max-width: 769px){
-  
+
         font-size: 12px;
-   
+
     }
-    
+
 }
 
 .text-p {
@@ -837,8 +844,8 @@ height: 250px;
     color: $grey3;
     font-size: 8px;
     margin-top: 25px;
-   
-   
+
+
 }
 
 .font-figures p {
@@ -846,9 +853,9 @@ height: 250px;
     font-size: 18px;
    // margin-top: 10px;
     @media(max-width: 769px){
-        
+
         font-size: 15px;
-   
+
     }
-    
+
 }

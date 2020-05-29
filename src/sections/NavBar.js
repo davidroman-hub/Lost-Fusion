@@ -20,9 +20,9 @@ const isActive = path => {
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-   <div className='nav-color' class="nav-link" to='/'>
+   {/* <div className='nav-color' class="nav-link" to='/'>
         <img alt='logo' width='180px' height='80px' src={Logo}/>
-    </div>
+    </div> */}
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -43,6 +43,9 @@ const isActive = path => {
           HOME
     </Link>
     </form> */}
+       <div className='fusion nav-color' class="nav-link" to='/'>
+        <img alt='logo' width='180px' height='80px' src={Logo}/>
+    </div>
   </div>
         </div>
 
