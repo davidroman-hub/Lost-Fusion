@@ -60,7 +60,7 @@ return (
                        Sudamérica y Europa; con orgullo siempre poniendo en alto el nombre de México. 
                       <br/>
                       <br/> 
-                       Precursores del <span className='animation'>sonido ecléctico</span> que los caracteriza, han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el Rock, Funk, Reggae, 
+                       <span className='animation'>El sonido eléctrico</span> que los caracteriza, han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el Rock, Funk, Reggae, 
                        Disco, Hip Hop, hasta un sonido más urbano y latino, dando como resultado una experiencia musical variada para todos los gustos y frescura que incita a bailar a todo aquel que los escucha. 
                        <br/>
                        <br/> 
@@ -415,211 +415,56 @@ return (
                     CDMX 2018 </span>
                     </div>
                     </div>
-     </div>
-{/* <div className="services" id='skills'>
-        <br/>
-        <h4 className='text-center mb-4'>FRAMEWORKS AND PLATFORMS SKILLS</h4> 
-         */}
-        {/* <div className='figure2'/>
-        <div className="Hobbies-icon">
-            <p className='H-icons'>
-              <i className="frame fab fa-react"></i>
-                <h5 className="text-center">React</h5>
-            </p>
-            <p className='H-icons'>
-              <i className="frame fab fa-node-js"></i>
-              <h5 className="text-center">Node JS</h5>
-            </p>
-           
-            <p className='H-icons'>
-              <i className="frame fab fa-digital-ocean ml-4"></i>
-              <h5 className="text-center">Digital Ocean</h5>
-            </p>
-            <p className='H-icons '>
-              <i className="frame fab fa-aws"></i>
-              <h5 className="text-center">Amazon Web S.</h5>
-            </p> 
-            <p className='H-icons'>
-              <i className="frame fab fa-sass"></i>
-              <h5 className="text-center">Sass</h5>
-            </p>
-            <br/>
-        
-        </div> */}
-{/* </div>  */}
+                   </div>
+                <br/>
+                <br/>
 
+             {/* ALBUMS */}
 
-{/* PORTFOLIO */}
-
-
-{/* <div className="portfolio" id='projects'>
-<hr/>
-<h4 className="text-center">PROJECTS</h4> 
-<div className='figure2'/>
-<div className="Hobbies-icon">       
-<div className='container-card'>
-   <div className="card">
-      <img src='' alt='/'/>
-              <h6 className="mb-1 mt-2">Restaurant Mar y sol</h6>
-              <div className="figure2"/>
-               <p className="description-t mb-2">E-commerce MERN App, using Bootstrap 4, React JS , MongoDB, Express , Node JS, Sass , Google auth & Sendgrid service. Hosting on Digital Ocean.</p>
-                <a href="http://134.122.119.185/" target='_blank' rel='noopener noreferrer' >Read more</a>
-    </div>
-</div>
-
-<div className='container-card'>
-   <div className="card">
-      <img src='' alt='/' />
-      <h6 className="mb-1 mt-2">Roger & Paq</h6>
-              <div className="figure2"/>
-              <p className="description-t mb-2">E-commerce MERN App, using Bootstrap 4, React JS , MongoDB, Express , Node JS, Sass & BRAINTREE service. Hosting on Digital Ocean.</p>
-                <a href="http://68.183.135.73/shop" target='_blank' rel='noopener noreferrer'>Read more</a>
-    </div>
-</div>
-
-<div className='container-card'>
-   <div className="card">
-      <img src='' alt='/' />
-      <h6 className="mb-1 mt-2">Ultimate Auth</h6>
-              <div className="figure2"/>
-              <p className="description-t mb-1">MERN-application for login , with account activation using sendgrid, google, facebook,Bootstrap 4, React JS , MongoDB, Express , Node JS & Sass. </p>
-                <a href="http://206.189.227.84/" target='_blank' rel='noopener noreferrer'>Read more</a>
-    </div>
-</div>
-<div className='container-card'>
-   <div className="card">
-      <img src='' alt='/' />
-      <h6 className="mb-1 mt-2">Simple E-commerce</h6>
-              <div className="figure2"/>
-              <p className="description-t mb-1">E-commerce MERN App, using Bootstrap 4, React JS , MongoDB, Express , Node JS, Sass & BRAINTREE service. </p>
-                <a href="https://github.com/davidroman-hub/ecommerce-front" target='_blank' rel='noopener noreferrer'>Read more</a>
-    </div>
-</div>
-<div className='container-card'>
-   <div className="card">
-      <img src='' alt='/' />
-      <h6 className="mb-1 mt-2">My Personal page</h6>
-              <div className="figure2"/>
-              <p className="description-t mb-5">A React JS App using Bootstrap 4, Sass, Netlify and Node Js  </p>
-                <a href="https://github.com/davidroman-hub/Real-portafolio" target='_blank' rel='noopener noreferrer'>Read more</a>
-    </div>
-</div>
-
-<div className='container-card'>
-   <div className="card">
-      <img src='' alt='/' />
-      <h6 className="mb-1 mt-2">Contemporary Artist Blog</h6>
-              <div className="figure2"/>
-              <p className="description-t mb-5">A React JS App using Sass & Netlify</p>
-                <a href="https://romantic-sammet-63ec69.netlify.app/" target='_blank' rel='noopener noreferrer'>Read more</a>
-    </div>
-</div>
-</div>
-</div>         */}
-
-    {/* RESUME */}
-
-
-  {/* Contact */}
-
-
-
-</Fragment>
-)
-
-
-
-
-  // return (
-  //   <Fragment>
-  //   <header className='header-content'>
-  //     <div className='header-photo'>
-  //       {/* <img className='img img-fluid'
-  //        style={{maxHeight:''}} 
-  //        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png' alt="Logo-principal"/> */}
-  //     </div>
-  //     </header>
-
-  //     <main>
-  //     <div className='header-logo'>
-  //       <img className=''
-  //        style={{maxHeight:''}} 
-  //        src={Logo}
-  //        alt='Header Logo'
-  //        />
-  //     </div>
-  //     <div className='figure text-center'/>
-      
-  //     <div className='text-center'>
-  //       <br/>
-  //      <ReactJkMusicPlayer {...options} />
-
-  //     </div>
-  //     {/* <p className="titulo-naranja-neon texto-regular text-center">
-  //       Official
-  //     </p> */}
-      
-      
-  //         <div className="desc container text-center">
-          
-  //           <span className='animation'>Lost Fusión</span> es un proyecto musical independiente que surge de la <span className='animation'>CDMX</span>, han logrado mezclar y conectar bastos panoramas musicales dando como resultado el sonido propio y fresco que los 
-  //             caracteriza con su estilo único <span className="animation">"Urban Latin Beat".</span>
-  //             <br/>
-  //             <br/> 
-  //             La amplia gama de sonidos que surgen de sus instrumentos han electrizado desde CDMX, Mazunte, Jalisco, Toluca, Puerto Vallarta, Edo. De México, hasta Michoacán, Puebla, Veracruz y próximamente 
-  //             Sudamérica y Europa; con orgullo siempre poniendo en alto el nombre de México. 
-  //             <br/>
-  //             <br/> 
-  //             Precursores del <span className='animation'>sonido ecléctico</span> que los caracteriza, han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el Rock, Funk, Reggae, 
-  //             Disco, Hip Hop, hasta un sonido más urbano y latino, dando como resultado una experiencia musical variada para todos los gustos y frescura que incita a bailar a todo aquel que los escucha. 
-  //             <br/>
-  //             <br/> 
-  //               <span className='animation' style={{fontSize:'30px'}}>Lost Fusión</span> <span style={{fontSize:'30px'}} >es:</span>
-  //             <br/>
-  //             <br/> 
-  //               • MAYRA GARCÍA - Voz y Teclado 
-  //               <br/>
-  //               • <span>INDIRA VALDELAMAR </span>- Voz y Guitarra 
-  //               <br/>
-  //               • MIGUEL OVIEDO - Voz y Percusión 
-  //               <br/>
-  //               • ALBERTO PERALTA - Bajo 
-  //               <br/>
-  //               • MARCO FIGUEROA - Batería 
-  //               <br/>
-  //               <br/>
-  //               <span className='grey1'>Los cinco músicos indican cuando comienza la fusión</span> 
-  //         </div>
-  //     </main>
-  //     <div className='band-1'>
-  //       <img className='img img-fluid'
-  //        style={{maxHeight:''}} 
-  //        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590638872/lost%20Fusion/foto2-removebg-preview_yaqcwb.png'
-  //        alt='band-1'
-  //        />
-  //     </div>
-  //     <div className="prensa">
-  //     <div className='prensa1'>
-  //       <img className='img img-fluid'
-  //        style={{maxHeight:''}} 
-  //        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630752/lost%20Fusion/02_er5hap.png'
-  //        alt='prensa1'
-  //        />
-  //     </div>
-  //     <div className='prensa1'>
-  //       <img className='img img-fluid'
-  //        style={{maxHeight:''}} 
-  //        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630749/lost%20Fusion/03_j4jzke.png'
-  //        alt='prensa2'
-  //        />
-  //     </div>
-  //     </div>
-  //         <h1> cualquier cosa</h1>
+     <div className="spacerL">.</div>
+     <div className='titles-descPr text-center mt-5'> ALBUM'S </div>
     
-  
-  // </Fragment>
-  // )
-  
+
+    <div className="albums">
+                  <div className='prensa1 '>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630766/lost%20Fusion/13_zsspdn.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                  </div>
+              
+     </div>
+     <div className="desc container text-center">
+                    <span className='animation-l'>" Del Tingo al Tango "</span> es su primer álbum de estudio en el cual esta plasmado el sonido personal que marca una 
+                    transición musical entre distintos ritmos, sonidos, emociones y líricas diversas. (2017) 
+                    <br/>
+                    <br/>
+                    <span className='animation-l'>1.-</span> Tropas
+                    <br/> 
+                    <span className='animation-l'>2.-</span> Cuando Bailas 
+                    <br/>
+                    <span className='animation-l'>3.-</span> El Camino del Guerrero
+                    <br/>
+                    <span className='animation-l'>4.-</span> Seducción a un Elefante 
+                    <br/>
+                    <span className='animation-l'>5.-</span> Guajira 
+                    <br/>
+                    <span className='animation-l'> 6.- </span> Hechizo 
+                    <br/>
+                    <span className='animation-l'>7.- </span> Liberación 
+                    <br/>
+                    <span className='animation-l'>8.-</span> Del Tingo Al Tango 
+                    </div>
+
+
+
+
+
+
+      </Fragment>
+    )
 }
 
 export default Home;
