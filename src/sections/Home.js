@@ -456,8 +456,34 @@ return (
                     <span className='animation-l'>7.- </span> Liberación 
                     <br/>
                     <span className='animation-l'>8.-</span> Del Tingo Al Tango 
-                    </div>
+      </div>
+      <div className="albums">
+                  <div className='prensa1 '>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630764/lost%20Fusion/14_mqk9nn.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                  </div>
+              
+     </div>
+     <div className="desc container text-center">
 
+                    <span className='animation-a'>"En Vivo Radio UNAM”</span> es un disco de edición especial, 
+                    grabado desde la Sala Julián Carrillo. Cuenta con sus mayores éxitos, 
+                    incluye un sonido más enérgico el cual es evidencia de su proyección escenica. <span className='animation-a'>(2018)</span> 
+
+                    <br/>
+                    <br/>
+                    <span className='animation-a'>2.-</span> El Camino del Guerrero 
+                    <br/>
+                    <span className='animation-a'>3.-</span> Cuando Bailas 
+                    <br/>
+                    <span className='animation-a'>4.-</span> Del Tingo Al Tango
+                    <br/>
+                    <span className='animation-a'>5.-</span> Liberación 
+      </div>
 
 
 
