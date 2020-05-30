@@ -6,6 +6,7 @@ import Logo from '../images/Logo.png'
 import ReactJkMusicPlayer from "react-jinke-music-player";
 import "react-jinke-music-player/assets/index.css";
 import {audioList1} from './audioList'
+import MusicLinks from './MusicLinks'
 
 import NavBar from './NavBar'
 //Music Reproductor functions
@@ -484,7 +485,8 @@ return (
                     <br/>
                     <span className='animation-a'>5.-</span> Liberación 
       </div>
-
+      <div className='titles-descPr text-center mt-5'> DISPONIBLE EN:</div>
+      <MusicLinks/>
 
 
 
