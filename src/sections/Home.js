@@ -263,8 +263,159 @@ return (
                       <br/>
                      
                    </div>
+            <div className='titles-descPr text-center'> PRESENTACIONES </div>
+            <div className="prensa">
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590864116/lost%20Fusion/radi_ugoebk.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'>Concierto para el programa "Intersecciones" 
+                      CDMX 2018 </span>
+                    </div>
+                  </div>
+              
 
+                  
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590863938/lost%20Fusion/once_jqpwec.png'
+                      alt='prensa2'
+                      />
+                      <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'> Presentación para el programa "Calle Once" 
+                    CDMX 2019 </span>
+                    </div>
+                    </div>
+     </div>
 
+     <div className="prensa">
+                  <div className='prensa1 mb-4'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590864152/lost%20Fusion/jazz_wkloej.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'> Festival Internacional de Jazz de Mazunte 
+                      Mazunte, Oaxaca 2019 
+                      </span>
+                    </div>
+                  </div>
+              
+
+                  
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590863967/lost%20Fusion/fiji_z9jr6t.png'
+                      alt='prensa2'
+                      />
+                      <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'> Feria Internacional del Libro Infantil y Juvenil 
+                    CDMX 2019 
+                    </span>
+                    </div>
+                    </div>
+     </div>
+     <div className="prensa">
+                  <div className='prensa1 mb-5'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590868772/lost%20Fusion/barranca_fjicq3.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'>Festival Barranca Fest Uruapan, Michoacán 2019 </span>
+                    </div>
+                  </div>
+              
+
+                  
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590863938/lost%20Fusion/5may_ilguce.png'
+                      alt='prensa2'
+                      />
+                      <br/>
+                      
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'>Festival Internacional Cinco de Mayo 
+                      Puebla 
+                      2018 </span>
+                    </div>
+                    </div>
+     </div>
+     <div className="prensa">
+                  <div className='prensa1 mb-5'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590869058/lost%20Fusion/coyo_xxw1eh.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'>Coyote Sounds Party Salón Los Ángeles, CDMX 2018 </span>
+                    </div>
+                  </div>
+              
+
+                  
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590869063/lost%20Fusion/alfe_xmpl6u.png'
+                      alt='prensa2'
+                      />
+                      <br/>
+                      
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'>
+                    Festival Cultural del Alfeñique 
+                    Toluca 2018 
+                    </span>
+                    </div>
+                    </div>
+     </div>
+     <div className="prensa">
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590869186/lost%20Fusion/art_mrks9t.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}} className='animation-l'>Festival Arte y Raíces Cuautitlán, Edo Méx.2019 
+                    </span>
+                    </div>
+                  </div>
+              
+
+                  
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590863938/lost%20Fusion/fiest_cfs6uh.png'
+                      alt='prensa2'
+                      />
+                      <br/>
+                      
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}} className='animation-l'>Fiesta de la Música, Embajada Francesa 
+                    CDMX 2018 </span>
+                    </div>
+                    </div>
+     </div>
 {/* <div className="services" id='skills'>
         <br/>
         <h4 className='text-center mb-4'>FRAMEWORKS AND PLATFORMS SKILLS</h4> 

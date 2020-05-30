@@ -203,7 +203,6 @@ font-family: $open;
 					 0 -10px 20px #ee46b8;
 	}
 
-
 }
 
 
@@ -322,6 +321,66 @@ animation:morado-neon 5s infinite alternate;
         
         }   
  }
+
+
+//////////////////////////////////////
+ ///PRESENTACIONES
+
+ .titles-descPr{
+     margin-bottom: 100px;
+     font-size:50px;
+    font-family:$titles;
+    animation:morado-neon 5s infinite alternate;
+    @media(max-width: 769px){
+        margin-bottom: 0px;
+        font-size:25px;
+        
+        }  
+ }
+
+
+ .prensa {
+    width: auto;
+    float: left;
+    width: 100%;
+    height:200px;
+   // border-right: 1px solid #d79e5b;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5em;
+    }
+
+
+    .prensa1{
+        width:40%;
+    }
+
+    .prensa2{
+        width:40%;
+        margin-left:20px;
+
+    }
+
+    .titles-desc{
+        font-size:50px;
+        font-family:$titles;
+        animation:morado-neon  5s infinite alternate;
+        @media(max-width: 769px){
+            font-size:30px;
+        }
+    }
+
+
+
+
+
+
+
+
+
 
 
 
