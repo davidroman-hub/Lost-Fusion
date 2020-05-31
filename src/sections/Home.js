@@ -95,7 +95,7 @@ return (
   {/* PRENSA SECTION */}
 
   <div className="prensa">
-     <div className='prensa1'>
+     <div className='prensa5'>
        <img className='img img-fluid'
         style={{maxHeight:''}} 
         src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630752/lost%20Fusion/02_er5hap.png'
@@ -107,7 +107,7 @@ return (
        PRENSA
       </h2>
      </div>
-     <div className='prensa1'>
+     <div className='prensa5'>
        <img className='img img-fluid'
          style={{maxHeight:''}} 
         src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630749/lost%20Fusion/03_j4jzke.png'
@@ -144,9 +144,10 @@ return (
     <div>
     <div className='titles-descP text-center'> PREMIOS </div>
     </div>
-
+    <br/>
+    <br/>  
     <div className="prensa">
-     <div className='prensa1'>
+     <div className='prensa3'>
        <img className='img img-fluid'
         style={{maxHeight:''}} 
         src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630746/lost%20Fusion/04_panhsd.png'
@@ -157,19 +158,31 @@ return (
       {/* <h2 className="titles-descP">
        PREMIOS
       </h2> */}
-       <img className='img img-fluid'
+       {/* <img className='img img-fluid'
         style={{maxHeight:''}} 
         src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630743/lost%20Fusion/05_cbcwj6.png'
         alt='prensa1'
-       />
+       /> */}
      </div>
-     <div className='prensa1'>
+     <div className='prensa3'>
        <img className='img img-fluid'
          style={{maxHeight:''}} 
         src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630740/lost%20Fusion/06_zzodq6.png'
          alt='prensa2'
         />
       </div>
+     </div>
+     
+     <div className="albums">
+                  <div className='prensa4 '>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630743/lost%20Fusion/05_cbcwj6.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                  </div>
+              
      </div>
 
     <div className='spacer'>
@@ -477,13 +490,20 @@ return (
 
                     <br/>
                     <br/>
-                    <span className='animation-a'>2.-</span> El Camino del Guerrero 
+                    
+                    <span className='animation-a'>1.-</span> Guajira (En vivo)
                     <br/>
-                    <span className='animation-a'>3.-</span> Cuando Bailas 
+                    <span className='animation-a'>2.-</span> El Camino del Guerrero (En vivo)
                     <br/>
-                    <span className='animation-a'>4.-</span> Del Tingo Al Tango
+                    <span className='animation-a'>3.-</span> Cuando Bailas (En vivo)
                     <br/>
-                    <span className='animation-a'>5.-</span> Liberación 
+                    <span className='animation-a'>4.-</span> Costa linda (En vivo)
+                    <br/>
+                    <span className='animation-a'>5.-</span> Madre Tambor (En vivo)
+                    <br/>
+                    <span className='animation-a'>6.-</span> Del Tingo Al Tango (En vivo)
+                    <br/>
+                    <span className='animation-a'>7.-</span> Liberación (En vivo)
       </div>
       <div className='titles-descPr text-center mt-5'> DISPONIBLE EN:</div>
       <MusicLinks/>
@@ -527,7 +547,11 @@ return (
      {/* CONTACTO */}
      <div className='titles-descPr text-center '> CONTACTO:</div>
       <Contact/>
-
+      <div className='mailes'>
+          <a  className='mail text-center' style={{fontSize:'20px', color:'white'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a>
+      </div>
+      <br/>
+      <br/>
       </Fragment>
     )
 }
