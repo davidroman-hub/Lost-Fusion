@@ -1,13 +1,13 @@
 import React,{Fragment} from 'react';
 import {Link} from 'react-router-dom'
 import ReactAudioPlayer from 'react-audio-player';
-import serpiente from './serpiente.mp3'
+//import serpiente from './serpiente.mp3'
 import Logo from '../images/Logo.png'
 import ReactJkMusicPlayer from "react-jinke-music-player";
 import "react-jinke-music-player/assets/index.css";
 import {audioList1} from './audioList'
 import MusicLinks from './MusicLinks'
-
+import Contact from './Contact-us'
 import NavBar from './NavBar'
 //Music Reproductor functions
 //https://github.com/lijinke666/react-music-player/blob/master/example/example.js
@@ -526,6 +526,7 @@ return (
 
      {/* CONTACTO */}
      <div className='titles-descPr text-center '> CONTACTO:</div>
+      <Contact/>
 
       </Fragment>
     )
