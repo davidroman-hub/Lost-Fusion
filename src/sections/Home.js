@@ -141,9 +141,7 @@ return (
                    </div>
 
     {/* PREMIOS */}
-    <div>
-    <div className='titles-descP text-center'> PREMIOS </div>
-    </div>
+  
     <br/>
     <br/>  
     <div className="prensa">
@@ -173,9 +171,9 @@ return (
       </div>
      </div>
      
-     <div className="albums">
-                  <div className='prensa4 '>
-                    <img className='img img-fluid'
+     <div className="triangle">
+                  <div className='triangleIm'>
+                    <img className=''
                       style={{maxHeight:''}} 
                       src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630743/lost%20Fusion/05_cbcwj6.png'
                       alt='prensa1'
@@ -184,6 +182,10 @@ return (
                   </div>
               
      </div>
+     <div>
+
+    <div className='titles-descP text-center'> PREMIOS </div>
+    </div>
 
     <div className='spacer'>
       
