@@ -489,6 +489,30 @@ return (
       <MusicLinks/>
 
 
+      <div className="albums">
+                  <div className='group'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630767/lost%20Fusion/12_cbqdyz.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                  </div>
+              
+     </div>
+     <div className="photos">
+                  <div className='group'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src={Logo}
+                      alt='prensa1'
+                    />
+                    <br/>
+                  </div>
+              
+     </div>
+
+
 
 
       </Fragment>
