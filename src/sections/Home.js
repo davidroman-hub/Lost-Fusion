@@ -512,8 +512,20 @@ return (
               
      </div>
 
+     <div className="albums">
+                  <div className='group'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630764/lost%20Fusion/15_h26jqu.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                  </div>
+              
+     </div>
 
-
+     {/* CONTACTO */}
+     <div className='titles-descPr text-center '> CONTACTO:</div>
 
       </Fragment>
     )
