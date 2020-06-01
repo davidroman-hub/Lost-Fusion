@@ -139,14 +139,14 @@ return (
                        <br/>  
                        
                    </div>
-
+                   <div className='spacer2'/>
     {/* PREMIOS */}
   
     <br/>
     <br/>  
     <div className="prensa">
-     <div className='prensa3'>
-       <img className='img img-fluid'
+     <div className='triangleIm'>
+       <img className=''
         style={{maxHeight:''}} 
         src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630746/lost%20Fusion/04_panhsd.png'
         alt='prensa1'
@@ -162,8 +162,8 @@ return (
         alt='prensa1'
        /> */}
      </div>
-     <div className='prensa3'>
-       <img className='img img-fluid'
+     <div className='triangleIm'>
+       <img className=''
          style={{maxHeight:''}} 
         src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630740/lost%20Fusion/06_zzodq6.png'
          alt='prensa2'
@@ -173,7 +173,7 @@ return (
      
      <div className="triangle">
                   <div className='triangleIm'>
-                    <img className=''
+                    <img className='img img-fluid'
                       style={{maxHeight:''}} 
                       src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630743/lost%20Fusion/05_cbcwj6.png'
                       alt='prensa1'
