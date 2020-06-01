@@ -552,8 +552,11 @@ return (
       <div className='mailes'>
           <a  className='mail text-center' style={{fontSize:'20px', color:'white'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a>
       </div>
-      <br/>
-      <br/>
+      
+
+      <div className='mailes'>
+          <div  className='mail text-center' style={{fontSize:'20px', color:'white'}}>Tel: +52-55-74-12-76-94</div>
+      </div>
       </Fragment>
     )
 }
