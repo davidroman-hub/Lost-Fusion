@@ -118,10 +118,20 @@ font-family:'Pacifico', cursive ;
 
  .band-4{
    margin-top:-300px;
+   width: 100%;
    @media(max-width: 769px){
     margin-top:-200px;
 }
  }
+
+ .band-4 img{
+   
+    width: 60%;
+    @media(max-width: 769px){
+     //margin-top:-200px;
+     width:100%
+ }
+}
 
 ////////////////////////////////////////////////////////////////
 ////Main Styles

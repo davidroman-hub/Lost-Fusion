@@ -1,0 +1,13 @@
+
+.videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media(max-width: 769px){
+        
+       // height: 80vh;
+       margin-right: 20px;
+       margin-left: 20px;
+    
+    }
+}
