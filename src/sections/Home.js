@@ -210,75 +210,6 @@ return (
       </div>
 
      
-      <div className="prensa">
-     <div className='prensa1'>
-       <img className='img img-fluid'
-        style={{maxHeight:''}} 
-        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630770/lost%20Fusion/10_qj9asb.png'
-        alt='prensa1'
-       />
-     </div>
-     <div className="premios2">
-      {/* <h2 className="titles-descP">
-       PREMIOS
-      </h2> */}
-      <div className='titles-descH text-center'> HIGHLIGHTS </div>
-    
-     </div>
-     <div className='prensa1'>
-       <img className='img img-fluid'
-         style={{maxHeight:''}} 
-        src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630776/lost%20Fusion/08_nwadem.png'
-         alt='prensa2'
-        />
-      </div>
-     </div>
-
-     <div className="desc container text-center">
-          <br/>
-          <br/>
-          <br/> 
-                      Festival Multicultural de Globos de Cantoya tocando frente a más de 
-                      <span className='animation-l'> 5,000 personas</span>, Edo. de Méx. (2015)                        
-                      <br/>
-                      <br/> 
-                      Presentación del disco "Del Tingo Al Tango" en Sala Julián Carrillo para <span className='animation-l'>Radio UNAM</span> , con mas de 300 copias vendidas el mismo dia. (2018) 
-                      <br/>
-                      <br/> 
-                      Teloneros en el “Coyote Sounds Party" de los <span className='animation-l'>“Músicos de José" </span> en el 
-                      Salón Los Ángeles, CDMX. (2018) 
-                       <br/>
-                       <br/>  
-                       Presentación en televisión nacional para <span className='animation-l'>Canal ONCE</span> durante el programa “Calle 11 
-                       con Ricardo Raphael" (2019) 
-                       <br/>
-                       <br/>
-                       Presentación en el Festival Internacional de Jazz de Mazunte presentandose junto con Los Músicos 
-                       de José, La Ronda Bogotá y <span className='animation-l'>Rubén Albarran de Café Tacvba. </span> Muzunte, Oaxaca. (2019) 
-                       <br/>
-                       <br/>
-                       • Presentación en la FILIJ 39 dentro del CENART, compartiendo escenario con <span className='animation-l'>Caloncho.</span> 
-                      CDMX (2019) 
-                      <br/>
-                      <br/>
-                      • Reconocimiento por el Festival Artes y Raíces en las ediciones 2016, 2017 y 2019. 
-                      Compartiendo escenario con <span className='animation-l'>Chino de Los Victorios y Flor Amargo. </span> Edo. de Méx. 
-                      <br/>
-                      <br/>
-                      • Festival Skite donde igualmente tuvo lugar las presentaciones de <span className='animation-l'> La Tremenda korte, Lengualerta, </span> Yucatán A Gogo y Heavy Nopal. CDMX (2019) 
-                      <br/>
-                      <br/>
-                      • Teloneros de <span className='animation-l'>Tex Tex</span> en evento privado. (2018) 
-                      <br/>
-                      <br/>
-                      • Teloneros del grupo costaricense <span className='animation-l'> Fuerza Dread </span> en el Festival Internacional Barranca del Cupatitzio. Uruapan, Michoacán. (2018) 
-                      <br/>
-                      <br/>
-                      • Presentación en el Festival Internacional Cinco de Mayo, compartiendo cártel con <span className='animation-l'>Los Amigos Invisibles y Jarabe de Palo. </span> Puebla (2018) 
-                      <br/>
-                      <br/>
-                     
-                   </div>
             <div className='titles-descPr text-center'> PRESENTACIONES </div>
             <div className="prensa">
                   <div className='prensa1'>
@@ -438,7 +369,7 @@ return (
              {/* ALBUMS */}
 
      <div className="spacerL">.</div>
-     <div className='titles-descPr text-center mt-5'> ALBUM'S </div>
+     {/* <div className='titles-descPr text-center mt-5'> ALBUM'S </div>
     
 
     <div className="albums">
@@ -508,7 +439,7 @@ return (
                     <span className='animation-a'>7.-</span> Liberación (En vivo)
       </div>
       <div className='titles-descPr text-center mt-5'> DISPONIBLE EN:</div>
-      <MusicLinks/>
+      <MusicLinks/> */}
 
 
       <div className="albums">
