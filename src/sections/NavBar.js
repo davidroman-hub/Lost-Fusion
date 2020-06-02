@@ -33,14 +33,14 @@ const isActive = path => {
       </li>
       <li class="nav-item active">
           <Link to='/prensa' className="nav-link my-2 my-lg-0" style={isActive('/')} >
-          PRENSA
+          HIGHLIGHTS
           </Link>       
       </li>
-      <li class="nav-item active">
+      {/* <li class="nav-item active">
           <Link to='/highlights' className="nav-link my-2 my-lg-0" style={isActive('/')} >
           HIGHLIGHT
           </Link>       
-      </li>
+      </li> */}
       <li class="nav-item active">
           <Link to='/albums' className="nav-link my-2 my-lg-0" style={isActive('/')} >
           ALBUMES/MÚSICA
