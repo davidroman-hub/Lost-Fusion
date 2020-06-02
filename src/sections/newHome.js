@@ -28,9 +28,45 @@ const newHome = () => {
                 src={Logo}
                 alt='Header Logo'
             />
-  
-
         </header>
+
+        {/* ABOUT */}
+        
+        <div className="desc container text-center">
+          <br/>
+          <br/>
+          <br/>
+                    <span className='animation'>Lost Fusión</span> es un proyecto musical independiente que surge de la <span className='animation'>CDMX</span>, han logrado mezclar y conectar bastos panoramas musicales dando como resultado el sonido propio y fresco que los 
+                       caracteriza con su estilo único <span className="animation">"Urban Latin Beat".</span>
+                      <br/>
+                      <br/> 
+                       La amplia gama de sonidos que surgen de sus instrumentos han electrizado desde CDMX, Mazunte, Jalisco, Toluca, Puerto Vallarta, Edo. De México, hasta Michoacán, Puebla, Veracruz y próximamente 
+                       Sudamérica y Europa; con orgullo siempre poniendo en alto el nombre de México. 
+                      <br/>
+                      <br/> 
+                       <span className='animation'>El sonido eléctrico</span> que los caracteriza, han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el Rock, Funk, Reggae, 
+                       Disco, Hip Hop, hasta un sonido más urbano y latino, dando como resultado una experiencia musical variada para todos los gustos y frescura que incita a bailar a todo aquel que los escucha. 
+                       <br/>
+                       <br/> 
+                       <span className='animation' style={{fontSize:'30px'}}>Lost Fusión</span> <span style={{fontSize:'30px'}} >es:</span>
+                       <br/>
+                       <br/> 
+                         • MAYRA GARCÍA - Voz y Teclado 
+                         <br/>
+                         • <span>INDIRA VALDELAMAR </span>- Voz y Guitarra 
+                         <br/>
+                         • MIGUEL OVIEDO - Voz y Percusión 
+                         <br/>
+                         • ALBERTO PERALTA - Bajo 
+                         <br/>
+                         • MARCO FIGUEROA - Batería 
+                         <br/>
+                         <br/>
+                         <span className='grey1'>Los cinco músicos indican cuando comienza la fusión</span> 
+                         {/* <ReactJkMusicPlayer {...options} /> */}
+                   </div>
+
+
         </Fragment>
 
 
