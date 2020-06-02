@@ -32,7 +32,7 @@ const isActive = path => {
           </Link>       
       </li>
       <li class="nav-item active">
-          <Link to='/prensa' className="nav-link my-2 my-lg-0" style={isActive('/')} >
+          <Link to='/highlights' className="nav-link my-2 my-lg-0" style={isActive('/')} >
           HIGHLIGHTS
           </Link>       
       </li>

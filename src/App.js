@@ -25,8 +25,7 @@ const options = {
       <ReactJkMusicPlayer {...options} />
           <NavBar/>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/prensa" component={Prensa}/>
-          <Route exact path="/highlights" component={Highlights}/>
+          <Route exact path="/highlights" component={Prensa}/>
           <Route exact path="/albums" component={Albums}/>
           <Route exact path="/videos" component={Videos}/>
       </Fragment>
