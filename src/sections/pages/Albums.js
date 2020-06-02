@@ -10,13 +10,16 @@ const Albums = () => {
 
     <div className="albums">
                   <div className='prensa1 '>
-                    <img className='img img-fluid'
+                  <a href="https://open.spotify.com/album/0vnjMPHORQBkvS96uVPGpJ"  target='_blank' rel='noopener noreferrer'><img className='img img-fluid'
                       style={{maxHeight:''}} 
                       src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630766/lost%20Fusion/13_zsspdn.png'
                       alt='prensa1'
-                    />
+                    /></a>
+                     
+     
                     <br/>
                   </div>
+                  
               
      </div>
      <div className="desc container text-center">
@@ -42,11 +45,12 @@ const Albums = () => {
       </div>
       <div className="albums">
                   <div className='prensa1 '>
+                  <a href="https://open.spotify.com/album/4bUlfaa0RJ4fiXBhrGfenJ"  target='_blank' rel='noopener noreferrer' >
                     <img className='img img-fluid'
                       style={{maxHeight:''}} 
                       src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630764/lost%20Fusion/14_mqk9nn.png'
                       alt='prensa1'
-                    />
+                    /></a>
                     <br/>
                   </div>
               

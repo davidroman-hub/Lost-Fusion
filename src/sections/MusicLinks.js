@@ -11,7 +11,7 @@ const MusicLinks = () => {
                      <i className="fab fa-spotify"></i>
                 </a>
 
-                <a href='/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://music.apple.com/us/artist/lost-fusi%C3%B3n/1507822747?fbclid=IwAR1CH44LyLI_Lf-qaS85cWmEwkH4apy47cd6a5u7E4dKXNLVK2-3Yb-C9W4' target='_blank' rel='noopener noreferrer'>
                     <i class="fab fa-apple"></i>
                 </a>
 
