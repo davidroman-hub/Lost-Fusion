@@ -27,7 +27,7 @@ const options = {
           <Route exact path="/" component={Home}/>
           <Route exact path="/highlights" component={Prensa}/>
           <Route exact path="/albums" component={Albums}/>
-          <Route exact path="/videos" component={Videos}/>
+          {/* <Route exact path="/videos" component={Videos}/> */}
       </Fragment>
     </BrowserRouter>
    
