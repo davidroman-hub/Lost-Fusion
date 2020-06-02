@@ -369,7 +369,7 @@ return (
              {/* ALBUMS */}
 
      <div className="spacerL">.</div>
-     {/* <div className='titles-descPr text-center mt-5'> ALBUM'S </div>
+     <div className='titles-descPr text-center mt-5'> ALBUM'S </div>
     
 
     <div className="albums">
@@ -439,7 +439,7 @@ return (
                     <span className='animation-a'>7.-</span> Liberación (En vivo)
       </div>
       <div className='titles-descPr text-center mt-5'> DISPONIBLE EN:</div>
-      <MusicLinks/> */}
+      <MusicLinks/>
 
 
       <div className="albums">

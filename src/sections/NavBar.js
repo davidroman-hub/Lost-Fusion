@@ -36,11 +36,7 @@ const isActive = path => {
           HIGHLIGHT
           </Link>       
       </li>
-      <li class="nav-item active">
-          <Link to='/highlights' className="nav-link my-2 my-lg-0" style={isActive('/')} >
-          HIGHLIGHT
-          </Link>       
-      </li>
+     
       <li class="nav-item active">
           <Link to='/albums' className="nav-link my-2 my-lg-0" style={isActive('/')} >
           ALBUMES/MÚSICA
@@ -49,6 +45,11 @@ const isActive = path => {
       <li class="nav-item active">
           <Link to='/videos' className="nav-link my-2 my-lg-0" style={isActive('/')} >
           VIDEOS
+          </Link>       
+      </li>
+      <li class="nav-item active">
+          <Link to='/galery' className="nav-link my-2 my-lg-0" style={isActive('/')} >
+         GALERIA
           </Link>       
       </li>
     </ul>

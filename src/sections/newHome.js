@@ -18,25 +18,28 @@ const newHome = () => {
     
     return (
         <Fragment>
-            <header className="header-content "  id="header-content">
-     
-                 <br/>
-                <img className='Logo2' 
-                height="200px"
-                width="400px"
-                // style={{maxHeight:''}} 
-                src={Logo}
-                alt='Header Logo'
-            />
-        </header>
-
-        {/* ABOUT */}
+      
+      <header className="header-content "  id="header-content">
+            <div className="header-text">   
+                 <p className='Logo1'>      
+                
+                </p>      
+            </div>
         
-        <div className="desc container text-center">
+        </header>
+        <div className='band-4 text-center'>
+         <img className='img img-fluid'
+          style={{maxHeight:''}} 
+          src={Logo}
+          alt='band-1'
+          />
+          </div>
+          <div className="desc container text-center">
           <br/>
           <br/>
           <br/>
-                    <span className='animation'>Lost Fusión</span> es un proyecto musical independiente que surge de la <span className='animation'>CDMX</span>, han logrado mezclar y conectar bastos panoramas musicales dando como resultado el sonido propio y fresco que los 
+          
+                        <span className='animation'>Lost Fusión</span> es un proyecto musical independiente que surge de la <span className='animation'>CDMX</span>, han logrado mezclar y conectar bastos panoramas musicales dando como resultado el sonido propio y fresco que los 
                        caracteriza con su estilo único <span className="animation">"Urban Latin Beat".</span>
                       <br/>
                       <br/> 
@@ -66,7 +69,204 @@ const newHome = () => {
                          {/* <ReactJkMusicPlayer {...options} /> */}
                    </div>
 
+                   <div className='band-1 text-center'>
+         <img className='img img-fluid'
+          style={{maxHeight:''}} 
+          src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590638872/lost%20Fusion/foto2-removebg-preview_yaqcwb.png'
+          alt='band-1'
+          />
+          </div>
+          <div className='titles-descPr text-center'> PRESENTACIONES </div>
+            <div className="prensa">
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590864116/lost%20Fusion/radi_ugoebk.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'>Concierto para el programa "Intersecciones" 
+                      CDMX 2018 </span>
+                    </div>
+                  </div>
+              
 
+                  
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590863938/lost%20Fusion/once_jqpwec.png'
+                      alt='prensa2'
+                      />
+                      <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'> Presentación para el programa "Calle Once" 
+                    CDMX 2019 </span>
+                    </div>
+                    </div>
+     </div>
+
+     <div className="prensa">
+                  <div className='prensa1 mb-4'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590864152/lost%20Fusion/jazz_wkloej.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'> Festival Internacional de Jazz de Mazunte 
+                      Mazunte, Oaxaca 2019 
+                      </span>
+                    </div>
+                  </div>
+              
+
+                  
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590863967/lost%20Fusion/fiji_z9jr6t.png'
+                      alt='prensa2'
+                      />
+                      <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'> Feria Internacional del Libro Infantil y Juvenil 
+                    CDMX 2019 
+                    </span>
+                    </div>
+                    </div>
+     </div>
+     <div className="prensa">
+                  <div className='prensa1 mb-5'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590868772/lost%20Fusion/barranca_fjicq3.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'>Festival Barranca Fest Uruapan, Michoacán 2019 </span>
+                    </div>
+                  </div>
+              
+
+                  
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590863938/lost%20Fusion/5may_ilguce.png'
+                      alt='prensa2'
+                      />
+                      <br/>
+                      
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'>Festival Internacional Cinco de Mayo 
+                      Puebla 
+                      2018 </span>
+                    </div>
+                    </div>
+     </div>
+     <div className="prensa">
+                  <div className='prensa1 mb-5'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590869058/lost%20Fusion/coyo_xxw1eh.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'>Coyote Sounds Party Salón Los Ángeles, CDMX 2018 </span>
+                    </div>
+                  </div>
+              
+
+                  
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590869063/lost%20Fusion/alfe_xmpl6u.png'
+                      alt='prensa2'
+                      />
+                      <br/>
+                      
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}}  className='animation-l'>
+                    Festival Cultural del Alfeñique 
+                    Toluca 2018 
+                    </span>
+                    </div>
+                    </div>
+     </div>
+     <div className="prensa">
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590869186/lost%20Fusion/art_mrks9t.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}} className='animation-l'>Festival Arte y Raíces Cuautitlán, Edo Méx.2019 
+                    </span>
+                    </div>
+                  </div>
+              
+
+                  
+                  <div className='prensa1'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590863938/lost%20Fusion/fiest_cfs6uh.png'
+                      alt='prensa2'
+                      />
+                      <br/>
+                      
+                    <div className="desc container text-center">
+                    <span style={{fontSize:'12px'}} className='animation-l'>Fiesta de la Música, Embajada Francesa 
+                    CDMX 2018 </span>
+                    </div>
+                    </div>
+                   </div>
+                <br/>
+                <br/>
+                <div className="albums">
+                  <div className='group'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630767/lost%20Fusion/12_cbqdyz.png'
+                      alt='prensa1'
+                    />
+                    <br/>
+                  </div>
+              
+     </div>
+     <div className="photos">
+                  <div className='group'>
+                    <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src={Logo}
+                      alt='prensa1'
+                    />
+                    <br/>
+                  </div>
+              
+     </div>
+
+
+     {/* CONTACTO */}
+     <div className='titles-descPr text-center '> CONTACTO:</div>
+      <Contact/>
+      <div className='mailes'>
+          <a  className='mail text-center' style={{fontSize:'20px', color:'white'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a>
+      </div>
+      
+
+      <div className='mailes'>
+          <div  className='mail text-center' style={{fontSize:'20px', color:'white'}}>Tel: +52-55-74-12-76-94</div>
+      </div>
+       
         </Fragment>
 
 
