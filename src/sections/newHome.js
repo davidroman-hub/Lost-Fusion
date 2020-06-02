@@ -18,7 +18,19 @@ const newHome = () => {
     
     return (
         <Fragment>
-            Hola home 
+            <header className="header-content "  id="header-content">
+     
+                 <br/>
+                <img className='Logo2' 
+                height="200px"
+                width="400px"
+                // style={{maxHeight:''}} 
+                src={Logo}
+                alt='Header Logo'
+            />
+  
+
+        </header>
         </Fragment>
 
 
