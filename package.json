@@ -15,6 +15,7 @@
     "react-images": "^1.1.0",
     "react-jinke-music-player": "^4.13.1",
     "react-photo-gallery": "^8.0.0",
+    "react-player": "^2.1.1",
     "react-responsive-carousel": "^3.1.57",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"

@@ -14,7 +14,8 @@ body{
 // letters
 
 $cursive: 'Pacifico', cursive ;
-$open:'Open Sans Condensed', sans-serif;
+//$open:'Open Sans Condensed', sans-serif;
+$open:'Quicksand', sans-serif;
 $titles:'Chelsea Market', cursive;
 // colors
 
@@ -32,6 +33,7 @@ $blue:#1464ba;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: $open;
 }
 
 .fusion img{
@@ -119,7 +121,7 @@ font-family:'Pacifico', cursive ;
  /// animaciones de letras ///
  .animation{
 margin-bottom: 0;
-font-size: 16px;
+font-size: 18px;
 animation: naranja-neon 6s infinite alternate;
 font-family: $open;
 
