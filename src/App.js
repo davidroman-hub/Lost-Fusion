@@ -9,7 +9,7 @@ import Prensa from './sections/pages/Prensa'
 import Highlights from './sections/pages/Highlights'
 import Albums from './sections/pages/Albums'
 import Videos from './sections/pages/Videos'
-
+import NewHome from '../src/sections/newHome'
 const App = () => {
   
 const options = { 
@@ -24,7 +24,7 @@ const options = {
       <Fragment>
       <ReactJkMusicPlayer {...options} />
           <NavBar/>
-          <Route exact path="/" component={Home}/>
+          <Route exact path="/" component={NewHome}/>
           <Route exact path="/highlights" component={Prensa}/>
           <Route exact path="/albums" component={Albums}/>
           {/* <Route exact path="/videos" component={Videos}/> */}
