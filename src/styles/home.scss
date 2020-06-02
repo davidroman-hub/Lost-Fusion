@@ -181,6 +181,13 @@ font-family: $open;
     justify-content: center;
     text-align: center;
     font-size: 3.5em;
+    /// changing
+    margin-top: 100px;
+    @media(max-width: 769px){
+       
+       margin-top: 0px;
+         } 
+
     }
 
 

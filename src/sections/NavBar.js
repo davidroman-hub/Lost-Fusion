@@ -31,12 +31,26 @@ const isActive = path => {
           HOME
           </Link>       
       </li>
-      {/* <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+      <li class="nav-item active">
+          <Link to='/prensa' className="nav-link my-2 my-lg-0" style={isActive('/')} >
+          PRENSA
+          </Link>       
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li> */}
+      <li class="nav-item active">
+          <Link to='/highlights' className="nav-link my-2 my-lg-0" style={isActive('/')} >
+          HIGHLIGHT
+          </Link>       
+      </li>
+      <li class="nav-item active">
+          <Link to='/albums' className="nav-link my-2 my-lg-0" style={isActive('/')} >
+          ALBUMES/MÚSICA
+          </Link>       
+      </li>
+      <li class="nav-item active">
+          <Link to='/videos' className="nav-link my-2 my-lg-0" style={isActive('/')} >
+          VIDEOS
+          </Link>       
+      </li>
     </ul>
     {/* <form className="nav-link my-2 my-lg-0">
     <Link to='/' className="nav-link my-2 my-lg-0" >

@@ -80,7 +80,7 @@ return (
                          <br/>
                          <br/>
                          <span className='grey1'>Los cinco músicos indican cuando comienza la fusión</span> 
-                         <ReactJkMusicPlayer {...options} />
+                         {/* <ReactJkMusicPlayer {...options} /> */}
                    </div>
 
                    <div className='band-1 text-center'>
@@ -94,7 +94,7 @@ return (
 
   {/* PRENSA SECTION */}
 
-  <div className="prensa">
+  {/* <div className="prensa">
      <div className='prensa5'>
        <img className='img img-fluid'
         style={{maxHeight:''}} 
@@ -139,7 +139,7 @@ return (
                        <br/>  
                        
                    </div>
-                   <div className='spacer2'/>
+                   <div className='spacer2'/> */}
     {/* PREMIOS */}
   
     <br/>
