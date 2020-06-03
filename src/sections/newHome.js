@@ -77,7 +77,7 @@ const newHome = () => {
           <br/> 
         <div className="biografia">
               <div>
-              <img className='bio-img '
+              <img className='bio-img img img-fluid '
                   style={{maxHeight:''}} 
                   src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590638872/lost%20Fusion/foto2-removebg-preview_yaqcwb.png'
                   alt='band-1'
@@ -129,6 +129,10 @@ const newHome = () => {
                            {/* <ReactJkMusicPlayer {...options} /> */}
                      </div>
   
+
+          {/* VIDEOS */}
+
+
                 
             
                   <br/>
