@@ -8,9 +8,7 @@ const Gallery = () => {
 
     const galleryContent = () => (
       <React.Fragment>
-          {/* <div className="facebook-but">
-                < ReactFBLike language="es_ES" appId={process.env.FB_APP_ID} version="v2.12" />
-          </div> */}
+      
           <div>
               hola
           </div>

@@ -138,12 +138,12 @@ const newHome = () => {
        {/* <div className='titles-descPr text-center '> CONTACTO:</div>
         <Contact/> */}
         <div className='mailes'>
-            <a  className='mail text-center' style={{fontSize:'20px', color:'white'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a>
+           {/* <a  className='mail text-center' style={{fontSize:'20px', color:'white'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a> */}
         </div>
         
   
         <div className='mailes'>
-            <div  className='mail text-center' style={{fontSize:'20px', color:'white'}}>Tel: +52-55-74-12-76-94</div>
+            {/* <div  className='mail text-center' style={{fontSize:'20px', color:'white'}}>Tel: +52-55-74-12-76-94</div> */}
         </div>
         <div>
         <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/>
