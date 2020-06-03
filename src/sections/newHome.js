@@ -70,20 +70,21 @@ const newHome = () => {
 
         <div className=" text-center">
          <h2 className="titles-desc">
-         BIOGRAFIA
+         BIO
          </h2>
         </div>
           <br/>
           <br/> 
         <div className="biografia">
               <div>
-              <img className='img img-fluid'
+              <img className='bio-img '
                   style={{maxHeight:''}} 
                   src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590638872/lost%20Fusion/foto2-removebg-preview_yaqcwb.png'
                   alt='band-1'
             />
                
               </div>
+
               <div>
               <div className="desc container text-center">
          
