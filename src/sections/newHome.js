@@ -10,15 +10,43 @@ import MusicLinks from './MusicLinks'
 import Contact from './Contact-us'
 import Header from './pages/shared/Header'
 import ReactFBLike from 'react-fb-like';
+import MusicPlayer from 'react-responsive-music-player';
+
 
 
 const newHome = () => {
+
+
+  
     const options = { 
         audioLists: audioList1,
         remove: false,
         showDownload: false,
+        responsive: false,
+        mode: 'full',
+        //toggleMode: false,
       }
     
+      const playlist = [
+        {
+          url: 'https://res.cloudinary.com/dm8dxwvix/video/upload/v1590609528/Lost_Fusi%C3%B3n_-_Serpiente_Video_Oficial_cw063t.mp3',
+          cover: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590610036/deltingoaltango_b5e1em.png',
+          title: 'Despacito',
+          artist: [
+            'Luis Fonsi',
+            'Daddy Yankee'
+          ]
+        },
+        {
+          url: 'path/to/mp3',
+          cover: 'path/to/jpg',
+          title: 'Bedtime Stories',
+          artist: [
+            'Jay Chou'
+          ]
+        }
+      ]
+
       const homeContainer = () => (
         <Fragment>
       
@@ -107,8 +135,8 @@ const newHome = () => {
   
   
        {/* CONTACTO */}
-       <div className='titles-descPr text-center '> CONTACTO:</div>
-        <Contact/>
+       {/* <div className='titles-descPr text-center '> CONTACTO:</div>
+        <Contact/> */}
         <div className='mailes'>
             <a  className='mail text-center' style={{fontSize:'20px', color:'white'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a>
         </div>
@@ -124,14 +152,15 @@ const newHome = () => {
                 <div className="facebook-but">
                 < ReactFBLike language="es_ES" appId={process.env.FB_APP_ID} version="v2.12" />
           </div> 
-        <ReactJkMusicPlayer {...options} />
+          {/* <MusicPlayer playlist={playlist} /> */}
+        {/* <ReactJkMusicPlayer {...options} /> */}
           </Fragment>
       )
 
 
     return (
        <Header>
-         
+      
          {homeContainer()}
        </Header>
     )

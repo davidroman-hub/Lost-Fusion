@@ -1,34 +1,53 @@
 
  .social{
-    //     display: flex;
-    //     align-items: center;
+         display: flex;
+       // align-items: center;
     //     justify-content: center;
-    //position: absolute;
+    //position: fixed;
     width: auto;
     text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    //height: 20px;
+    
+    @media(max-width:769px){
+        position: fixed;
+        flex-direction: column;
+        margin-left: 0px;
+    }
     
     
        a {
            display: inline-block;
-           width: 50px;
-           height: 50px;
-           background-color: #8613A7;
+           width: 45px;
+           height: 45px;
+           background-color: #343A40;
            margin: 10px;
            border-radius: 20px;
-           box-shadow: 0 5px 15px -5px #00000070;
-           color: black;
+         //  box-shadow: 0 5px 15px -5px #00000070;
+           color: #CA2EE1;
            overflow: hidden;
            position: relative;
-           line-height: 50px;// para centrar
-           font-size: 25px; //tam;o del logo
+           line-height: 45px;// para centrar
+           font-size: 35px; //tam;o del logo
+           margin-top:-75px;
+           
            
        }
        @media(max-width:769px){
            a {
-            width: 65px;
-            height: 65px;
-            line-height: 65px;
-            font-size: 30px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-decoration: none;
+            font-size: 25px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:0px;
+            flex-direction: column;
+          //  position: fiex;
+            
     
            }
        }

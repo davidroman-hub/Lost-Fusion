@@ -23,6 +23,8 @@ const MusicLinks = () => {
                 <a href='https://www.deezer.com/en/artist/12963387' target='_blank' rel='noopener noreferrer'>
                 <Icon icon={deezerIcon} className='deezer' />
                 </a>  
+             
+                
 
             </div>
             
