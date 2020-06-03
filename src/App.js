@@ -10,6 +10,7 @@ import Highlights from './sections/pages/Highlights'
 import Albums from './sections/pages/Albums'
 import Videos from './sections/pages/Videos'
 import NewHome from '../src/sections/newHome'
+import Gallery from '../src/sections/pages/Gallery'
 const App = () => {
   
 const options = { 
@@ -23,8 +24,9 @@ const options = {
     <BrowserRouter>
       <Fragment>
       <ReactJkMusicPlayer {...options} />
-          <NavBar/>
+          {/* <NavBar/> */}
           <Route exact path="/" component={NewHome}/>
+          <Route exact path="/gallery" component={Gallery}/>
           <Route exact path="/highlights" component={Prensa}/>
           <Route exact path="/albums" component={Albums}/>
           <Route exact path="/videos" component={Videos}/>
