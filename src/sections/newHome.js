@@ -116,14 +116,14 @@ const newHome = () => {
         <div className='mailes'>
             <div  className='mail text-center' style={{fontSize:'20px', color:'white'}}>Tel: +52-55-74-12-76-94</div>
         </div>
-         
+        <ReactJkMusicPlayer {...options} />
           </Fragment>
       )
 
 
     return (
        <Header>
-
+         
          {homeContainer()}
        </Header>
     )

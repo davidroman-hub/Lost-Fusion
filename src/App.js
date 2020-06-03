@@ -23,7 +23,7 @@ const options = {
     
     <BrowserRouter>
       <Fragment>
-      <ReactJkMusicPlayer {...options} />
+      {/* <ReactJkMusicPlayer {...options} /> */}
           {/* <NavBar/> */}
           <Route exact path="/" component={NewHome}/>
           <Route exact path="/gallery" component={Gallery}/>
