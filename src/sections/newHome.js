@@ -65,23 +65,52 @@ const newHome = () => {
             alt='band-1'
             />
             </div>
-            <div className="desc container text-center">
-            <br/>
-            <br/>
-            <br/>
+
+        {/* BIOGRAFIA */}
+
+        <div className=" text-center">
+         <h2 className="titles-desc">
+         BIOGRAFIA
+         </h2>
+        </div>
+          <br/>
+          <br/> 
+        <div className="biografia">
+              <div>
+              <img className='img img-fluid'
+                  style={{maxHeight:''}} 
+                  src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590638872/lost%20Fusion/foto2-removebg-preview_yaqcwb.png'
+                  alt='band-1'
+            />
+               
+              </div>
+              <div>
+              <div className="desc container text-center">
+         
             
-                          <span className='animation'>Lost Fusión</span> es un proyecto musical independiente que surge de la <span className='animation'>CDMX</span>, han logrado mezclar y conectar bastos panoramas musicales dando como resultado el sonido propio y fresco que los 
-                         caracteriza con su estilo único <span className="animation">"Urban Latin Beat".</span>
-                        <br/>
-                        <br/> 
-                         La amplia gama de sonidos que surgen de sus instrumentos han electrizado desde CDMX, Mazunte, Jalisco, Toluca, Puerto Vallarta, Edo. De México, hasta Michoacán, Puebla, Veracruz y próximamente 
-                         Sudamérica y Europa; con orgullo siempre poniendo en alto el nombre de México. 
-                        <br/>
-                        <br/> 
-                         <span className='animation'>El sonido eléctrico</span> que los caracteriza, han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el Rock, Funk, Reggae, 
-                         Disco, Hip Hop, hasta un sonido más urbano y latino, dando como resultado una experiencia musical variada para todos los gustos y frescura que incita a bailar a todo aquel que los escucha. 
-                         <br/>
-                         <br/> 
+         <span className='animation'>Lost Fusión</span> es un proyecto musical independiente que surge de la <span className='animation'>CDMX</span>, han logrado mezclar y conectar bastos panoramas musicales dando como resultado el sonido propio y fresco que los 
+              caracteriza con su estilo único <span className="animation">"Urban Latin Beat".</span>
+                <br/>
+                <br/> 
+              La amplia gama de sonidos que surgen de sus instrumentos han electrizado desde CDMX, Mazunte, Jalisco, Toluca, Puerto Vallarta, Edo. De México, hasta Michoacán, Puebla, Veracruz y próximamente 
+              Sudamérica y Europa; con orgullo siempre poniendo en alto el nombre de México. 
+                <br/>
+                <br/> 
+              <span className='animation'>El sonido eléctrico</span> que los caracteriza, han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el Rock, Funk, Reggae, 
+              Disco, Hip Hop, hasta un sonido más urbano y latino, dando como resultado una experiencia musical variada para todos los gustos y frescura que incita a bailar a todo aquel que los escucha. 
+               <br/>
+               <br/> 
+        
+                    {/* <ReactJkMusicPlayer {...options} /> */}
+                 </div>
+              </div>
+        </div>
+               <br/>
+               <br/> 
+
+            <div className="desc container text-center">
+         
+          
                          <span className='animation' style={{fontSize:'30px'}}>Lost Fusión</span> <span style={{fontSize:'30px'}} >es:</span>
                          <br/>
                          <br/> 
@@ -100,13 +129,7 @@ const newHome = () => {
                            {/* <ReactJkMusicPlayer {...options} /> */}
                      </div>
   
-                     <div className='band-1 text-center'>
-           <img className='img img-fluid'
-            style={{maxHeight:''}} 
-            src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590638872/lost%20Fusion/foto2-removebg-preview_yaqcwb.png'
-            alt='band-1'
-            />
-            </div>
+                
             
                   <br/>
                   <br/>

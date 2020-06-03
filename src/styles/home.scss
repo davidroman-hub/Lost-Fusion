@@ -6,6 +6,11 @@ body{
 
 
 
+
+
+
+
+
 // ////////////////////////////////////////////////////////////////
 // ///// FIGURES
 
@@ -105,6 +110,22 @@ font-family:'Pacifico', cursive ;
 // // z-index: 1;
 
   }
+
+//BIOGRAFIA
+
+.biografia{
+    display: flex;
+    @media(max-width: 769px){
+      flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
 
 
  .Logo2{
