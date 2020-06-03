@@ -33,7 +33,7 @@ class videoCarousel extends React.Component {
         thumbnail: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591224558/lost%20Fusion/serpiente_scbnef.png',
         original: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591224558/lost%20Fusion/serpiente_scbnef.png',
         embedUrl: 'https://www.youtube.com/embed/RFssByTlhHM',
-        description: 'Cronicas Perdidas',
+        description: 'Serpiente',
         renderItem: this._renderVideo.bind(this)
       },
       {
@@ -51,10 +51,10 @@ class videoCarousel extends React.Component {
         renderItem: this._renderVideo.bind(this)
       },
       {
-        thumbnail: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591224913/lost%20Fusion/bailas_k89ztx.png',
-        original: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591224913/lost%20Fusion/bailas_k89ztx.png',
-        embedUrl: 'https://www.youtube.com/embed/HoyFfaLDhp0',
-        description: 'Cuando bailas Radio UNAM',
+        thumbnail: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591226542/lost%20Fusion/cronicas_dskhhe.png',
+        original: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591226542/lost%20Fusion/cronicas_dskhhe.png',
+        embedUrl: 'https://www.youtube.com/embed/vsa_yncP-JI',
+        description: 'Cronicas Perdidas Cap. 1',
         renderItem: this._renderVideo.bind(this)
       },
     ].concat(this._getStaticImages());
