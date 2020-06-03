@@ -9,6 +9,7 @@ import {audioList1} from './audioList'
 import MusicLinks from './MusicLinks'
 import Contact from './Contact-us'
 import Header from './pages/shared/Header'
+import ReactFBLike from 'react-fb-like';
 
 
 const newHome = () => {
@@ -116,6 +117,13 @@ const newHome = () => {
         <div className='mailes'>
             <div  className='mail text-center' style={{fontSize:'20px', color:'white'}}>Tel: +52-55-74-12-76-94</div>
         </div>
+        <div>
+        <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/>
+        </div>
+            <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/>
+                <div className="facebook-but">
+                < ReactFBLike language="es_ES" appId={process.env.FB_APP_ID} version="v2.12" />
+          </div> 
         <ReactJkMusicPlayer {...options} />
           </Fragment>
       )

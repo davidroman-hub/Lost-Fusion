@@ -30,6 +30,7 @@ const options = {
           <Route exact path="/highlights" component={Prensa}/>
           <Route exact path="/albums" component={Albums}/>
           <Route exact path="/videos" component={Videos}/>
+          {/* <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/> */}
       </Fragment>
     </BrowserRouter>
    
