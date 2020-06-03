@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react';
 import ReactPlayer from 'react-player'
-import './Videos.scss'
+
 
 const Videos = () => {
     

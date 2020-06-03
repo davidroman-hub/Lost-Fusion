@@ -6,8 +6,20 @@
     @media(max-width: 769px){
         
        // height: 80vh;
-       margin-right: 20px;
-       margin-left: 20px;
+       margin-right: 40px;
+       margin-left: 40px;
     
     }
+}
+
+.iframe-vid{
+    width:760px;
+    height:515px;
+    @media(max-width: 769px){
+        
+           width:350px;
+           height:315px
+    
+     
+     }
 }
