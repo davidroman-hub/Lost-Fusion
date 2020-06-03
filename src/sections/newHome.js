@@ -1,5 +1,5 @@
 import React,{Fragment} from 'react';
-import {Link} from 'react-router-dom'
+//import {Link} from 'react-router-dom'
 import ReactAudioPlayer from 'react-audio-player';
 //import serpiente from './serpiente.mp3'
 import Logo from '../images/Logo.png'
@@ -10,8 +10,9 @@ import MusicLinks from './MusicLinks'
 import Contact from './Contact-us'
 import Header from './pages/shared/Header'
 import ReactFBLike from 'react-fb-like';
+import ReactPlayer from 'react-player'
 import MusicPlayer from 'react-responsive-music-player';
-
+import './pages/Videos.scss'
 
 
 const newHome = () => {
@@ -68,7 +69,7 @@ const newHome = () => {
 
         {/* BIOGRAFIA */}
 
-        <div className=" text-center">
+        <div className=" text-center" id="bio">
          <h2 className="titles-desc">
          BIO
          </h2>
@@ -88,19 +89,19 @@ const newHome = () => {
               <div>
               <div className="desc container text-center">
          
-            
-         <span className='animation'>Lost Fusión</span> es un proyecto musical independiente que surge de la <span className='animation'>CDMX</span>, han logrado mezclar y conectar muchos panoramas musicales dando como resultado el sonido propio y fresco que los 
-              caracteriza con su estilo único <span className="animation">"Urban Latin Beat".</span>
                 <br/>
                 <br/> 
-              La amplia gama de sonidos que surgen de sus instrumentos han electrizado desde CDMX, Mazunte, Jalisco, Toluca, Puerto Vallarta, Edo. De México, hasta Michoacán, Puebla, Veracruz y próximamente 
-              Sudamérica y Europa; con orgullo siempre poniendo en alto el nombre de México. 
+                <span className='animation' style={{fontSize:'20px'}}>Lost Fusión</span> es un proyecto musical de Urban Latin Beat que surge de la <span className='animation'>CDMX</span>, con el sonido eléctrico que los caracteriza,
+                 han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el  <span className='animation' style={{fontSize:'20px'}}> Rock, Funk, Reggae, Rap, Soul, 
+                 hasta un sonido más urbano y latino </span>, dando como resultado una experiencia musical que ha recorrido desde CDMX, Mazunte, Jalisco, Toluca, Puerto Vallarta,
+                  Edo. De México, hasta Michoacán, Puebla, Veracruz y próximamente Sudamérica y Europa; con orgullo siempre poniendo en alto el nombre de México.
+                  <span className='animation' style={{fontSize:'20px'}}> Música variada</span> y fresca que incita a bailar a todo aquel que los escucha.
                 <br/>
                 <br/> 
-              Con <span className='animation'>el sonido eléctrico</span> que los caracteriza, han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el Rock, Funk, Reggae, 
-              Rap, Soul, hasta un sonido más urbano y latino, dando como resultado una experiencia musical variada para todos los gustos y frescura que incita a bailar a todo aquel que los escucha. 
+              {/* Con <span className='animation'>el sonido eléctrico</span> que los caracteriza, han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el Rock, Funk, Reggae, 
+              Rap, Soul, hasta un sonido más urbano y latino, dando como resultado una experiencia musical variada para todos los gustos y frescura que incita a bailar a todo aquel que los escucha.  */}
                <br/>
-               <br/>         
+                     
                     {/* <ReactJkMusicPlayer {...options} /> */}
                  </div>
               </div>
@@ -131,6 +132,45 @@ const newHome = () => {
   
 
           {/* VIDEOS */}
+            <br/>
+            <br/>
+                    <div className='titles-descPr text-center'> VIDEOS </div>
+            <br/>
+            <br/>
+                <div className='animation text-center'>Crónicas Perdidas cap. 1</div>
+            <br/>     
+                <div className="videos">
+                    <ReactPlayer url='https://youtu.be/vsa_yncP-JI'/>
+                </div>
+            <br/>
+            <br/>   
+            <div className='animation text-center'>Lost Fusión - Serpiente (oficial) </div>
+            <br/>    
+                <div className="videos">
+                    <ReactPlayer url='https://youtu.be/RFssByTlhHM'/>
+                </div>
+            <br/>
+            <br/>
+            <div className='animation text-center'>Lost Fusión - Costa Linda (Lyric)</div>
+            <br/>        
+                <div className="videos">
+                    <ReactPlayer url='https://youtu.be/XOr6c7n4SUc'/>
+                </div>
+            <br/>
+            <br/> 
+            <div className='animation text-center'>Lost Fusión - Guajira (En Vivo Radio UNAM)</div>
+            <br/>   
+                <div className="videos">
+                    <ReactPlayer url='https://youtu.be/Ktt1sSlLq3Q'/>
+                </div>   
+            <br/>
+            <br/> 
+
+
+
+
+
+
 
 
                 

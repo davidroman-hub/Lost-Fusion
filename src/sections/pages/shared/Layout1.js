@@ -1,7 +1,7 @@
 import React,{Fragment,useState} from 'react';
-import {Link, Router, withRouter} from 'react-router-dom'
+import {Router, withRouter} from 'react-router-dom'
 import Logo from '../../../images/Logo.png'
-
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import {
     Collapse,
@@ -25,7 +25,7 @@ import {
         if(match.path === path) {
             return {color:'#EE46B8'}
         } else{
-            return {color:'#fff'}
+            return {color:'#EE46B8'}
         }
     };
     
@@ -134,8 +134,18 @@ import {
                </Link>       
            </li>
            <li class="nav-item active">
-               <Link to='/highlights' className="nav-link my-2 my-lg-0" style={isActive('/')} >
-               HIGHLIGHT
+               <Link
+               activeClass="active"
+               to="about"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='bio'
+                className="nav-link my-2 my-lg-0" 
+                // style={{cursor:'pointer'}}
+                style={isActive('/')} >
+                BIO
                </Link>       
            </li>
           
