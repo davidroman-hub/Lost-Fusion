@@ -196,7 +196,8 @@ li{
         //     filter: grayscale(50%);
         @media(max-width: 769px){
             background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591305665/lost%20Fusion/backgrounds/SECCION1_LFWEB_tu0ptl.png');
-            background-size:500px;
+            background-size:600px;
+            background-size: cover;
             height: 80vh;
          //   width: 100%;
             //background-size: cover;
