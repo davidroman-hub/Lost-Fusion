@@ -10,7 +10,7 @@ const isActive = path => {
     if(match.path === path) {
         return {color:'#EE46B8'}
     } else{
-        return {color:'#fff'}
+        return {color:'#EE46B8'}
     }
 };
 

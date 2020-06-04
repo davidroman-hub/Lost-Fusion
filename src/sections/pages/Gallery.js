@@ -10,7 +10,7 @@ const Gallery = () => {
       <React.Fragment>
       
           <div>
-              hola
+              hola soy gallery
           </div>
         {/* <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/> */}
      
