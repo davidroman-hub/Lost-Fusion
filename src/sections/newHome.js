@@ -32,20 +32,39 @@ const newHome = () => {
     
       const playlist = [
         {
-          url: 'https://res.cloudinary.com/dm8dxwvix/video/upload/v1590609528/Lost_Fusi%C3%B3n_-_Serpiente_Video_Oficial_cw063t.mp3',
+          url: 'https://res.cloudinary.com/dm8dxwvix/video/upload/v1590610006/Lost_Fusi%C3%B3n_-_Guajira_Audio_Oficial_ojeiiv.mp3',
           cover: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590610036/deltingoaltango_b5e1em.png',
-          title: 'Despacito',
+          title: 'Serpiente',
           artist: [
-            'Luis Fonsi',
-            'Daddy Yankee'
+            'Lost-Fusión',
+            '-Guajira-'
           ]
         },
         {
-          url: 'path/to/mp3',
-          cover: 'path/to/jpg',
-          title: 'Bedtime Stories',
+          url: 'https://res.cloudinary.com/dm8dxwvix/video/upload/v1591231402/lost%20Fusion/lost-fusion-costa-linda-lyric-video_smqknm.mp3',
+          cover: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591232149/lost%20Fusion/costa_vvbglw.png',
+          title: 'Costalinda',
           artist: [
-            'Jay Chou'
+            'Lost-Fusión',
+            '-Costa Linda-'
+          ]
+        },
+        {
+          url: 'https://res.cloudinary.com/dm8dxwvix/video/upload/v1591231676/lost%20Fusion/lost-fusion-el-camino-del-guerrero-en-vivo-radio-unam_qw4mxd.mp3',
+          cover: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591232149/lost%20Fusion/unam_uqj5zi.png',
+          title: 'Camino',
+          artist: [
+            'Lost-Fusión',
+            '-El Camino del guerrero (En Vivo) -'
+          ]
+        },
+        {
+          url: 'https://res.cloudinary.com/dm8dxwvix/video/upload/v1591231985/lost%20Fusion/lost-fusion-cuando-bailas-en-vivo-radio-unam_vryt8o.mp3',
+          cover: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591232149/lost%20Fusion/unam_uqj5zi.png',
+          title: 'cuando bailas',
+          artist: [
+            'Lost-Fusión',
+            '-Cuando Bailas (En Vivo)-'
           ]
         }
       ]
@@ -144,15 +163,83 @@ const newHome = () => {
             <div className="videos">
                  <VideoCarousel/>
             </div>
-                   
+              
+            <br/>
+            <br/>     
                
+              {/* MUSICA */}
 
+              <div className='titles-descPr text-center'> MÚSICA </div>
 
+              <div className='reproductor text-center'>
+                  <div>
+                     <MusicPlayer playlist={playlist} 
+                     mode="vertical" 
+                     />
+                     </div>
+                  </div>
 
-                
             
                   <br/>
                   <br/>
+
+                <div className='musica'>
+                  <div className='albums-photo'>
+                  <a href="https://open.spotify.com/album/0vnjMPHORQBkvS96uVPGpJ"  target='_blank' rel='noopener noreferrer'> 
+                  <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630766/lost%20Fusion/13_zsspdn.png'
+                      alt='Tingo al tango'
+                    /></a>
+                    <br/>
+                    <span className='animation-l'>1.-</span> Tropas
+                    <br/> 
+                    <span className='animation-l'>2.-</span> Cuando Bailas 
+                    <br/>
+                    <span className='animation-l'>3.-</span> El Camino del Guerrero
+                    <br/>
+                    <span className='animation-l'>4.-</span> Seducción a un Elefante 
+                    <br/>
+                    <span className='animation-l'>5.-</span> Guajira 
+                    <br/>
+                    <span className='animation-l'> 6.- </span> Hechizo 
+                    <br/>
+                    <span className='animation-l'>7.- </span> Liberación 
+                    <br/>
+                    <span className='animation-l'>8.-</span> Del Tingo Al Tango 
+                  </div>
+                <div className='albums-photo'>
+                <a href="https://open.spotify.com/album/4bUlfaa0RJ4fiXBhrGfenJ"  target='_blank' rel='noopener noreferrer' >  
+                  <img className='img img-fluid'
+                      style={{maxHeight:''}} 
+                      src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630764/lost%20Fusion/14_mqk9nn.png'
+                      alt='prensa1'
+                    /></a>
+                     <br/>
+                    <span className='animation-a'>1.-</span> Guajira (En vivo)
+                    <br/>
+                    <span className='animation-a'>2.-</span> El Camino del Guerrero (En vivo)
+                    <br/>
+                    <span className='animation-a'>3.-</span> Cuando Bailas (En vivo)
+                    <br/>
+                    <span className='animation-a'>4.-</span> Costa linda (En vivo)
+                    <br/>
+                    <span className='animation-a'>5.-</span> Madre Tambor (En vivo)
+                    <br/>
+                    <span className='animation-a'>6.-</span> Del Tingo Al Tango (En vivo)
+                    <br/>
+                    <span className='animation-a'>7.-</span> Liberación (En vivo)
+
+                    </div>
+                </div>
+                <div className='musica'>
+                  <div className='albums-photo2'>
+                  
+                  </div>
+                </div>
+
+
+          
                   <div className="albums">
                     <div className='group'>
                       <img className='img img-fluid'
@@ -166,6 +253,7 @@ const newHome = () => {
        </div>
        <div className="photos">
                     <div className='group'>
+                      
                       <img className='img img-fluid'
                         style={{maxHeight:''}} 
                         src={Logo}

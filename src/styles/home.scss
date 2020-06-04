@@ -134,6 +134,47 @@ font-family:'Pacifico', cursive ;
     //   }
 }
 
+//// musica
+
+
+
+.musica{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @media(max-width: 769px){
+        flex-direction: column;
+      }
+}
+
+.reproductor{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    //margin-top: 400px;
+    @media(max-width: 769px){
+      
+    //     padding-left:30px;
+    //    padding-right: 30px;
+      }
+}
+
+
+.albums-photo img{
+  width:60%;
+}
+
+
+
+
+
+
+
+
+
 
 
 
