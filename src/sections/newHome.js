@@ -157,9 +157,8 @@ const newHome = () => {
 
             <br/>
             <br/>
-                    <div className='titles-descPr text-center'> VIDEOS </div>
-            <br/>
-            <br/>
+                    <div className='titles-descPrV text-center' id='videos'> VIDEOS </div>
+        
             <div className="videos">
                  <VideoCarousel/>
             </div>
@@ -169,7 +168,7 @@ const newHome = () => {
                
               {/* MUSICA */}
 
-              <div className='titles-descPr text-center'> MÚSICA </div>
+              <div className='titles-descPrR text-center' id='musica'> MÚSICA </div>
 
               <div className='reproductor text-center'>
                   <div>

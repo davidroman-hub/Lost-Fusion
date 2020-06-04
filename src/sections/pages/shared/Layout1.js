@@ -1,7 +1,9 @@
 import React,{Fragment,useState} from 'react';
 import {Router, withRouter} from 'react-router-dom'
 import Logo from '../../../images/Logo.png'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link,Element ,animateScroll as scroll } from "react-scroll";
+
+
 
 import {
     Collapse,
@@ -118,7 +120,7 @@ import {
         //         </Collapse>
         //       </Navbar>
         // </div>
-        <div className="navbar navbar-expand-lg navbar-dark" color="light" >
+        <div className="navbar navbar-expand-lg navbar-dark " color="light" >
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
@@ -150,19 +152,34 @@ import {
            </li>
           
            <li class="nav-item active">
-               <Link to='/albums' className="nav-link my-2 my-lg-0" style={isActive('/')} >
-               ALBUMES/MÚSICA
-               </Link>       
-           </li>
-           <li class="nav-item active">
-               <Link to='/videos' className="nav-link my-2 my-lg-0" style={isActive('/')} >
+               <Link 
+               activeClass="active"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='videos'      
+               className="nav-link my-2 my-lg-0" style={isActive('/')} >           
                VIDEOS
                </Link>       
            </li>
            <li class="nav-item active">
-               <Link to='/gallery' className="nav-link my-2 my-lg-0" style={isActive('/')} >
-              GALERIA
+               <Link 
+               activeClass="active"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='musica'
+                className="nav-link my-2 my-lg-0" 
+               style={isActive('/')} >
+             ALBUMES/MÚSICA
                </Link>       
+           </li>
+           <li class="nav-item active">
+               <a href='/gallery' className="nav-link my-2 my-lg-0" style={isActive('/')} >
+              GALERIA
+               </a>       
            </li>
          </ul>
          {/* <form className="nav-link my-2 my-lg-0">

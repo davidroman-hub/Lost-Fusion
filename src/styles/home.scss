@@ -178,6 +178,122 @@ li{
 
 
 
+.videos{
+    //background-color:red
+    background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591305665/lost%20Fusion/backgrounds/SECCION1_LFWEB_tu0ptl.png');
+   
+        //      width: 100%;
+              height: 180vh;
+        
+        //      color: #fff;
+             // background:black;
+             // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+        //     //background-attachment: fixed; // we can move while the photo its static
+        //     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
+        //     filter: grayscale(50%);
+        @media(max-width: 769px){
+            background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591305665/lost%20Fusion/backgrounds/SECCION1_LFWEB_tu0ptl.png');
+            background-size:500px;
+            height: 80vh;
+         //   width: 100%;
+            //background-size: cover;
+        }
+            // @media(min-width: 969px){
+            // 	 		background-size:650px;
+            // 			 height: 80vh;
+            // 	 	}
+        // // ///position static photo///
+        
+        // // // position: relative;
+        // // // top:0;// change for the navbar
+        // // // left: 0;
+        
+        // // //flex box
+        
+         display: flex;
+         //flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+        
+        // // z-index: 1;
+        
+          }
+
+          .titles-descPrV{
+            margin-bottom: -120px;
+            font-size:50px;
+           font-family:$titles;
+           animation:morado-neon 5s infinite alternate;
+           @media(max-width: 769px){
+               margin-bottom: 0px;
+               font-size:25px;
+               
+               }  
+        }
+       
+
+        .reproductor{
+
+            background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591309531/lost%20Fusion/backgrounds/SECC5_LFWEB_njwa0h.jpg');
+   
+        //      width: 100%;
+              height: 130vh;
+        
+        //      color: #fff;
+             // background:black;
+             // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+        //     //background-attachment: fixed; // we can move while the photo its static
+        //     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
+        //     filter: grayscale(50%);
+        @media(max-width: 769px){
+            background-image:none;
+            background-size:500px;
+            height: 80vh;
+         //   width: 100%;
+            //background-size: cover;
+        }
+            // @media(min-width: 969px){
+            // 	 		background-size:650px;
+            // 			 height: 80vh;
+            // 	 	}
+        // // ///position static photo///
+        
+        // // // position: relative;
+        // // // top:0;// change for the navbar
+        // // // left: 0;
+        
+        // // //flex box
+        
+         display: flex;
+         //flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+
+        }
+
+
+        .titles-descPrR{
+            margin-bottom: -120px;
+            font-size:50px;
+           font-family:$titles;
+           animation:morado-neon 5s infinite alternate;
+           @media(max-width: 769px){
+               margin-bottom: 0px;
+               font-size:25px;
+               
+               }  
+        }
+       
+
+
 
 
 
