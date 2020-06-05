@@ -1,7 +1,7 @@
 import React,{Fragment,useState} from 'react';
-import {Router, withRouter} from 'react-router-dom'
+import {Router, withRouter,Link} from 'react-router-dom'
 import Logo from '../../../images/Logo.png'
-import { Link,Element ,animateScroll as scroll } from "react-scroll";
+//import { Link,Element ,animateScroll as scroll } from "react-scroll";
 
 
 
@@ -285,11 +285,11 @@ import {
         </ul>
          <ul class="nav navbar-nav mx-auto">
              <li class="nav-item">
-              <a href='/galeria' 
+              <Link href='/galeria' 
               className="nav-link my-2 my-lg-0"
               style={isActive('/')} >
             GALERIA
-               </a>  
+               </Link>  
             
             </li>
         </ul>
