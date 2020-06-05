@@ -197,7 +197,7 @@ const newHome = () => {
                   <br/>
                   <br/>
 
-                <div className='musica'>
+                <div className='musica 1'> >
                   <div className='albums-photo'>
                   <a href="https://open.spotify.com/album/0vnjMPHORQBkvS96uVPGpJ"  target='_blank' rel='noopener noreferrer'> 
                   <img className='img img-fluid'

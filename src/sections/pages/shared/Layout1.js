@@ -285,12 +285,26 @@ import {
         </ul>
          <ul class="nav navbar-nav mx-auto">
              <li class="nav-item">
-              <Link to='/galeria' 
+              <a href='/galeria' 
               className="nav-link my-2 my-lg-0"
               style={isActive('/')} >
             GALERIA
-               </Link>  
+               </a>  
             
+            </li>
+        </ul>
+        <ul class="nav navbar-nav mx-auto">
+          <li class="nav-item"><Link 
+               activeClass="active"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='musica'
+                className="nav-link my-2 my-lg-0" 
+               style={isActive('/')} >
+             ALBUMES/MÚSICA
+               </Link>
             </li>
         </ul>
          {/* <form className="nav-link my-2 my-lg-0">
