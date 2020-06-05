@@ -122,7 +122,8 @@ font-family:'Pacifico', cursive ;
 
 
 .bio-img{
-    width:2000px;
+    width:1500px;
+  //  margin-right: 40px;
     // @media(max-width: 769px){
     //     align-items: center;
     //      width:300px;
@@ -134,6 +135,13 @@ font-family:'Pacifico', cursive ;
     //   }
 }
 
+.desc{
+    font-size:20px;
+    
+	 @media(max-width: 769px){
+		font-size:16px
+	}
+}
 //// musica
 
 
@@ -434,12 +442,7 @@ font-family: $open;
 
 
 
-.desc{
-	font-size:20px;
-	 @media(max-width: 769px){
-		font-size:16px
-	}
-}
+
 
 .grey1{
 	color: $grey2;

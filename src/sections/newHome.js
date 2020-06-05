@@ -96,27 +96,33 @@ const newHome = () => {
          </h2>
         </div>
           <br/>
-          <br/> 
+         
         <div className="biografia">
               <div>
               <img className='bio-img img img-fluid '
                   style={{maxHeight:''}} 
-                  src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590638872/lost%20Fusion/foto2-removebg-preview_yaqcwb.png'
+                  src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1591393548/lost%20Fusion/Lost_Grupal_PNG_hcbvdj.png'
                   alt='band-1'
             />
                
               </div>
 
-              <div>
+            
               <div className="desc container text-center">
-         
-                <br/>
-                <br/> 
-                <span className='animation' style={{fontSize:'20px'}}>Lost Fusión</span> es un proyecto musical de Urban Latin Beat que surge de la <span className='animation'>CDMX</span>, con el sonido eléctrico que los caracteriza,
+                
+                <span className='animation' style={{fontSize:'20px'}}>Lost Fusión</span> es un proyecto musical independiente que surge de la <span className='animation' style={{fontSize:'20px'}}>CDMX</span>, 
+                han logrado mezclar y conectar bastos panoramas musicales como el <span className='animation' style={{fontSize:'20px'}}>rock,
+                funk, reggae, hasta un sonido más urbano y latino</span>; dando como resultado el
+                sonido propio que los caracteriza con su estilo único “Urban Latin Beat”. 
+                <span className='animation' style={{fontSize:'20px'}}> El amor, la libertad y el folklore</span> son las banderas en cada una de sus presentaciones,
+                poniendo al público en una<span className='animation' style={{fontSize:'20px'}}>misma sintonía</span>, 
+                haciéndolos vibrar juntos en cada nota y con mucha energía.
+                
+                {/* <span className='animation' style={{fontSize:'20px'}}>Lost Fusión</span> es un proyecto musical de Urban Latin Beat que surge de la <span className='animation'>CDMX</span>, con el sonido eléctrico que los caracteriza,
                  han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el  <span className='animation' style={{fontSize:'20px'}}> Rock, Funk, Reggae, Rap, Soul, 
                  hasta un sonido más urbano y latino </span>, dando como resultado una experiencia musical que ha recorrido desde CDMX, Mazunte, Jalisco, Toluca, Puerto Vallarta,
                   Edo. De México, hasta Michoacán, Puebla, Veracruz y próximamente Sudamérica y Europa; con orgullo siempre poniendo en alto el nombre de México.
-                  <span className='animation' style={{fontSize:'20px'}}> Música variada</span> y fresca que incita a bailar a todo aquel que los escucha.
+                  <span className='animation' style={{fontSize:'20px'}}> Música variada</span> y fresca que incita a bailar a todo aquel que los escucha. */}
                 <br/>
                 <br/> 
               {/* Con <span className='animation'>el sonido eléctrico</span> que los caracteriza, han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el Rock, Funk, Reggae, 
@@ -126,7 +132,7 @@ const newHome = () => {
                     {/* <ReactJkMusicPlayer {...options} /> */}
                  </div>
               </div>
-        </div>
+      
                <br/>
                <br/> 
 
