@@ -285,7 +285,7 @@ import {
         </ul>
          <ul class="nav navbar-nav mx-auto">
              <li class="nav-item">
-              <a href='/gallery' 
+              <a href='/galeria' 
               className="nav-link my-2 my-lg-0"
               style={isActive('/')} >
             GALERIA
