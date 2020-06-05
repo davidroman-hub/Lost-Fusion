@@ -309,6 +309,7 @@ li{
           background-size: contain;
           background-repeat: no-repeat;
           background-position: center;
+          padding-top: 650px;
     //     //background-attachment: fixed; // we can move while the photo its static
     //     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
     //     filter: grayscale(50%);
@@ -316,6 +317,7 @@ li{
         //background-image:none;
         background-size:355px;
         height: 80vh;
+        padding-top: 450px;
      //   width: 100%;
         //background-size: cover;
     }
@@ -336,6 +338,7 @@ li{
      justify-content: center;
      align-items: center;
      text-align: center;
+    flex-direction: column;
 
     }
 
@@ -1285,15 +1288,16 @@ height: 250px;
 
 .mail{
     color: black;
-    font-family: 'PT Serif', serif;
+    font-family:$open;
     display: flex;
     flex-direction: column;
-    font-size:20px;
-    color:$grey3;
+    
+  //  font-size:30px;
+    color:white;
     margin-top: 26px;
     @media(max-width: 769px){
 
-        font-size: 12px;
+        font-size: 15px;
 
     }
 

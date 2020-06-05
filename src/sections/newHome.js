@@ -270,7 +270,7 @@ const newHome = () => {
           
         <div className='titles-desc text-center '> CONTACTO:</div>
         <div className='mailes'>
-          <a  className='mail text-center' style={{fontSize:'20px', color:'white'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a>
+          <a  className='mail text-center' style={{fontSize:'18px'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a>
       </div>
         <br/>
         
@@ -281,13 +281,12 @@ const newHome = () => {
     
         <div className='botas text-center'>
             <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/>
+            <br/>
+            <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/>
         </div>
         <br/>
               
-        <div className='after text-center'>
-           <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/>
-        </div>
-     
+      
    
       
 
@@ -313,8 +312,7 @@ const newHome = () => {
       
          {homeContainer()}
          <br/>
-         <br/>
-         <br/>
+      
         {Contact()}
        </Header>
     )

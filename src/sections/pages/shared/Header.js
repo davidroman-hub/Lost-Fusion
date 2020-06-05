@@ -8,7 +8,6 @@ const  Header1 = ({children}) => {
           <Layout1 />
           <MusicLinks/>
                 {children}
-            <p>Footer</p>
         </Fragment>
     )
 }

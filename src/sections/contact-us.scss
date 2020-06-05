@@ -69,50 +69,50 @@
  
  
  
-//  .social2{
-//     //     display: flex;
-//     //     align-items: center;
-//     //     justify-content: center;
-//     //position: absolute;
-//     width: auto;
-//     text-align: center;
+ .social2{
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //position: absolute;
+    width: auto;
+    text-align: center;
     
     
-//        a {
-//            display: inline-block;
-//            width: 50px;
-//            height: 50px;
-//            background-color: #8613A7;
-//            margin: 10px;
-//            border-radius: 20px;
-//            box-shadow: 0 5px 15px -5px #00000070;
-//            color: black;
-//            overflow: hidden;
-//            position: relative;
-//            line-height: 50px;// para centrar
-//            font-size: 25px; //tam;o del logo
+       a {
+           display: inline-block;
+           width: 50px;
+           height: 50px;
+           background-color: #8613A7;
+           margin: 10px;
+           border-radius: 20px;
+           box-shadow: 0 5px 15px -5px #00000070;
+           color: black;
+           overflow: hidden;
+           position: relative;
+           line-height: 50px;// para centrar
+           font-size: 25px; //tam;o del logo
            
-//        }
-//        @media(max-width:769px){
-//            a {
-//             width: 50px;
-//             height: 50px;
-//             line-height: 50px;
-//             font-size: 30px;
+       }
+       @media(max-width:769px){
+           a {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 30px;
     
-//            }
-//        }
+           }
+       }
     
-//        i  {
-//         transition: 0.1s linear;
-//         }
+       i  {
+        transition: 0.1s linear;
+        }
     
-//         i:hover  {
-//            transform: scale(1.3);
-//            color: #d79e5b ;
-//        }
+        i:hover  {
+           transform: scale(1.3);
+           color: #d79e5b ;
+       }
     
-//     }
+    }
 
 
 
