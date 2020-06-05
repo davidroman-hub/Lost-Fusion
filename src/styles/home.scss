@@ -146,14 +146,18 @@ font-family:'Pacifico', cursive ;
 
 
 
+
+
 .musica{
     display: flex;
+    margin-top: -250px;
     width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
     @media(max-width: 769px){
         flex-direction: column;
+        margin-top: 0px;
       }
 }
 
@@ -169,6 +173,7 @@ font-family:'Pacifico', cursive ;
     //    padding-right: 30px;
       }
 }
+
 
 
 .albums-photo img{

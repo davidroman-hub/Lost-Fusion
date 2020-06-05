@@ -115,7 +115,7 @@ const newHome = () => {
                 funk, reggae, hasta un sonido más urbano y latino</span>; dando como resultado el
                 sonido propio que los caracteriza con su estilo único “Urban Latin Beat”. 
                 <span className='animation' style={{fontSize:'20px'}}> El amor, la libertad y el folklore</span> son las banderas en cada una de sus presentaciones,
-                poniendo al público en una<span className='animation' style={{fontSize:'20px'}}>misma sintonía</span>, 
+                poniendo al público en una <span className='animation' style={{fontSize:'20px'}}> misma sintonía</span>, 
                 haciéndolos vibrar juntos en cada nota y con mucha energía.
                 
                 {/* <span className='animation' style={{fontSize:'20px'}}>Lost Fusión</span> es un proyecto musical de Urban Latin Beat que surge de la <span className='animation'>CDMX</span>, con el sonido eléctrico que los caracteriza,
@@ -142,7 +142,7 @@ const newHome = () => {
                          <span className='animation' style={{fontSize:'30px'}}>Lost Fusión</span> <span style={{fontSize:'30px'}} >es:</span>
                          <br/>
                          <br/> 
-                           • MAYRA GARCÍA - Voz y Teclado 
+                           • MAYRA FIGUEROA - Voz y Teclado 
                            <br/>
                            • <span>INDIRA VALDELAMAR </span>- Voz y Guitarra 
                            <br/>
@@ -150,10 +150,10 @@ const newHome = () => {
                            <br/>
                            • ALBERTO PERALTA - Bajo 
                            <br/>
-                           • MARCO FIGUEROA - Batería 
+                           • MARCO PALOMO - Batería 
                            <br/>
                            <br/>
-                           <span className='grey1'>Los cinco músicos indican cuando comienza la fusión</span> 
+                           {/* <span className='grey1'>Los cinco músicos indican cuando comienza la fusión</span>  */}
                            {/* <ReactJkMusicPlayer {...options} /> */}
                      </div>
   
@@ -177,12 +177,21 @@ const newHome = () => {
               <div className='titles-descPrR text-center' id='musica'> MÚSICA </div>
 
               <div className='reproductor text-center'>
-                  <div>
+                  {/* <div className='reproduce1'>
+                     <MusicPlayer playlist={playlist} 
+                    // mode="vertical" 
+                     />
+                     
+                     </div> */}
+
+                     <div className='reproduce2'>
                      <MusicPlayer playlist={playlist} 
                      mode="vertical" 
                      />
+                     
                      </div>
                   </div>
+                  
 
             
                   <br/>
