@@ -172,9 +172,15 @@ font-family:'Pacifico', cursive ;
 
 /// pointer!
 
-li{
+.navbar li{
   cursor: pointer;
+  font-size: 18px;
+  @media(max-width: 769px){
+   font-size: 15px;
+      }
+  
 }
+
 
 
 

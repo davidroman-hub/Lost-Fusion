@@ -130,6 +130,11 @@ import {
      
        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+         {/* <li class="nav-item active">
+               <Link to='/' className="spacer" style={isActive('/')} >
+               spacer
+               </Link>       
+           </li>
            <li class="nav-item active">
                <Link to='/' className="nav-link my-2 my-lg-0" style={isActive('/')} >
                HOME
@@ -180,8 +185,114 @@ import {
                <a href='/gallery' className="nav-link my-2 my-lg-0" style={isActive('/')} >
               GALERIA
                </a>       
-           </li>
+           </li> */}
          </ul>
+         {/* <ul class="nav navbar-nav mx-auto">
+         <li class="nav-item">
+            <Link
+               activeClass="active"
+               to="about"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='bio'
+                className="nav-link my-2 my-lg-0" 
+                // style={{cursor:'pointer'}}
+                style={isActive('/')} >
+                BIO
+               </Link>  
+              
+            </li>
+            <li class="nav-item">
+            <Link 
+               activeClass="active"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='videos'      
+               className="nav-link my-2 my-lg-0" style={isActive('/')} >           
+               VIDEOS
+               </Link>   
+            </li>
+            <li class="nav-item"><Link 
+               activeClass="active"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='musica'
+                className="nav-link my-2 my-lg-0" 
+               style={isActive('/')} >
+             ALBUMES/MÚSICA
+               </Link>
+            </li>
+            <li class="nav-item">
+              <a href='/gallery' 
+              className="nav-link my-2 my-lg-0"
+              style={isActive('/')} >
+            GALERIA
+               </a>  
+            
+            </li>
+         
+        </ul> */}
+        <ul class="nav navbar-nav mx-auto">
+          <li class="nav-item">
+           <Link
+               activeClass="active"
+               to="about"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='bio'
+                className="nav-link my-2 my-lg-0" 
+                // style={{cursor:'pointer'}}
+                style={isActive('/')} >
+                BIO
+               </Link>  
+             </li>  
+          </ul>
+         <ul class="nav navbar-nav mx-auto">
+         <li class="nav-item">
+             <Link 
+               activeClass="active"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='videos'      
+               className="nav-link my-2 my-lg-0" style={isActive('/')} >           
+               VIDEOS
+               </Link> 
+           </li>      
+        </ul>
+         <ul class="nav navbar-nav mx-auto">
+          <li class="nav-item"><Link 
+               activeClass="active"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='musica'
+                className="nav-link my-2 my-lg-0" 
+               style={isActive('/')} >
+             ALBUMES/MÚSICA
+               </Link>
+            </li>
+        </ul>
+         <ul class="nav navbar-nav mx-auto">
+             <li class="nav-item">
+              <a href='/gallery' 
+              className="nav-link my-2 my-lg-0"
+              style={isActive('/')} >
+            GALERIA
+               </a>  
+            
+            </li>
+        </ul>
          {/* <form className="nav-link my-2 my-lg-0">
          <Link to='/' className="nav-link my-2 my-lg-0" >
                HOME
