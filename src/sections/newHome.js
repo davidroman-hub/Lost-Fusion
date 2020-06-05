@@ -110,13 +110,22 @@ const newHome = () => {
             
               <div className="desc container text-center">
                 
-                <span className='animation' style={{fontSize:'20px'}}>Lost Fusión</span> es un proyecto musical independiente que surge de la <span className='animation' style={{fontSize:'20px'}}>CDMX</span>, 
-                han logrado mezclar y conectar bastos panoramas musicales como el <span className='animation' style={{fontSize:'20px'}}>rock,
-                funk, reggae, hasta un sonido más urbano y latino</span>; dando como resultado el
-                sonido propio que los caracteriza con su estilo único “Urban Latin Beat”. 
-                <span className='animation' style={{fontSize:'20px'}}> El amor, la libertad y el folklore</span> son las banderas en cada una de sus presentaciones,
-                poniendo al público en una <span className='animation' style={{fontSize:'20px'}}> misma sintonía</span>, 
-                haciéndolos vibrar juntos en cada nota y con mucha energía.
+                <span className='animation' style={{fontSize:'20px'}}>Lost Fusión</span> es un proyecto musical<br/> 
+                independiente
+                que surge de la <span className='animation' style={{fontSize:'20px'}}>CDMX</span>, 
+                <br/> han logrado 
+                 mezclar y conectar bastos<br/> panoramas
+                 musicales como el <span className='animation' style={{fontSize:'20px'}}>rock,
+                funk,<br/> reggae,
+                 hasta un sonido más urbano y latino</span>;<br/>
+                 dando como resultado el sonido propio <br/>
+                 que los caracteriza con su estilo único<br/> 
+                “Urban Latin Beat”.<span className='animation' style={{fontSize:'20px'}}> El amor, la libertad<br/> 
+                y el folklore </span>
+                son las banderas en cada<br/> una de sus presentaciones,
+                poniendo al <br/> 
+                público en una <span className='animation' style={{fontSize:'20px'}}> misma sintonía</span>, 
+                haciéndolos<br/> vibrar juntos en cada nota y con mucha energía.
                 
                 {/* <span className='animation' style={{fontSize:'20px'}}>Lost Fusión</span> es un proyecto musical de Urban Latin Beat que surge de la <span className='animation'>CDMX</span>, con el sonido eléctrico que los caracteriza,
                  han logrado conectar con un público extenso gracias a los géneros y ambientes que aborda su música, desde el  <span className='animation' style={{fontSize:'20px'}}> Rock, Funk, Reggae, Rap, Soul, 
