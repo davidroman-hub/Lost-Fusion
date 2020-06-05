@@ -281,7 +281,7 @@ const newHome = () => {
     
         <div className='botas text-center'>
             <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/>
-            <br/>
+                <div className="spacer-figure"/>
             <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/>
         </div>
         <br/>
