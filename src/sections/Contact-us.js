@@ -4,7 +4,7 @@ import './contact-us.scss'
 const Contact = () => {
     return (
         <footer>
-            <div className = 'social'>
+            <div className = 'social22'>
                 <a href='https://www.facebook.com/lostfusion' target='_blank' rel='noopener noreferrer'>
                 <i class="fab fa-facebook"></i>
                 </a>
@@ -22,7 +22,7 @@ const Contact = () => {
                 <a href='tel:55741276954'>
                 <i class="fab fa-whatsapp"></i>
                 </a>  
-
+                 
             </div>
             
         </footer>

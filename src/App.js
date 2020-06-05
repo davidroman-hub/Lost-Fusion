@@ -4,13 +4,9 @@ import ReactJkMusicPlayer from "react-jinke-music-player";
 import {audioList1} from './sections/audioList'
 //imports
 import NavBar from '../src/sections/NavBar'
-import Home from '../src/sections/Home'
-import Prensa from './sections/pages/Prensa'
-import Highlights from './sections/pages/Highlights'
-import Albums from './sections/pages/Albums'
-import Videos from './sections/pages/Videos'
 import NewHome from '../src/sections/newHome'
 import Gallery from '../src/sections/pages/Gallery'
+import Contact from './sections/Contact-us'
 const App = () => {
   
 const options = { 
@@ -23,16 +19,10 @@ const options = {
     
     <BrowserRouter>
       <Fragment>
-      {/* <ReactJkMusicPlayer {...options} /> */}
-          {/* <NavBar/> */}
           <Route exact path="/" component={NewHome}/>
           <Route exact path="/home" component={NewHome}/>
           <Route exact path="/gallery" component={Gallery}/>
-
-          {/* <Route exact path="/highlights" component={Prensa}/>
-          <Route exact path="/albums" component={Albums}/>
-          <Route exact path="/videos" component={Videos}/> */}
-          {/* <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/> */}
+       
       </Fragment>
     </BrowserRouter>
    

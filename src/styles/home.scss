@@ -294,9 +294,61 @@ li{
         }
        
 
+///////////////////////////////////////
+//contact
+
+.botas{
+    background-image: url('../images/botas.png');
+   
+    //      width: 100%;
+          height: 100vh;
+           // margin-bottom:20px;
+    //      color: #fff;
+         // background:black;
+         // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+    //     //background-attachment: fixed; // we can move while the photo its static
+    //     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
+    //     filter: grayscale(50%);
+    @media(max-width: 769px){
+        //background-image:none;
+        background-size:500px;
+        height: 80vh;
+     //   width: 100%;
+        //background-size: cover;
+    }
+        // @media(min-width: 969px){
+        // 	 		background-size:650px;
+        // 			 height: 80vh;
+        // 	 	}
+    // // ///position static photo///
+    
+    // // // position: relative;
+    // // // top:0;// change for the navbar
+    // // // left: 0;
+    
+    // // //flex box
+    
+     display: flex;
+     //flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+
+    }
 
 
 
+
+.after{
+    margin-top:-250px
+}
+
+
+
+/////////////////////
 
 
  .Logo2{

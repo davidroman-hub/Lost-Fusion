@@ -262,28 +262,48 @@ const newHome = () => {
                     </div>
                 
        </div>
-  
+      
+              
   
        {/* CONTACTO */}
-       {/* <div className='titles-descPr text-center '> CONTACTO:</div>
-        <Contact/> */}
+
+          
+        <div className='titles-desc text-center '> CONTACTO:</div>
         <div className='mailes'>
-           {/* <a  className='mail text-center' style={{fontSize:'20px', color:'white'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a> */}
-        </div>
+          <a  className='mail text-center' style={{fontSize:'20px', color:'white'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a>
+      </div>
+        <br/>
         
+
+        {/* <Contact/> */}
+   
+
+    
+        <div className='botas text-center'>
+            <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/>
+        </div>
+        <br/>
+              
+        <div className='after text-center'>
+           <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/>
+        </div>
+     
+   
+      
+
+        
+       
+         
   
-        <div className='mailes'>
-            {/* <div  className='mail text-center' style={{fontSize:'20px', color:'white'}}>Tel: +52-55-74-12-76-94</div> */}
-        </div>
-        <div>
-        <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/>
-        </div>
-            <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/>
-                <div className="facebook-but">
-                < ReactFBLike language="es_ES" appId={process.env.FB_APP_ID} version="v2.12" />
-          </div> 
-          {/* <MusicPlayer playlist={playlist} /> */}
-        {/* <ReactJkMusicPlayer {...options} /> */}
+    
+
+         {/* /// to fix the error */}
+                  <div className="facebook-but">
+                         < ReactFBLike language="es_ES" appId={process.env.FB_APP_ID} version="v2.12" />
+                  </div>
+            
+
+
           </Fragment>
       )
 
@@ -292,6 +312,10 @@ const newHome = () => {
        <Header>
       
          {homeContainer()}
+         <br/>
+         <br/>
+         <br/>
+        {Contact()}
        </Header>
     )
 }
