@@ -9,8 +9,11 @@
     text-align: center;
     position: fixed; /* or absolute */
     //top: 50%;
-    left: 40%;
+//    left: 40%;
     z-index: 1;
+    left: 92%;
+    top: 15%;
+    flex-direction: column;
     //bottom: 50%;
     @media(max-width:769px){
              //   position: fixed;
