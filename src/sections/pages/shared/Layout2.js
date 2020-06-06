@@ -134,6 +134,13 @@ import {
                </Link>       
            </li>
          </ul>
+         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+           <li class="nav-item active">
+               <a href="/" className="nav-link my-2 my-lg-0" style={{color:'#EE46B8'}} >
+             REGRESAR A HOME
+               </a>       
+           </li>
+         </ul>
          {/* <form className="nav-link my-2 my-lg-0">
          <Link to='/' className="nav-link my-2 my-lg-0" >
                HOME
