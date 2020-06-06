@@ -1,5 +1,5 @@
 import React,{Fragment} from 'react';
-//import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import ReactAudioPlayer from 'react-audio-player';
 //import serpiente from './serpiente.mp3'
 import Logo from '../images/Logo.png'
@@ -15,6 +15,8 @@ import MusicPlayer from 'react-responsive-music-player';
 import './pages/Videos.scss'
 import ImageGallery from 'react-image-gallery';
 import VideoCarousel from './videoCarousel'
+//import { Section, ScrollingProvider } from 'react-scroll-section';
+//import { Link,Element ,animateScroll as scroll } from "react-scroll";
 
 const newHome = () => {
 
@@ -205,8 +207,9 @@ const newHome = () => {
             
                   <br/>
                   <br/>
+             
 
-                <div className='musica 1'> >
+                <div className='musica 1'>
                   <div className='albums-photo'>
                   <a href="https://open.spotify.com/album/0vnjMPHORQBkvS96uVPGpJ"  target='_blank' rel='noopener noreferrer'> 
                   <img className='img img-fluid'
@@ -259,10 +262,7 @@ const newHome = () => {
                   <div className='albums-photo2'>
                   
                   </div>
-                </div>
-
-
-          
+                </div>          
                   <div className="albums">
                     <div className='group'>
                       <img className='img img-fluid'
@@ -274,7 +274,8 @@ const newHome = () => {
                     </div>
                 
        </div>
-       <div className="photos">
+       
+       <div className="logo3">
                     <div className='group'>
                       
                       <img className='img img-fluid'
@@ -284,10 +285,32 @@ const newHome = () => {
                       />
                       <br/>
                     </div>
-                
        </div>
-      
-              
+
+        {/* GALERIA BOTON */}
+        <div className='titles-descGallery text-center'> GALERIA</div>
+        
+        <div className='gallery-section text-center'  id='galeria'>
+                          
+                     <div className='gallery-button' > 
+                          <Link style={{color: '#930D9D '}} to='/galeria'>
+                           <i class="fas fa-camera-retro"></i>
+                          </Link>
+                     </div>
+    </div>
+            
+
+{/* <div className="button-galery">
+        <div className="button-galery-container text-center">
+                    <h1> hola
+                      ldsjsdlkjdslkjdslkds
+                      dsl;kdsjdslkjdslkdjs
+                      ds,dsjlkdsjlsdjksdkl
+                    </h1>
+                
+        </div>             
+</div> */}
+            
   
        {/* CONTACTO */}
 

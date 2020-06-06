@@ -117,6 +117,44 @@
     
     }
 
+    .gallery-button{
+        
+        
+            display: inline-block;
+            width: 135px;
+            height: 135px;
+            background-color: #080517;
+            margin: 10px;
+            //border-radius: 20px;
+           // box-shadow: 0 5px 15px -5px #00000070;
+            color:#C946B8;
+            overflow: hidden;
+            position: relative;
+            line-height: 135px;// para centrar
+            font-size: 100px; //tam;o del logo
+            cursor: pointer;
+     
+        @media(max-width:769px){
+            li {
+             width: 50px;
+             height: 50px;
+             line-height: 50px;
+             font-size: 30px;
+     
+            }
+        }
+     
+        i  {
+            
+         transition: 0.1s linear;
+         }
+     
+         i:hover  {
+            transform: scale(1.3);
+            color: #d79e5b ;
+        }
+    }
+
 
 
 

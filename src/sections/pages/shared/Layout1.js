@@ -1,8 +1,9 @@
-import React,{Fragment,useState} from 'react';
-import {Router, withRouter,Link} from 'react-router-dom'
+import React,{Fragment,useState,useRef} from 'react';
+import {Router, withRouter} from 'react-router-dom'
 import Logo from '../../../images/Logo.png'
-//import { Link,Element ,animateScroll as scroll } from "react-scroll";
+import { Link,Element ,animateScroll as scroll } from "react-scroll";
 
+//import {ScrollingProvider, Section,SectionLink} from 'react-scroll-section'
 
 
 import {
@@ -23,6 +24,8 @@ import {
 
   const Navbar1 = ({children,match,history,router}) => {
     
+
+    
     const isActive = path => {
         if(match.path === path) {
             return {color:'#EE46B8'}
@@ -38,7 +41,8 @@ import {
         setIsOpen(!isOpen);;
     }
     return (
-        // <div>
+    
+      // <div>
         //      <Navbar light expand="md" color="light"  className=''>
         //      <NavItem style={{cursor:'pointer'}}>
         //               <Link to='/' >
@@ -238,6 +242,7 @@ import {
             </li>
          
         </ul> */}
+            
         <ul class="nav navbar-nav mx-auto">
           <li class="nav-item">
            <Link
@@ -283,16 +288,6 @@ import {
                </Link>
             </li>
         </ul>
-         <ul class="nav navbar-nav mx-auto">
-             <li class="nav-item">
-              <a href='/galeria' 
-              className="nav-link my-2 my-lg-0"
-              style={isActive('/')} >
-            GALERIA
-               </a>  
-            
-            </li>
-        </ul>
         <ul class="nav navbar-nav mx-auto">
           <li class="nav-item"><Link 
                activeClass="active"
@@ -300,13 +295,14 @@ import {
                smooth={true}
                offset={-70}
                duration={500} 
-                to='musica'
+                to='galeria'
                 className="nav-link my-2 my-lg-0" 
                style={isActive('/')} >
-             ALBUMES/MÚSICA
+                 GALERIA
                </Link>
             </li>
         </ul>
+       
          {/* <form className="nav-link my-2 my-lg-0">
          <Link to='/' className="nav-link my-2 my-lg-0" >
                HOME
