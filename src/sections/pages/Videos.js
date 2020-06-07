@@ -32,7 +32,6 @@ const Videos = () => {
                 <br/>
                 <ImageGallery items={images2}/>
                 <br/>
-                <br/>
                 <div className="Gallery">
                         <Gallery photos = {photos} onClick = {openLightbox}/>
                         <ModalGateway>
