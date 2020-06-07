@@ -12,7 +12,6 @@ import Header from './pages/shared/Header'
 import ReactFBLike from 'react-fb-like';
 import ReactPlayer from 'react-player'
 import MusicPlayer from 'react-responsive-music-player';
-import './pages/Videos.scss'
 import ImageGallery from 'react-image-gallery';
 import VideoCarousel from './videoCarousel'
 //import { Section, ScrollingProvider } from 'react-scroll-section';
