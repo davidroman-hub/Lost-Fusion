@@ -228,6 +228,30 @@ export const images2 = [
         original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591656216/galeria/chidas%20y%20no%20mamadas/menos%20pesadas/_ALB3540_ohsbgt.jpg',
         thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591656216/galeria/chidas%20y%20no%20mamadas/menos%20pesadas/_ALB3540_ohsbgt.jpg',
       },
+      {
+        original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591470173/galeria/chidas%20y%20no%20mamadas/DSC_0191_zjlsfv.jpg',
+        thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591470173/galeria/chidas%20y%20no%20mamadas/DSC_0191_zjlsfv.jpg',
+      },
+      // {
+      //   original: '',
+      //   thumbnail: '',
+      // },
+      // {
+      //   original: '',
+      //   thumbnail: '',
+      // },
+      // {
+      //   original: '',
+      //   thumbnail: '',
+      // },
+      // {
+      //   original: '',
+      //   thumbnail: '',
+      // },
+      // {
+      //   original: '',
+      //   thumbnail: '',
+      // },
   
   ];
 
