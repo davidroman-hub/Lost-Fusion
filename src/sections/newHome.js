@@ -1,4 +1,4 @@
-import React,{Fragment} from 'react';
+import React,{Fragment,useEffect,useState} from 'react';
 import {Link} from 'react-router-dom'
 import ReactAudioPlayer from 'react-audio-player';
 //import serpiente from './serpiente.mp3'
@@ -19,6 +19,30 @@ import VideoCarousel from './videoCarousel'
 
 const newHome = () => {
 
+  
+
+
+//   useEffect(()=>{
+    
+// },[])
+
+
+const buttonFacebook = () => (
+  <div className="facebook-but">
+  < ReactFBLike language="es_ES" appId={process.env.FB_APP_ID} version="v2.12" />
+</div>
+
+)
+
+const buttonYoutube = () => (
+  <div className='botas text-center'>
+  <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/>
+      <div className="spacer-figure"/>
+  <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/>
+</div>
+)
+
+  
 
 
   
@@ -69,6 +93,10 @@ const newHome = () => {
           ]
         }
       ]
+
+
+
+
 
       const homeContainer = () => (
         <Fragment>
@@ -353,6 +381,7 @@ const newHome = () => {
        <Header>
       
          {homeContainer()}
+         
          <br/>
       
         {Contact()}
