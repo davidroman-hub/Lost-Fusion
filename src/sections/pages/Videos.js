@@ -39,11 +39,7 @@ const Videos = () => {
                             <Modal onClose = {closeLightbox}>
                               <Carousel
                                   currentIndex = {currentImage}
-                                  views = {photos.map(x =>({
-                                    ...x,
-                                    srcset: x.srcSet,
-                                    caption: x.title
-                                  }))}
+                                  views = {photos}
                                   />
                             </Modal>
                           ): null }
