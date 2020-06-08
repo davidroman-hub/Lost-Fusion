@@ -27,12 +27,12 @@ const Videos = () => {
         
         return (
             <Fragment>
-                <div className='titles-descGallery text-center'> GALERIA</div>
+                {/* <div className='titles-descGallery text-center'> GALERIA</div> */}
                 <br/>
                 <br/>
                 <ImageGallery items={images2}/>
                 <br/>
-                <div className="Gallery">
+                {/* <div className="Gallery">
                         <Gallery photos = {photos} onClick = {openLightbox}/>
                         <ModalGateway>
                           {viewerIsOpen ? (
@@ -46,7 +46,7 @@ const Videos = () => {
                         </ModalGateway>
                       </div>
                 <br/>
-                <br/>
+                <br/> */}
               
             </Fragment>
         )
@@ -61,9 +61,9 @@ const Videos = () => {
 
 
     return (
-        <Header2>
+        <div>
           {galeryBody()}
-        </Header2>
+        </div>
     )
 }
 

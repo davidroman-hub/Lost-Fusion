@@ -19,6 +19,22 @@ export const images2 = [
         original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591470247/galeria/chidas%20y%20no%20mamadas/IMG_1010_jkd44c.jpg',
         thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591470247/galeria/chidas%20y%20no%20mamadas/IMG_1010_jkd44c.jpg',
       },
+      {
+        original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591484988/galeria/chidas%20y%20no%20mamadas/otras/Captura_de_Pantalla_2020-01-15_a_la_s_19.08.10_zfi0n6.png',
+        thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591484988/galeria/chidas%20y%20no%20mamadas/otras/Captura_de_Pantalla_2020-01-15_a_la_s_19.08.10_zfi0n6.png',
+      },
+      {
+        original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591470245/galeria/chidas%20y%20no%20mamadas/DSC_0014_d85mjt.jpg',
+        thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591470245/galeria/chidas%20y%20no%20mamadas/DSC_0014_d85mjt.jpg',
+      },
+      {
+        original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591470183/galeria/chidas%20y%20no%20mamadas/DSC_0119_b0z21s.jpg',
+        thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591470183/galeria/chidas%20y%20no%20mamadas/DSC_0119_b0z21s.jpg',
+      },
+      {
+        original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/c_scale,h_720/v1591468059/galeria/BARRANCA14_khuztu.jpg',
+        thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/c_scale,h_720/v1591468059/galeria/BARRANCA14_khuztu.jpg',
+      },
   ];
 
 

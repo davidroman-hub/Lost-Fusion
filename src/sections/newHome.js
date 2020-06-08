@@ -13,8 +13,8 @@ import ReactFBLike from 'react-fb-like';
 import ReactPlayer from 'react-player'
 import MusicPlayer from 'react-responsive-music-player';
 import ImageGallery from 'react-image-gallery';
-import VideoCarousel from './videoCarousel'
-
+import VideoCarousel from './videoCarousel';
+import Videos from './pages/Videos'
 
 const newHome = () => {
 
@@ -302,7 +302,8 @@ const newHome = () => {
 
         {/* GALERIA BOTON */}
         <div className='titles-descGallery text-center'> GALERIA</div>
-        <div className='mailes'>
+        <Videos/>
+        {/* <div className='mailes'>
           <span  className='mail text-center' style={{fontSize:'18px'}}>(CLICK EN LA CAMARA)</span>
       </div>
         <div className='gallery-section text-center'  id='galeria'>
@@ -312,7 +313,7 @@ const newHome = () => {
                            <i class="fas fa-camera-retro"></i>
                           </Link>
                      </div>
-    </div>
+    </div> */}
             
             
   
