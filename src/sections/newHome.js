@@ -14,33 +14,26 @@ import ReactPlayer from 'react-player'
 import MusicPlayer from 'react-responsive-music-player';
 import ImageGallery from 'react-image-gallery';
 import VideoCarousel from './videoCarousel'
-//import { Section, ScrollingProvider } from 'react-scroll-section';
-//import { Link,Element ,animateScroll as scroll } from "react-scroll";
+
 
 const newHome = () => {
 
   
 
+// const buttonFacebook = () => (
+//   <div className="facebook-but">
+//   < ReactFBLike language="es_ES" appId={process.env.FB_APP_ID} version="v2.12" />
+// </div>
 
-//   useEffect(()=>{
-    
-// },[])
+// )
 
-
-const buttonFacebook = () => (
-  <div className="facebook-but">
-  < ReactFBLike language="es_ES" appId={process.env.FB_APP_ID} version="v2.12" />
-</div>
-
-)
-
-const buttonYoutube = () => (
-  <div className='botas text-center'>
-  <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/>
-      <div className="spacer-figure"/>
-  <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/>
-</div>
-)
+// const buttonYoutube = () => (
+//   <div className='botas text-center'>
+//   <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/>
+//       <div className="spacer-figure"/>
+//   <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/>
+// </div>
+// )
 
   
 
@@ -52,7 +45,6 @@ const buttonYoutube = () => (
         showDownload: false,
         responsive: false,
         mode: 'full',
-        //toggleMode: false,
       }
     
       const playlist = [
@@ -322,17 +314,6 @@ const buttonYoutube = () => (
                      </div>
     </div>
             
-
-{/* <div className="button-galery">
-        <div className="button-galery-container text-center">
-                    <h1> hola
-                      ldsjsdlkjdslkjdslkds
-                      dsl;kdsjdslkjdslkdjs
-                      ds,dsjlkdsjlsdjksdkl
-                    </h1>
-                
-        </div>             
-</div> */}
             
   
        {/* CONTACTO */}
@@ -355,16 +336,7 @@ const buttonYoutube = () => (
             <div class="fb-like" data-href="https://www.facebook.com/lostfusion/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"/>
         </div>
         <br/>
-              
       
-   
-      
-
-        
-       
-         
-  
-    
 
          {/* /// to fix the error */}
                   <div className="facebook-but">

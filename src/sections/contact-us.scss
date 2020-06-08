@@ -1,33 +1,24 @@
 .social{
         display: flex;
-    //     align-items: center;
-    //     justify-content: center;
-    //position: absolute;
-    //width: auto;
-    //margin-top: -80px;
-    top:4%;
-    text-align: center;
-    position: fixed; /* or absolute */
-    //top: 50%;
-//    left: 40%;
-    z-index: 1;
-    left: 92%;
-    top: 15%;
-    flex-direction: column;
-    //bottom: 50%;
-    @media(max-width:769px){
-             //   position: fixed;
-                display: flex;
-                flex-direction: column;
-                left: 83%;
-                top: 15%;
+        top:4%;
+        text-align: center;
+        position: fixed; /* or absolute */
+        z-index: 1;
+        left: 92%;
+        top: 15%;
+        flex-direction: column;
+        //bottom: 50%;
+        @media(max-width:769px){
+                    display: flex;
+                    flex-direction: column;
+                    left: 83%;
+                    top: 15%;
             }
     
        a {
            display: inline-block;
            width: 50px;
            height: 50px;
-           //background-color: #8613A7;
            background-color: #343A40;
            margin: 10px;
            border-radius: 20px;
@@ -73,10 +64,6 @@
  
  
  .social2{
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: center;
-    //position: absolute;
     width: auto;
     text-align: center;
     
@@ -125,8 +112,6 @@
             height: 135px;
             background-color: #080517;
             margin: 10px;
-            //border-radius: 20px;
-           // box-shadow: 0 5px 15px -5px #00000070;
             color:#C946B8;
             overflow: hidden;
             position: relative;

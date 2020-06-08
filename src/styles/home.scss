@@ -51,13 +51,10 @@ $blue:#1464ba;
     box-sizing: border-box;
 }
 
-body{
-font-family: 'PT Serif', serif;
-font-size: 14px;
-
-//font-size: 16px;
-//background-color: black;
-}
+    body {
+        font-family: 'PT Serif', serif;
+        font-size: 14px;
+    }
 
 p{
 margin-bottom: 30px;
@@ -71,33 +68,18 @@ font-family:'Pacifico', cursive ;
 /////// Header ///////////
 
   .header-content{
-//      width: 100%;
-      height: 100vh;
 
-//      color: #fff;
+      height: 100vh;
       background:#080517;
      // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
       background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591069918/lost%20Fusion/group2_1_tby2ra.jpg');
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-//     //background-attachment: fixed; // we can move while the photo its static
-//     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
-//     filter: grayscale(50%);
-@media(max-width: 769px){
-   // background-size:470px;
-    height: 80vh;
-    //background-size: cover;
-}
-	// @media(min-width: 969px){
-	// 	 		background-size:650px;
-	// 			 height: 80vh;
-	// 	 	}
-// // ///position static photo///
 
-// // // position: relative;
-// // // top:0;// change for the navbar
-// // // left: 0;
+@media(max-width: 769px){
+    height: 80vh;
+}
 
 // // //flex box
 
@@ -123,16 +105,7 @@ font-family:'Pacifico', cursive ;
 
 .bio-img{
     width:1500px;
-  //  margin-right: 40px;
-    // @media(max-width: 769px){
-    //     align-items: center;
-    //      width:300px;
-    //      height:220px;
-    //      margin-left: 40px;
-    //     // align-items: center;
-    //     // text-align: center;
-        
-    //   }
+
 }
 
 .desc{
@@ -142,10 +115,8 @@ font-family:'Pacifico', cursive ;
 		font-size:16px
 	}
 }
+
 //// musica
-
-
-
 
 
 .musica{
@@ -169,8 +140,6 @@ font-family:'Pacifico', cursive ;
     //margin-top: 400px;
     @media(max-width: 769px){
       
-    //     padding-left:30px;
-    //    padding-right: 30px;
       }
 }
 
@@ -218,19 +187,9 @@ font-family:'Pacifico', cursive ;
             background-size:600px;
             background-size: cover;
             height: 80vh;
-         //   width: 100%;
-            //background-size: cover;
+       
         }
-            // @media(min-width: 969px){
-            // 	 		background-size:650px;
-            // 			 height: 80vh;
-            // 	 	}
-        // // ///position static photo///
-        
-        // // // position: relative;
-        // // // top:0;// change for the navbar
-        // // // left: 0;
-        
+            
         // // //flex box
         
          display: flex;
@@ -259,39 +218,19 @@ font-family:'Pacifico', cursive ;
         .reproductor{
 
             background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591398062/lost%20Fusion/SECC55.55_LFWEB_seljxj.png');
-   
-        //      width: 100%;
               height: 137vh;
-               // margin-bottom:20px;
-        //      color: #fff;
-             // background:black;
-             // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center;
-        //     //background-attachment: fixed; // we can move while the photo its static
-        //     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
-        //     filter: grayscale(50%);
+   
         margin-bottom: 200px;
         @media(max-width: 769px){
             background-image:none;
             background-size:500px;
             height: 80vh;
             margin-bottom: 0px;
-         //   width: 100%;
-            //background-size: cover;
         }
-            // @media(min-width: 969px){
-            // 	 		background-size:650px;
-            // 			 height: 80vh;
-            // 	 	}
-        // // ///position static photo///
-        
-        // // // position: relative;
-        // // // top:0;// change for the navbar
-        // // // left: 0;
-        
-        // // //flex box
+           
         
          display: flex;
          //flex-direction: column;
@@ -328,14 +267,7 @@ font-family:'Pacifico', cursive ;
 
 
 
-        /// button gallery
-
-
-
-
-
-
-
+/// button gallery
 
 .gallery-section{
 
@@ -404,34 +336,15 @@ font-family:'Pacifico', cursive ;
 
     background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591408189/lost%20Fusion/BACKGROUND_SECC_GALERIA_wo8wjd.png');
    
-    //      width: 100%;
-          height: 100vh;
-           // margin-bottom:20px;
-    //      color: #fff;
-         // background:black;
-        //  // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
-        //   background-size: contain;
-        //   background-repeat: no-repeat;
-        //   background-position: center;
-    //     //background-attachment: fixed; // we can move while the photo its static
-    //     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
-    //     filter: grayscale(50%);
-    @media(max-width: 769px){
+   
+        height: 100vh;
+        @media(max-width: 769px){
         background-image:none;
         background-size:500px;
         height: 80vh;
-     //   width: 100%;
-        //background-size: cover;
+   
     }
-        // @media(min-width: 969px){
-        // 	 		background-size:650px;
-        // 			 height: 80vh;
-        // 	 	}
-    // // ///position static photo///
-    
-    // // // position: relative;
-    // // // top:0;// change for the navbar
-    // // // left: 0;
+        
     
     // // //flex box
     
@@ -457,37 +370,21 @@ font-family:'Pacifico', cursive ;
 .botas{
     background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591322632/lost%20Fusion/dd_1_elthcl.png');
    
-    //      width: 100%;
+    
           height: 100vh;
-           // margin-bottom:20px;
-    //      color: #fff;
-         // background:black;
-         // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
           background-size: contain;
           background-repeat: no-repeat;
           background-position: center;
           padding-top: 650px;
-    //     //background-attachment: fixed; // we can move while the photo its static
-    //     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
-    //     filter: grayscale(50%);
-    @media(max-width: 769px){
-        //background-image:none;
-        background-size:310px;
-        height: 80vh;
-        padding-top: 450px;
-     //   width: 100%;
-        //background-size: cover;
+  
+            @media(max-width: 769px){
+                //background-image:none;
+                background-size:310px;
+                height: 80vh;
+                padding-top: 450px;
+    
     }
-        // @media(min-width: 969px){
-        // 	 		background-size:650px;
-        // 			 height: 80vh;
-        // 	 	}
-    // // ///position static photo///
-    
-    // // // position: relative;
-    // // // top:0;// change for the navbar
-    // // // left: 0;
-    
+        
     // // //flex box
     
      display: flex;
@@ -518,9 +415,7 @@ font-family:'Pacifico', cursive ;
  .Logo2{
      padding-right: 20px;
      padding-left:20px;
-     //height: auto;
       margin-top:400px;
-      //margin-left:200px;
 
 
  }
@@ -598,7 +493,6 @@ font-family: $open;
     float: left;
     width: 100%;
     height:200px;
-   // border-right: 1px solid #d79e5b;
     display: flex;
     flex-direction: initial;
     align-items: center;
@@ -619,8 +513,6 @@ font-family: $open;
         width: auto;
         float: left;
         width: 100%;
-       // height:200px;
-       // border-right: 1px solid #d79e5b;
         display: flex;
         flex-direction: initial;
         align-items: center;
@@ -653,8 +545,6 @@ font-family: $open;
         width: auto;
         float: left;
         width: 100%;
-       // height:200px;
-       // border-right: 1px solid #d79e5b;
         display: flex;
         flex-direction: initial;
         align-items: center;
@@ -667,18 +557,14 @@ font-family: $open;
         width: 700px;
         @media(max-width: 769px){
       
-           // height: 200px;
             width:230px;
              } 
     }
 
     .prensa5 img{
-        //width:60%;
-       // height: 60%;
        @media(max-width: 769px){
       
           height: 200px;
-          //width:100%;
            }  
 
    }
@@ -686,8 +572,6 @@ font-family: $open;
       
         @media(max-width: 769px){
        
-          // height: 280px;
-            //width: 280px;
             }  
 
     }
@@ -707,16 +591,7 @@ font-family: $open;
             font-size:30px;
         }
     }
-    // .titles-desc{
-    //     font-family:$titles;
-    //     margin-top: 200px;
-    //     @media(max-width: 769px){
-    //         margin-top: 25px;
-    //         font-size: 2rem;
-    //         margin-right: 0px;
-    //     }
-
-    // }
+   
     @keyframes morado-neon {
         0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
             text-shadow: 0 -1px 4px #fff,
@@ -735,7 +610,6 @@ font-size:50px;
 font-family:$titles;
 margin-bottom: -150px;
 animation:morado-neon 5s infinite alternate;
-//margin-top:350px;
 @media(max-width: 769px){
     margin-top: 0px;
     font-size:50px;
@@ -750,8 +624,6 @@ animation:morado-neon 5s infinite alternate;
 
 .premios2{
     width:40%;
-   // margin-left:20px;
-
 }
 
 
@@ -798,7 +670,6 @@ animation:morado-neon 5s infinite alternate;
     float: left;
     width: 100%;
     height:200px;
-   // border-right: 1px solid #d79e5b;
     display: flex;
     flex-direction: initial;
     align-items: center;
@@ -832,8 +703,6 @@ animation:morado-neon 5s infinite alternate;
     width: auto;
     float: left;
     width: 100%;
-    //height:200px;
-   // border-right: 1px solid #d79e5b;
     display: flex;
     flex-direction: initial;
     align-items: center;
@@ -867,16 +736,11 @@ animation:morado-neon 5s infinite alternate;
 
 }
 
-// .group{
-//     width:40%;
-// }
 
 .photos {
     width: auto;
     float: left;
     width: 100%;
-    //height:200px;
-   // border-right: 1px solid #d79e5b;
     display: flex;
     flex-direction: initial;
     align-items: center;
@@ -892,8 +756,6 @@ animation:morado-neon 5s infinite alternate;
         width: auto;
         float: left;
         width: 100%;
-        //height:200px;
-       // border-right: 1px solid #d79e5b;
         display: flex;
         flex-direction: initial;
         align-items: center;
@@ -908,50 +770,6 @@ animation:morado-neon 5s infinite alternate;
         }
 
 
-/////////////// github /////////////
-
-.github-section{
-
-    //filter: grayscale(35%);
-    //height: 80vh;
-    color: #fff;
-    background-color:$blue;
-    font-family:'Open Sans Condensed', sans-serif;
-
-    //background-attachment:cover;
-   //background-image: url(./img/banner.jpg);
-
-    //background-position: center;
-   // background-attachment: fixed; // we can move while the photo its static
-
-}
-
-.text-git{
-    display: flex;
-    font-size:1.1rem ;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-    font-weight: 400;
-    color: #fff;
-    font-family:$open;
-    margin:25px
-
-}
-
-
-.git-btn{
-    border-radius: 50px;
-    border-color: rgba(255, 255, 255, 0.7) ;
-    width: 200px ;
-    background-color:rgba(255, 255, 255, 0.7) ;
-    color: #000;
-}
-
-.git-icon{
-    margin-bottom:20px;
-    font-size:100px
-}
 //////////////////////////////////////////
 //// SERVICES/////
 
@@ -1152,46 +970,6 @@ color:$orange ;
 }
 
 
-.Hobbies-icon {
-display: flex;
-//flex-direction: row;
-
-// align-items: center;
-//   margin: 15px;
-//   margin-left: 70px ;
-  flex-wrap: wrap;
-
- @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-//     //flex-wrap: wrap; // <-- para acomodar los items en una lina o en varias (bajar iconos)
-//    //flex-direction: column;
-//    display: flex;
-    flex-direction: column;
-
-     align-items: center;
-    justify-content: center;
-     // margin-left: 65px;
- margin-right: 50px;
-//     border: 2px;
-//     margin-bottom: 15px;
-//     width: 280px;
-
-    }
-}
-
-.mongo img{
-
-
-    margin-left: 70px ;
-}
-
-.mongo h5{
-    margin-left:60px ;
-}
-
-.H-icons{
-    margin-left: 60px ;
-}
-
 /// Titles//
 .arrow {
 
@@ -1238,160 +1016,10 @@ display: flex;
 
 }
 
-//////////////
 
-
-///////Portfolio///
-
-.portfolio{
-    font-family:$open;
-    //background-color:rgba(240, 95, 64, 0.9);
-    background-color:$grey3;
-    font-weight: 400;
-}
-
-.portfolio h4{
-    color:#fff
-}
-
-
-.port-ilus img{
-height: 250px;
-}
-
-.port-ilus{
-    margin-left: 80px;
-}
-
-.roger img{
-    height: 250px;
-}
-
-
-
-// .hover10 figure img {
-// 	-webkit-filter: grayscale(100%) blur(1px);
-// 	filter: grayscale(100%) blur(1px);
-// 	-webkit-transition: .3s ease-in-out;
-//     transition: .3s ease-in-out;
-//     height: 250px;
-//     margin-left: 80px;
-//     cursor: pointer;
-// }
-// .hover10 figure:hover img {
-// 	-webkit-filter: grayscale(0) blur(0);
-//     filter: grayscale(0) blur(0);
-// }
-
-///
-.container-card{
-    //width: 100%;
-    max-width: 1200px;
-    height: 530px;
-    display: flex;
-    margin-bottom: 40px;
-    display: flex;
-    flex-wrap: wrap;
-
- @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-
-    justify-content: center;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     margin-left: 50px;
-     margin-bottom: 0px;
-
-    }
-}
-
-.container-card .card{
-    width: 200px;
-    height: 500px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;;
-    -webkit-filter: grayscale(100%) ;
-	filter: grayscale(100%) ;
-	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-.container-card .card:hover{
-    -webkit-filter: grayscale(0) ;
-	filter: grayscale(0) ;
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-
-.container-card .card img{
-    width: 200px;
-    height: 280px;
-    border-radius: 12px;
-}
-
-
-.container-card .card h4{
-    font-weight: 600;
-}
-
-.container-card .card p{
-    padding: 0 1rem;
-    font-size: 13px;
-    font-weight: 300;
-}
-
-.container-card .card a {
-    font-weight: 500;
-    text-decoration: none;
-    color: #3498db;
-}
-
-/// resume
-
-.resume h4{
-    font-family:'Open Sans Condensed', sans-serif;
-}
-
-.resume {
-    color: #fff;
-    background-color:$blue;
-
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    flex-direction: column;
-}
 
 .spacer3{
     margin-bottom:70px
-}
-
-.resume-btn{
-
-
-    color: #000;
-    background-color: rgba(255, 255, 255, 0.7);;
-    margin-right: 200px;
-    margin-left: 200px;
-    border-radius:100px;
-    font-family: $open;
-    font-weight:550;
-    font-size:20px;
-    padding:1rem 2rem;
-
-
-}
-.resume-btn:hover {
-    color: #fff;
-    background-color:#212529;
-   // border-color:$dorado;
-    transition: .5s ease;
-
 }
 
 
@@ -1409,18 +1037,11 @@ height: 250px;
     font-weight: .5px;
 }
 .font-figures{
-    // color: white;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // height: 50px;
-    // //width: 50px;// los decentralizo
     color: $grey3;
     width: auto;
     float: left;
     width: 100%;
     height:200px;
-   // border-right: 1px solid #d79e5b;
     display: flex;
     flex-direction: initial;
     align-items: center;
@@ -1430,12 +1051,7 @@ height: 250px;
 
 
     .mailes{
-        // border-right: 2px solid #C84D44 ;
-        // border-left: 2px solid #C84D44;
-        //margin-top: 12px;
         margin-bottom: 15px;
-
-
     }
 
 
