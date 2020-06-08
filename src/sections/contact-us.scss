@@ -60,7 +60,18 @@
     }
  
  
- 
+ .home-icon  i {
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 8px;
+    @media(max-width:769px){
+      padding-top:0px
+    }
+    
+ }
  
  
  .social2{

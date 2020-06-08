@@ -2,8 +2,19 @@ import React from 'react'
 import './MusicLinks.scss'
 import { Icon, InlineIcon } from '@iconify/react';
 import deezerIcon from '@iconify/icons-simple-icons/deezer';
+import { Link,Element ,animateScroll as scroll } from "react-scroll";
+import {Router, withRouter} from 'react-router-dom'
 
-const MusicLinks = () => {
+const MusicLinks = ({match}) => {
+
+     
+    const isActive = path => {
+        if(match.path === path) {
+            return {color:'#EE46B8'}
+        } else{
+            return {color:'#EE46B8'}
+        }
+    };
     return (
         <footer>
             <div className = 'social'>
@@ -23,8 +34,21 @@ const MusicLinks = () => {
                 <a href='https://www.deezer.com/en/artist/12963387' target='_blank' rel='noopener noreferrer'>
                 <Icon icon={deezerIcon} className='deezer' />
                 </a>  
-             
-                
+                <div className='home-icon'>
+                    <Link
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500} 
+                        to='home'
+                        className="nav-link my-2 my-lg-0" 
+                        // style={{cursor:'pointer'}}
+                        style={isActive('/')} >
+                            <i class="fas fa-home"></i>
+                    </Link>  
+                </div>
 
             </div>
             
@@ -32,4 +56,4 @@ const MusicLinks = () => {
     )
 }
 
-export default MusicLinks
+export default withRouter(MusicLinks)

@@ -93,7 +93,7 @@ const newHome = () => {
       const homeContainer = () => (
         <Fragment>
       
-        <header className="header-content "  id="header-content">
+        <header className="header-content "  id="home">
               <div className="header-text">   
                    <p className='Logo1'>      
                   
@@ -301,8 +301,9 @@ const newHome = () => {
        </div>
 
         {/* GALERIA BOTON */}
-        <div className='titles-descGallery text-center'> GALERIA</div>
-        <Videos/>
+        <div ></div>
+        <div className='titles-descGallery text-center' > GALERIA</div>
+        <Videos id='galeria'/>
         {/* <div className='mailes'>
           <span  className='mail text-center' style={{fontSize:'18px'}}>(CLICK EN LA CAMARA)</span>
       </div>
