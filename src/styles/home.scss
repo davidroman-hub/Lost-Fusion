@@ -97,6 +97,7 @@ font-family:'Pacifico', cursive ;
 
 .biografia{
     display: flex;
+    background-color: #080517;
     @media(max-width: 769px){
       flex-direction: column;
     }
@@ -105,12 +106,13 @@ font-family:'Pacifico', cursive ;
 
 .bio-img{
     width:1500px;
+    background-color: #080517;
 
 }
 
 .desc{
     font-size:20px;
-    
+    background-color: #080517;
 	 @media(max-width: 769px){
 		font-size:16px
 	}
@@ -126,6 +128,7 @@ font-family:'Pacifico', cursive ;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: #080517;
     @media(max-width: 769px){
         flex-direction: column;
         margin-top: 0px;
