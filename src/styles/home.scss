@@ -118,12 +118,12 @@ font-family:'Pacifico', cursive ;
 
 //BIOGRAFIA
 .titles-descBio{
-font-size:50px;
+font-size:80px;
 font-family:$titles;
 margin-top: -125px;
 animation:morado-neon  5s infinite alternate;
 @media(max-width: 769px){
-    font-size:30px;
+    font-size:45px;
     margin-top:0px
     }
 }
@@ -243,12 +243,12 @@ animation:morado-neon  5s infinite alternate;
 
           .titles-descPrV{
             margin-bottom: -120px;
-            font-size:50px;
+            font-size:80px;
            font-family:$titles;
            animation:morado-neon 5s infinite alternate;
            @media(max-width: 769px){
                margin-bottom: 0px;
-               font-size:25px;
+               font-size:35px;
                
                }  
         }
@@ -283,12 +283,12 @@ animation:morado-neon  5s infinite alternate;
 
         .titles-descPrR{
             margin-bottom: -120px;
-            font-size:50px;
+            font-size:75px;
            font-family:$titles;
            animation:morado-neon 5s infinite alternate;
            @media(max-width: 769px){
                margin-bottom: 0px;
-               font-size:25px;
+               font-size:35px;
                
                }  
         }
