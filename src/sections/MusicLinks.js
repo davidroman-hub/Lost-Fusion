@@ -18,6 +18,13 @@ const MusicLinks = ({match}) => {
     return (
         <footer>
             <div className = 'social'>
+            <a href='https://www.facebook.com/lostfusion' target='_blank' rel='noopener noreferrer'>
+            <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href='https://www.instagram.com/lostfusion_oficial' target='_blank' rel='noopener noreferrer'>
+                <i class="fab fa-instagram"></i>
+                </a>
                 <a href='https://open.spotify.com/artist/7KZHOPhqGOczZDbLBCUskM' target='_blank' rel='noopener noreferrer'>
                      <i className="fab fa-spotify"></i>
                 </a>
@@ -31,9 +38,9 @@ const MusicLinks = ({match}) => {
                 <a href='https://www.youtube.com/channel/UCRHNmMDXY8N0i3C8Pp9M-nA' target='_blank' rel='noopener noreferrer'>
                 <i class="fab fa-youtube"></i>
                 </a>  
-                <a href='https://www.deezer.com/en/artist/12963387' target='_blank' rel='noopener noreferrer'>
+                {/* <a href='https://www.deezer.com/en/artist/12963387' target='_blank' rel='noopener noreferrer'>
                 <Icon icon={deezerIcon} className='deezer' />
-                </a>  
+                </a>   */}
                 <div className='home-icon'>
                     <Link
                     activeClass="active"

@@ -302,7 +302,20 @@ import {
                </Link>
             </li>
         </ul>
-       
+        <ul class="nav navbar-nav mx-auto">
+          <li class="nav-item"><Link 
+               activeClass="active"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration={500} 
+                to='contacto'
+                className="nav-link my-2 my-lg-0" 
+               style={isActive('/')} >
+                 CONTACTO
+               </Link>
+            </li>
+        </ul>
          {/* <form className="nav-link my-2 my-lg-0">
          <Link to='/' className="nav-link my-2 my-lg-0" >
                HOME

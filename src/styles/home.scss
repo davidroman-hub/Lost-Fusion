@@ -93,7 +93,41 @@ font-family:'Pacifico', cursive ;
 
   }
 
+// second logo
+
+.band-4{
+    margin-top:-250px;
+    width: 100%;
+    margin-bottom: -110px;
+    @media(max-width: 769px){
+    // margin-top:-200px;
+    margin-bottom: -50px;
+}
+  }
+ 
+  .band-4 img{
+    
+     width: 60%;
+     @media(max-width: 769px){
+      //margin-top:-200px;
+      width:100%
+  }
+ }
+
+
+
 //BIOGRAFIA
+.titles-descBio{
+font-size:50px;
+font-family:$titles;
+margin-top: -125px;
+animation:morado-neon  5s infinite alternate;
+@media(max-width: 769px){
+    font-size:30px;
+    margin-top:0px
+    }
+}
+
 
 .biografia{
     display: flex;
@@ -117,6 +151,8 @@ font-family:'Pacifico', cursive ;
 		font-size:16px
 	}
 }
+
+
 
 //// musica
 
@@ -424,22 +460,7 @@ font-family:'Pacifico', cursive ;
 
  }
 
- .band-4{
-   margin-top:-300px;
-   width: 100%;
-   @media(max-width: 769px){
-    margin-top:-200px;
-}
- }
 
- .band-4 img{
-   
-    width: 60%;
-    @media(max-width: 769px){
-     //margin-top:-200px;
-     width:100%
- }
-}
 
 ////////////////////////////////////////////////////////////////
 ////Main Styles

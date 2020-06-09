@@ -112,7 +112,7 @@ const newHome = () => {
         {/* BIOGRAFIA */}
 
         <div className=" text-center" id="bio">
-         <h2 className="titles-desc">
+         <h2 className="titles-descBio">
          BIO
          </h2>
         </div>
@@ -164,7 +164,7 @@ const newHome = () => {
          
           
                          <span className='animation' style={{fontSize:'30px'}}>Lost Fusión</span> <span style={{fontSize:'30px'}} >es:</span>
-                         <br/>
+                      
                          <br/> 
                            • MAYRA FIGUEROA - Voz y Teclado 
                            <br/>
@@ -290,7 +290,7 @@ const newHome = () => {
        
        <div className="logo3">
                     <div className='group'>
-                      
+                     
                       <img className='img img-fluid'
                         style={{maxHeight:''}} 
                         src={Logo}
@@ -299,11 +299,13 @@ const newHome = () => {
                       <br/>
                     </div>
        </div>
-
+      
         {/* GALERIA BOTON */}
         <div ></div>
         <div className='titles-descGallery text-center' > GALERIA</div>
-        <Videos id='galeria'/>
+        <div id='galeria'/>
+        <Videos />
+        
         {/* <div className='mailes'>
           <span  className='mail text-center' style={{fontSize:'18px'}}>(CLICK EN LA CAMARA)</span>
       </div>
@@ -320,8 +322,11 @@ const newHome = () => {
   
        {/* CONTACTO */}
 
-          
+       <div  id='contacto'/>
         <div className='titles-desc text-center '> CONTACTO:</div>
+        <div className="desc container text-center">
+          <span className='animation' style={{fontSize:'30px'}}>Booking/Medios</span> <span style={{fontSize:'20px'}} ></span>
+       </div>
         <div className='mailes'>
           <a  className='mail text-center' style={{fontSize:'18px'}} href="mailto:contacto.lostfusion@gmail.com">contacto.lostfusion@gmail.com</a>
       </div>
@@ -330,7 +335,7 @@ const newHome = () => {
 
         {/* <Contact/> */}
    
-
+ 
     
         <div className='botas text-center'>
             <div className="g-ytsubscribe" data-channelid="UCRHNmMDXY8N0i3C8Pp9M-nA" data-layout="default" data-count="default"/>
