@@ -19,7 +19,7 @@ const Contact = () => {
                 <i class="fab fa-youtube"></i>
                 </a>   */}
 
-                <a href='tel:55741276954'>
+                <a href='tel:+525574127694'>
                 <i class="fab fa-whatsapp"></i>
                 </a>  
                  
