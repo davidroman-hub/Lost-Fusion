@@ -115,10 +115,10 @@ export const images2 = [
         original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591484911/galeria/chidas%20y%20no%20mamadas/otras/196ff373-5291-4c40-a7e1-a559d0716367_thpxtc.jpg',
         thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591484911/galeria/chidas%20y%20no%20mamadas/otras/196ff373-5291-4c40-a7e1-a559d0716367_thpxtc.jpg',
       },
-      {
-        original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591484907/galeria/chidas%20y%20no%20mamadas/otras/45577846_1983606805065642_1682635351824269312_o_vess1h.jpg',
-        thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591484907/galeria/chidas%20y%20no%20mamadas/otras/45577846_1983606805065642_1682635351824269312_o_vess1h.jpg',
-      },
+      // {
+      //   original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591484907/galeria/chidas%20y%20no%20mamadas/otras/45577846_1983606805065642_1682635351824269312_o_vess1h.jpg',
+      //   thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591484907/galeria/chidas%20y%20no%20mamadas/otras/45577846_1983606805065642_1682635351824269312_o_vess1h.jpg',
+      // },
       {
         original: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591484905/galeria/chidas%20y%20no%20mamadas/otras/Captura_de_Pantalla_2019-11-25_a_la_s_12.34.29_x4jpsk.png',
         thumbnail: 'https://res.cloudinary.com/dmt6wbsai/image/upload/v1591484905/galeria/chidas%20y%20no%20mamadas/otras/Captura_de_Pantalla_2019-11-25_a_la_s_12.34.29_x4jpsk.png',
