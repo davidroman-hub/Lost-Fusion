@@ -145,7 +145,7 @@ const newHome = () => {
                 y el folklore </span>
                 son las banderas en cada<br/> una de sus presentaciones,
                 poniendo al <br/> 
-                público en una <span className='animation' style={{fontSize:'20px'}}> misma sintonía</span>, 
+                público en una <span className='animation' style={{fontSize:'20px'}}> misma sintonía</span>.
               
               
                 <br/>
