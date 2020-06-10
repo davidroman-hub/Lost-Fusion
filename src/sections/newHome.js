@@ -146,8 +146,7 @@ const newHome = () => {
                 son las banderas en cada<br/> una de sus presentaciones,
                 poniendo al <br/> 
                 público en una <span className='animation' style={{fontSize:'20px'}}> misma sintonía</span>, 
-                haciéndolos<br/> vibrar juntos en cada nota y con mucha energía.
-                
+              
               
                 <br/>
                 <br/> 
