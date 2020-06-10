@@ -1123,3 +1123,15 @@ color:$orange ;
 .facebook-but{
     display: none;
 }
+
+//// fixing videos
+
+.iframe-vid{
+    width:1000px;
+    height:615px;
+    @media(max-width: 769px){
+        width:350px;
+        height:315px;
+        
+    }
+}

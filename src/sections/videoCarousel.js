@@ -160,8 +160,6 @@ class videoCarousel extends React.Component {
                 </a>
                 <iframe
                  className='iframe-vid'
-                  width='350'
-                  height='315'
                   src={item.embedUrl}
                   frameBorder='0'
                   allowFullScreen
