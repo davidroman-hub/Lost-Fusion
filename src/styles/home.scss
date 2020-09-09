@@ -79,6 +79,7 @@ font-family:'Pacifico', cursive ;
 
 @media(max-width: 769px){
     height: 50vh;
+    margin-top: -20px;
 }
 
 // // //flex box
@@ -1132,6 +1133,13 @@ color:$orange ;
     @media(max-width: 769px){
         width:350px;
         height:315px;
+        
+    }
+}
+
+.Sabes{
+    @media(max-width: 769px){
+        //height: 500px;
         
     }
 }

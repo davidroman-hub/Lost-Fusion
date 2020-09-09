@@ -15,6 +15,7 @@ import MusicPlayer from 'react-responsive-music-player';
 import ImageGallery from 'react-image-gallery';
 import VideoCarousel from './videoCarousel';
 import Videos from './pages/Videos'
+import sabes from '../images/sabes.gif'
 
 const newHome = () => {
 
@@ -37,6 +38,15 @@ const newHome = () => {
 
   
 
+const Estrenos = () => {
+  return(
+    <div className='text-center mt-5'>
+      <a href='https://open.spotify.com/album/1j1PVVtGsyjYh0u3RXloMS' target='_blank' rel='noopener noreferrer'>
+        <img src={sabes} alt='estreno' className='img img-fluid '></img>
+      </a>
+    </div>
+  )
+}
 
   
     const options = { 
@@ -95,7 +105,7 @@ const newHome = () => {
       
         <header className="header-content "  id="home">
               <div className="header-text">   
-                   <p className='Logo1'>      
+                  <p className='Logo1'>      
                   
                   </p>      
               </div>
@@ -357,7 +367,7 @@ const newHome = () => {
 
     return (
        <Header>
-      
+         {Estrenos()}
          {homeContainer()}
          
          <br/>
