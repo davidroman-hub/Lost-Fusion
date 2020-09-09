@@ -1144,3 +1144,14 @@ color:$orange ;
         
     }
 }
+
+.desc-content{
+    text-align: justify;
+    margin-right: 200px;
+    margin-left: 200px;
+    @media(max-width: 769px){
+        margin-right: 0px;
+        margin-left: 0px;
+        
+    }
+}

@@ -48,6 +48,30 @@ const Estrenos = () => {
   )
 }
 
+
+const NewDescription = () => {
+  return(
+            <div className="desc-content">
+                
+                <span className='animation' style={{fontSize:'20px'}}>Lost Fusión</span> es un proyecto musical 
+                independiente
+                que surge de la <span className='animation' style={{fontSize:'20px'}}>CDMX</span>, 
+                han logrado 
+                mezclar y conectar bastos panoramas
+                musicales como el <span className='animation' style={{fontSize:'20px'}}>rock,
+                funk, reggae,
+                hasta un sonido más urbano y latino</span>;
+                dando como resultado el sonido propio 
+                que los caracteriza con su estilo único 
+                “Urban Latin Beat”.<span className='animation' style={{fontSize:'20px'}}> El amor, la libertad 
+                y el folklore </span>
+                son las banderas en cada una de sus presentaciones,
+                poniendo al público en una <span className='animation' style={{fontSize:'20px'}}> misma sintonía</span>.
+                    {/* <ReactJkMusicPlayer {...options} /> */}
+            </div>
+  )
+}
+
   
     const options = { 
         audioLists: audioList1,
@@ -140,32 +164,11 @@ const Estrenos = () => {
 
             
               <div className="desc container text-center">
-                
-                <span className='animation' style={{fontSize:'20px'}}>Lost Fusión</span> es un proyecto musical<br/> 
-                independiente
-                que surge de la <span className='animation' style={{fontSize:'20px'}}>CDMX</span>, 
-                <br/> han logrado 
-                 mezclar y conectar bastos<br/> panoramas
-                 musicales como el <span className='animation' style={{fontSize:'20px'}}>rock,
-                funk,<br/> reggae,
-                 hasta un sonido más urbano y latino</span>;<br/>
-                 dando como resultado el sonido propio <br/>
-                 que los caracteriza con su estilo único<br/> 
-                “Urban Latin Beat”.<span className='animation' style={{fontSize:'20px'}}> El amor, la libertad<br/> 
-                y el folklore </span>
-                son las banderas en cada<br/> una de sus presentaciones,
-                poniendo al <br/> 
-                público en una <span className='animation' style={{fontSize:'20px'}}> misma sintonía</span>.
-              
-              
-                <br/>
-                <br/> 
-                <br/>
-                     
-                    {/* <ReactJkMusicPlayer {...options} /> */}
-                 </div>
-                 </div>
-      
+                 <NewDescription/>
+              </div>
+                </div>
+
+
                 <br/>
                 <br/> 
 
