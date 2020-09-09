@@ -40,7 +40,7 @@ const newHome = () => {
 
 const Estrenos = () => {
   return(
-    <div className='text-center mt-5'>
+    <div className='text-center mt-5 Sabes'>
       <a href='https://open.spotify.com/album/1j1PVVtGsyjYh0u3RXloMS' target='_blank' rel='noopener noreferrer'>
         <img src={sabes} alt='estreno' className='img img-fluid '></img>
       </a>
