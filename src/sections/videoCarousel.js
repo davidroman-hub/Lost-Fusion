@@ -2,6 +2,7 @@ import React from "react";
 import "../sections/pages/Videos.scss";
 
 import ImageGallery from "react-image-gallery";
+import grabando from "../images/grabandomusica.png";
 
 //const PREFIX_URL = 'https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/';
 
@@ -27,6 +28,15 @@ class videoCarousel extends React.Component {
     };
 
     this.images = [
+      {
+        thumbnail:
+          "https://res.cloudinary.com/dm8dxwvix/image/upload/c_scale,h_740,w_1000/v1618325747/lost%20Fusion/Captura_de_Pantalla_2021-04-13_a_la_s_16.46.00_cgp1o3.png",
+        original:
+          "https://res.cloudinary.com/dm8dxwvix/image/upload/c_scale,h_740,w_1000/v1618325747/lost%20Fusion/Captura_de_Pantalla_2021-04-13_a_la_s_16.46.00_cgp1o3.png",
+        embedUrl: "https://www.youtube.com/embed/nd1pGrTzE6Y",
+        description: "Grabando musica",
+        renderItem: this._renderVideo.bind(this),
+      },
       {
         thumbnail:
           "https://res.cloudinary.com/dm8dxwvix/image/upload/v1591224558/lost%20Fusion/serpiente_scbnef.png",
