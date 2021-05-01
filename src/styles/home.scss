@@ -1,1159 +1,987 @@
-
-body{
-    background-color:#080517;
-    color: #fff;
+body {
+  background-color: #080517;
+  color: #fff;
 }
-
-
 
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 
-
-
-// ////////////////////////////////////////////////////////////////
-// ///// FIGURES
-
-
+/*
+Assets Sass
+*/
 
 // letters
 
-$cursive: 'Pacifico', cursive ;
-//$open:'Open Sans Condensed', sans-serif;
-$open:'Quicksand', sans-serif;
-$titles:'Chelsea Market', cursive;
-// colors
+$cursive: "Pacifico", cursive;
+$open: "Quicksand", sans-serif;
+$titles: "Chelsea Market", cursive;
+$orange: #c84d44;
+$dorado: #d79e5b;
+$beige: #fecea8;
+$grey: rgba(255, 255, 255, 0.5);
+$brown: #83342e;
+$grey2: #a99590;
+$grey3: #343a40;
+$blue: #1464ba;
 
-$orange: #C84D44;
-$dorado:#d79e5b ;
-$beige:#FECEA8;
-$grey: rgba(255,255,255,.5);
-$brown:#83342E;
-$grey2:#A99590;
-$grey3:#343A40;
-$blue:#1464ba;
-
-*{
-    //universal selector
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: $open;
+* {
+  //universal selector
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $open;
 }
 
-.fusion img{
-    display:none
+.fusion img {
+  display: none;
 }
 
-.content{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.content {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-    body {
-        font-family: 'PT Serif', serif;
-        font-size: 14px;
-    }
-
-p{
-margin-bottom: 30px;
+body {
+  font-family: "PT Serif", serif;
+  font-size: 14px;
 }
 
-.regular-text{
-font-weight: 400;
-font-family:'Pacifico', cursive ;
+p {
+  margin-bottom: 30px;
+}
+
+.regular-text {
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
 }
 
 /////// Header ///////////
 
-  .header-content{
+.header-content {
+  height: 100vh;
+  background: #080517;
+  background-image: url("https://res.cloudinary.com/dm8dxwvix/image/upload/v1591069918/lost%20Fusion/group2_1_tby2ra.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
-      height: 100vh;
-      background:#080517;
-     // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
-      background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591069918/lost%20Fusion/group2_1_tby2ra.jpg');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-
-@media(max-width: 769px){
+  @media (max-width: 769px) {
     height: 50vh;
     margin-top: -20px;
-}
-
-// // //flex box
-
- display: flex;
- //flex-direction: column;
- justify-content: center;
- align-items: center;
- text-align: center;
-
-// // z-index: 1;
-
   }
 
-// second logo
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-.band-4{
-    margin-top:-150px;
-    width: 100%;
-    margin-bottom: -110px;
-    @media(max-width: 769px){
-    // margin-top:-200px;
+
+.band-4 {
+  margin-top: -150px;
+  width: 100%;
+  margin-bottom: -110px;
+  @media (max-width: 769px) {
     margin-bottom: -50px;
+  }
 }
-  }
- 
-  .band-4 img{
-    
-     width: 60%;
-     @media(max-width: 769px){
-      //margin-top:-200px;
-      width:100%
-  }
- }
 
-
+.band-4 img {
+  width: 60%;
+  @media (max-width: 769px) {
+    width: 100%;
+  }
+}
 
 //BIOGRAFIA
-.titles-descBio{
-font-size:80px;
-font-family:$titles;
-margin-top: -125px;
-animation:morado-neon  5s infinite alternate;
-@media(max-width: 769px){
-    font-size:45px;
-    margin-top:30px
-    }
+.titles-descBio {
+  font-size: 80px;
+  font-family: $titles;
+  margin-top: -125px;
+  animation: morado-neon 5s infinite alternate;
+  @media (max-width: 769px) {
+    font-size: 45px;
+    margin-top: 30px;
+  }
 }
 
-
-.biografia{
-    display: flex;
-    background-color: #080517;
-    @media(max-width: 769px){
-      flex-direction: column;
-    }
+.biografia {
+  display: flex;
+  background-color: #080517;
+  @media (max-width: 769px) {
+    flex-direction: column;
+  }
 }
 
-
-.bio-img{
-    width:1500px;
-    background-color: #080517;
-
+.bio-img {
+  width: 1500px;
+  background-color: #080517;
 }
 
-.desc{
-    font-size:20px;
-    background-color: #080517;
-	 @media(max-width: 769px){
-		font-size:16px
-	}
+.desc {
+  font-size: 20px;
+  background-color: #080517;
+  @media (max-width: 769px) {
+    font-size: 16px;
+  }
 }
-
-
 
 //// musica
 
-
-.musica{
-    display: flex;
-    margin-top: -250px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #080517;
-    @media(max-width: 769px){
-        flex-direction: column;
-        margin-top: 0px;
-      }
+.musica {
+  display: flex;
+  margin-top: -250px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #080517;
+  @media (max-width: 769px) {
+    flex-direction: column;
+    margin-top: 0px;
+  }
 }
 
-.reproductor{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    //margin-top: 400px;
-    @media(max-width: 769px){
-      
-      }
+.reproductor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //margin-top: 400px;
+  @media (max-width: 769px) {
+  }
 }
 
-
-
-.albums-photo img{
-  width:60%;
+.albums-photo img {
+  width: 60%;
 }
 
-
-
-
-/// pointer!
-
-.navbar li{
+.navbar li {
   cursor: pointer;
   font-size: 18px;
-  @media(max-width: 769px){
-   font-size: 15px;
-      }
-  
+  @media (max-width: 769px) {
+    font-size: 15px;
+  }
 }
 
+.videos {
+
+  background-image: url("https://res.cloudinary.com/dm8dxwvix/image/upload/v1591305665/lost%20Fusion/backgrounds/SECCION1_LFWEB_tu0ptl.png");
 
 
+  height: 180vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
-.videos{
-    //background-color:red
-    background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591305665/lost%20Fusion/backgrounds/SECCION1_LFWEB_tu0ptl.png');
-   
-        //      width: 100%;
-              height: 180vh;
-        
-        //      color: #fff;
-             // background:black;
-             // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-position: center;
-        //     //background-attachment: fixed; // we can move while the photo its static
-        //     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
-        //     filter: grayscale(50%);
-        @media(max-width: 769px){
-            background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591305665/lost%20Fusion/backgrounds/SECCION1_LFWEB_tu0ptl.png');
-            background-size:600px;
-            background-size: cover;
-            height: 80vh;
-       
-        }
-            
-        // // //flex box
-        
-         display: flex;
-         //flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-        
-        // // z-index: 1;
-        
-          }
+  @media (max-width: 769px) {
+    background-image: url("https://res.cloudinary.com/dm8dxwvix/image/upload/v1591305665/lost%20Fusion/backgrounds/SECCION1_LFWEB_tu0ptl.png");
+    background-size: 600px;
+    background-size: cover;
+    height: 80vh;
+  }
 
-          .titles-descPrV{
-            margin-bottom: -120px;
-            font-size:80px;
-           font-family:$titles;
-           animation:morado-neon 5s infinite alternate;
-           @media(max-width: 769px){
-               margin-bottom: 0px;
-               font-size:35px;
-               
-               }  
-        }
-       
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-        .reproductor{
+.titles-descPrV {
+  margin-bottom: -120px;
+  font-size: 80px;
+  font-family: $titles;
+  animation: morado-neon 5s infinite alternate;
+  @media (max-width: 769px) {
+    margin-bottom: 0px;
+    font-size: 35px;
+  }
+}
 
-           // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591398062/lost%20Fusion/SECC55.55_LFWEB_seljxj.png');
-            background-image: url('https://res.cloudinary.com/dmt6wbsai/image/upload/v1591660232/galeria/chidas%20y%20no%20mamadas/backgrounds/SECC55.555_LFWEB_u9lmar.png');
-              height: 140vh;
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-position: center;
-   
-        margin-bottom: 200px;
-        @media(max-width: 769px){
-            background-image:none;
-            background-size:500px;
-            height: 80vh;
-            margin-bottom: 0px;
-        }
-           
-        
-         display: flex;
-         //flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         text-align: center;
+.reproductor {
+  background-image: url("https://res.cloudinary.com/dmt6wbsai/image/upload/v1591660232/galeria/chidas%20y%20no%20mamadas/backgrounds/SECC55.555_LFWEB_u9lmar.png");
+  height: 140vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
-        }
+  margin-bottom: 200px;
+  @media (max-width: 769px) {
+    background-image: none;
+    background-size: 500px;
+    height: 80vh;
+    margin-bottom: 0px;
+  }
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-        .titles-descPrR{
-            margin-bottom: -120px;
-            font-size:75px;
-           font-family:$titles;
-           animation:morado-neon 5s infinite alternate;
-           @media(max-width: 769px){
-               margin-bottom: 0px;
-               font-size:35px;
-               
-               }  
-        }
+.titles-descPrR {
+  margin-bottom: -120px;
+  font-size: 75px;
+  font-family: $titles;
+  animation: morado-neon 5s infinite alternate;
+  @media (max-width: 769px) {
+    margin-bottom: 0px;
+    font-size: 35px;
+  }
+}
 //// music
 
-.musica{
-    margin-bottom:60px;
-    @media(max-width: 769px){
-        margin-bottom: 0px;
-     
-    }
+.musica {
+  margin-bottom: 60px;
+  @media (max-width: 769px) {
+    margin-bottom: 0px;
+  }
 }
 
+.gallery-section {
+  background-image: url("https://res.cloudinary.com/dm8dxwvix/image/upload/v1591409750/lost%20Fusion/SECC_VIDEO3__LFWEB_id8qeg.png");
+  width: 100%;
+  height: 55vh;
+  margin-bottom: 80px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (max-width: 769px) {
+
+    background-size: 300px;
+    height: 80vh;
+    margin-bottom: 0px;
+
+  }
 
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.titles-descGallery {
+  font-size: 80px;
+  margin-top: 0px;
+  font-family: $titles;
+  animation: morado-neon 5s infinite alternate;
+  @media (max-width: 769px) {
+    font-size: 40px;
+  }
+}
 
+.button {
+  background-image: url("https://res.cloudinary.com/dm8dxwvix/image/upload/v1591408189/lost%20Fusion/BACKGROUND_SECC_GALERIA_wo8wjd.png");
 
-/// button gallery
+  height: 100vh;
+  @media (max-width: 769px) {
+    background-image: none;
+    background-size: 500px;
+    height: 80vh;
+  }
 
-.gallery-section{
+  // // //flex box
 
-            background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591409750/lost%20Fusion/SECC_VIDEO3__LFWEB_id8qeg.png');
-             width: 100%;
-            height: 55vh;
-           // margin-top: -20pc;
-             margin-bottom:80px;
-        //      color: #fff;
-            // background:black;
-            // background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590630526/lost%20Fusion/01_kijq3s.png');
-            background-size: 300px;
-            background-repeat: no-repeat;
-            background-position: center;
-        //     //background-attachment: fixed; // we can move while the photo its static
-        //     box-shadow: inset 0 0 100px 150px rgba(0,0,0,.4);// shadow inside around the page
-        //     filter: grayscale(50%);
-        @media(max-width: 769px){
-            //background-image:none;
-            background-size:300px;
-            height: 80vh;
-            margin-bottom: 0px;
-        //   width: 100%;
-            //background-size: cover;
-        }
-            // @media(min-width: 969px){
-            // 	 		background-size:650px;
-            // 			 height: 80vh;
-            // 	 	}
-        // // ///position static photo///
-
-        // // // position: relative;
-        // // // top:0;// change for the navbar
-        // // // left: 0;
-
-        // // //flex box
-
-        display: flex;
-        //flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-
-        }
-
-
-       
-        .titles-descGallery{
-            font-size:80px;
-            margin-top: 0px;
-            font-family:$titles;
-            animation:morado-neon  5s infinite alternate;
-            @media(max-width: 769px){
-                font-size:40px;
-            }
-        }
-
-
-
-
-
-
-
-
-.button{
-
-    background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591408189/lost%20Fusion/BACKGROUND_SECC_GALERIA_wo8wjd.png');
-   
-   
-        height: 100vh;
-        @media(max-width: 769px){
-        background-image:none;
-        background-size:500px;
-        height: 80vh;
-   
-    }
-        
-    
-    // // //flex box
-    
-     display: flex;
-     //flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-
-    }
-
- 
-
-
-
-
-
-
+  display: flex;
+  //flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 ///////////////////////////////////////
 //contact
 
-.botas{
-    background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1591322632/lost%20Fusion/dd_1_elthcl.png');
-   
-    
-          height: 100vh;
-          background-size: contain;
-          background-repeat: no-repeat;
-          background-position: center;
-          padding-top: 650px;
-  
-            @media(max-width: 769px){
-                //background-image:none;
-                background-size:310px;
-                height: 80vh;
-                padding-top: 450px;
-    
-    }
-        
-    // // //flex box
-    
-     display: flex;
-     //flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-    flex-direction: column;
+.botas {
+  background-image: url("https://res.cloudinary.com/dm8dxwvix/image/upload/v1591322632/lost%20Fusion/dd_1_elthcl.png");
 
-    }
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 650px;
+
+  @media (max-width: 769px) {
+    background-size: 310px;
+    height: 80vh;
+    padding-top: 450px;
+  }
 
 
-
-
-.after{
-    margin-top:-250px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
 
+.after {
+  margin-top: -250px;
+}
 
-
-.spacer-figure{
-    margin-top:10px
+.spacer-figure {
+  margin-top: 10px;
 }
 
 /////////////////////
 
-
- .Logo2{
-     padding-right: 20px;
-     padding-left:20px;
-      margin-top:400px;
-
-
- }
-
-
+.Logo2 {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 400px;
+}
 
 ////////////////////////////////////////////////////////////////
 ////Main Styles
 
- /// animaciones de letras ///
- .animation{
-margin-bottom: 0;
-font-size: 18px;
-animation: naranja-neon 6s infinite alternate;
-font-family: $open;
-
+/// animaciones de letras ///
+.animation {
+  margin-bottom: 0;
+  font-size: 18px;
+  animation: naranja-neon 6s infinite alternate;
+  font-family: $open;
 }
-.animation-l{
-    margin-bottom: 0;
-    font-size: 16px;
-    animation: naranja-neon2 100s infinite alternate;
-    font-family: $open;
-    
-    }
+.animation-l {
+  margin-bottom: 0;
+  font-size: 16px;
+  animation: naranja-neon2 100s infinite alternate;
+  font-family: $open;
+}
 
 @keyframes naranja-neon {
-	0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
-		text-shadow: 0 -1px 4px #fff,
-					 0 -2px 10px #ff0,
-					 0 -10px 20px #ee46b8;
-	}
+  0%,
+  10%,
+  15%,
+  20%,
+  30%,
+  35%,
+  40%,
+  50%,
+  55%,
+  60%,
+  70%,
+  75%,
+  80%,
+  85%,
+  90%,
+  100% {
+    text-shadow: 0 -1px 4px #fff, 0 -2px 10px #ff0, 0 -10px 20px #ee46b8;
+  }
 
-	10%, 15%, 60% {
-		text-shadow: none;
-	}
+  10%,
+  15%,
+  60% {
+    text-shadow: none;
+  }
 }
-
 
 @keyframes naranja-neon2 {
-	0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
-		text-shadow: 0 -1px 4px #fff,
-					 //0 -2px 10px #ff0,
-					 0 -10px 20px #ee46b8;
-	}
-
+  0%,
+  10%,
+  15%,
+  20%,
+  30%,
+  35%,
+  40%,
+  50%,
+  55%,
+  60%,
+  70%,
+  75%,
+  80%,
+  85%,
+  90%,
+  100% {
+    text-shadow: 0 -1px 4px #fff,
+      0 -10px 20px #ee46b8;
+  }
 }
 
-
-
-
-
-.grey1{
-	color: $grey2;
+.grey1 {
+  color: $grey2;
 }
-////////PRENSA
-// ///// prensa
 
 .prensa {
-    width: auto;
-    float: left;
-    width: 100%;
-    height:200px;
-    display: flex;
-    flex-direction: initial;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 3.5em;
-    /// changing
-    margin-top: 100px;
-    @media(max-width: 769px){
-       
-       margin-top: 0px;
-         } 
+  width: auto;
+  float: left;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5em;
+  margin-top: 100px;
 
-    }
-
-
-    .triangle{
-        width: auto;
-        float: left;
-        width: 100%;
-        display: flex;
-        flex-direction: initial;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        font-size: 3.5em;
-    }
-
-    
-    .prensa4 img{
-         width:60%;
-        // height: 60%;
-        @media(max-width: 769px){
-       
-           height: 200px;
-           width:80%;
-            }  
-
-    }
-
-    .spacer2{
-        padding-bottom:200px;
-        @media(max-width: 769px){
-     
-         margin-bottom: -210px;
-         }
-     }
-
-    .triangle{
-        width: auto;
-        float: left;
-        width: 100%;
-        display: flex;
-        flex-direction: initial;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        font-size: 3.5em;
-    }
-
-    .triangleIm img{
-        width: 700px;
-        @media(max-width: 769px){
-      
-            width:230px;
-             } 
-    }
-
-    .prensa5 img{
-       @media(max-width: 769px){
-      
-          height: 200px;
-           }  
-
-   }
-    .premios2 img{
-      
-        @media(max-width: 769px){
-       
-            }  
-
-    }
-  
-
-    .prensa2{
-        width:40%;
-        margin-left:20px;
-
-    }
-
-    .titles-desc{
-        font-size:50px;
-        font-family:$titles;
-        animation:morado-neon  5s infinite alternate;
-        @media(max-width: 769px){
-            font-size:30px;
-        }
-    }
-   
-    @keyframes morado-neon {
-        0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
-            text-shadow: 0 -1px 4px #fff,
-                       //  0 -2px 10px #ff0,
-                         0 -10px 20px #ee46b8;
-        }
-
-        10%, 15%, 60% {
-            text-shadow: none;
-        }
-    }
-
-////// PREMIOS
-.titles-descP{
-font-size:50px;
-font-family:$titles;
-margin-bottom: -150px;
-animation:morado-neon 5s infinite alternate;
-@media(max-width: 769px){
+  @media (max-width: 769px) {
     margin-top: 0px;
-    font-size:50px;
-   margin-bottom: -200px;
-    }
+  }
 }
 
-
-.prensa1{
-    width:40%;
+.triangle {
+  width: auto;
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5em;
 }
 
-.premios2{
-    width:40%;
+.prensa4 img {
+  width: 60%;
+  @media (max-width: 769px) {
+    height: 200px;
+    width: 80%;
+  }
 }
 
+.spacer2 {
+  padding-bottom: 200px;
+  @media (max-width: 769px) {
+    margin-bottom: -210px;
+  }
+}
 
-.spacer{
-   padding-bottom:200px;
-   @media(max-width: 769px){
+.triangle {
+  width: auto;
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5em;
+}
 
+.triangleIm img {
+  width: 700px;
+  @media (max-width: 769px) {
+    width: 230px;
+  }
+}
+
+.prensa5 img {
+  @media (max-width: 769px) {
+    height: 200px;
+  }
+}
+.premios2 img {
+  @media (max-width: 769px) {
+  }
+}
+
+.prensa2 {
+  width: 40%;
+  margin-left: 20px;
+}
+
+.titles-desc {
+  font-size: 50px;
+  font-family: $titles;
+  animation: morado-neon 5s infinite alternate;
+  @media (max-width: 769px) {
+    font-size: 30px;
+  }
+}
+
+@keyframes morado-neon {
+  0%,
+  10%,
+  15%,
+  20%,
+  30%,
+  35%,
+  40%,
+  50%,
+  55%,
+  60%,
+  70%,
+  75%,
+  80%,
+  85%,
+  90%,
+  100% {
+    text-shadow: 0 -1px 4px #fff,
+      //  0 -2px 10px #ff0,
+      0 -10px 20px #ee46b8;
+  }
+
+  10%,
+  15%,
+  60% {
+    text-shadow: none;
+  }
+}
+
+//PREMIOS
+
+.titles-descP {
+  font-size: 50px;
+  font-family: $titles;
+  margin-bottom: -150px;
+  animation: morado-neon 5s infinite alternate;
+  @media (max-width: 769px) {
+    margin-top: 0px;
+    font-size: 50px;
+    margin-bottom: -200px;
+  }
+}
+
+.prensa1 {
+  width: 40%;
+}
+
+.premios2 {
+  width: 40%;
+}
+
+.spacer {
+  padding-bottom: 200px;
+  @media (max-width: 769px) {
     margin-bottom: -60px;
-    }
+  }
 }
 
 //HIGHLIGHTS
 
-.titles-descH{
-    font-size:50px;
-    font-family:$titles;
-    animation:morado-neon 5s infinite alternate;
-    @media(max-width: 769px){
-       
-        font-size:25px;
-        
-        }   
- }
+.titles-descH {
+  font-size: 50px;
+  font-family: $titles;
+  animation: morado-neon 5s infinite alternate;
+  @media (max-width: 769px) {
+    font-size: 25px;
+  }
+}
 
+//PRESENTACIONES
 
-//////////////////////////////////////
- ///PRESENTACIONES
+.titles-descPr {
+  margin-bottom: 100px;
+  font-size: 50px;
+  font-family: $titles;
+  animation: morado-neon 5s infinite alternate;
+  @media (max-width: 769px) {
+    margin-bottom: 0px;
+    font-size: 25px;
+  }
+}
 
- .titles-descPr{
-     margin-bottom: 100px;
-     font-size:50px;
-    font-family:$titles;
-    animation:morado-neon 5s infinite alternate;
-    @media(max-width: 769px){
-        margin-bottom: 0px;
-        font-size:25px;
-        
-        }  
- }
+.prensa {
+  width: auto;
+  float: left;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5em;
+}
 
+.prensa1 {
+  width: 40%;
+}
 
- .prensa {
-    width: auto;
-    float: left;
-    width: 100%;
-    height:200px;
-    display: flex;
-    flex-direction: initial;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 3.5em;
-    }
+.prensa2 {
+  width: 40%;
+  margin-left: 20px;
+}
 
-
-    .prensa1{
-        width:40%;
-    }
-
-    .prensa2{
-        width:40%;
-        margin-left:20px;
-
-    }
-
-    .titles-desc{
-        font-size:50px;
-        font-family:$titles;
-        animation:morado-neon  5s infinite alternate;
-        @media(max-width: 769px){
-            font-size:30px;
-        }
-    }
+.titles-desc {
+  font-size: 50px;
+  font-family: $titles;
+  animation: morado-neon 5s infinite alternate;
+  @media (max-width: 769px) {
+    font-size: 30px;
+  }
+}
 
 //// albums
 .albums {
-    width: auto;
-    float: left;
-    width: 100%;
-    display: flex;
-    flex-direction: initial;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 3.5em;
-    }
-
-   
-.spacerL{
-    margin-bottom:20px;
-    color: #080517
+  width: auto;
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5em;
 }
 
+.spacerL {
+  margin-bottom: 20px;
+  color: #080517;
+}
 
-.animation-a{
-    margin-bottom: 0;
-    font-size: 16px;
-    animation: rojo-neon 100s infinite alternate;
-    font-family: $open;
-    
-    }
+.animation-a {
+  margin-bottom: 0;
+  font-size: 16px;
+  animation: rojo-neon 100s infinite alternate;
+  font-family: $open;
+}
 
 @keyframes rojo-neon {
-	0%, 10%, 15%, 20%, 30%, 35%, 40%, 50%, 55%, 60%, 70%, 75%, 80%, 85%, 90%, 100% {
-		text-shadow: 0 -1px 4px #B20914,
-					// 0 -2px 10px #ff0,
-					 0 -10px 20px #B20914;
-	}
-
-
+  0%,
+  10%,
+  15%,
+  20%,
+  30%,
+  35%,
+  40%,
+  50%,
+  55%,
+  60%,
+  70%,
+  75%,
+  80%,
+  85%,
+  90%,
+  100% {
+    text-shadow: 0 -1px 4px #b20914,
+      // 0 -2px 10px #ff0,
+      0 -10px 20px #b20914;
+  }
 }
-
 
 .photos {
-    width: auto;
-    float: left;
-    width: 100%;
-    display: flex;
-    flex-direction: initial;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: -400px;
-    @media(max-width: 769px){
-        margin-top: -130px;
-        }
-    }
-
-    .logo3 {
-        width: auto;
-        float: left;
-        width: 100%;
-        display: flex;
-        flex-direction: initial;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-top: -400px;
-        margin-bottom: -100px;
-        @media(max-width: 769px){
-            margin-top: -130px;
-            margin-bottom: -30px;
-            }
-        }
-
-
-//////////////////////////////////////////
-//// SERVICES/////
-
-
-.services{
-    font-family:'Open Sans Condensed', sans-serif;
+  width: auto;
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -400px;
+  @media (max-width: 769px) {
+    margin-top: -130px;
+  }
 }
 
-.frame{
-    font-size: 100px;
-   // margin-right: 20px;
-}
-
-
-.mongo img{
-    height: 100px;
-}
-
-.figure2{
-    border-top: 3px solid #C84D44;
-    width: 20%;
-    margin-left: 40%;
-    margin-bottom:20px
-
-}
-
-///////////////////
-
-
-
-
-.container{
-    max-width: 2120px
-}
-
-
-
-.header-text{
-color: #fff;
-}
-
-.header-text .icon{
-font-size: 45px;
-}
-
-.header-text .title{
-font-weight: 700;
-font-size: 50px;
-animation: blue-neon 2s infinite alternate;
-}
-
-.header-text .orange-neon-title,
-.header-text .icon{
-
-margin: 0;
-font-size: 60px;
-animation: orange-neon 2s infinite alternate;
-
-
-}
- @media(max-width: 769px){
-    .header-text .orange-neon-title
-      {
-      font-size: 40px;
-
-    }
-    .header-text .description{
-
-        margin-top: 40px;
-        font-size: 15px;
-
-
-    }
-    .header-text .title{
-        font-size: 35px;
-    }
-    .header-text .icon{
-        font-size: 50px;
-    }
-    .btn-link{
-        font-size: 20px;
-    }
-}
-
-.header-text .description{
-
-margin-top: 40px;
-font-size: 20px;
-
-
-}
-
-.description::first-line {
-font-size: 32px;
-font-weight: 700;
-margin-bottom: 10px;
-}
-
-.btn-link{
-display: inline-block;
-padding: 15px 30px;
-border: 6px dotted #d79e5b;
-border-radius: 60px;
-color: #fff;
-text-decoration: none;
-font-size: 25px;
-//  text-transform: uppercase;
-text-shadow:
- 0 -1px 4px #fff,
- 2px 2px 10px #ff0,
- 2px -2px 20px #ff8000;
- transition: .5s ease;
-}
-
-.btn-link:hover{
-text-shadow: none;
-border: 6px dotted rgba(255,255,255,.5)
-}
-
-
-
-/////////  MAIN //////////
-
-main{
-color: #000;
-width: 100%;
-//height: 100vh;
-z-index: 100;
-position: relative;
-//margin-top: 20vh;
-font-size: 18px;
-// background: #fff; // conflict with the carousel
-}
-
- .container {
-//padding: 50px 0;
-width: 90%;
-max-width: 1000px;
-margin: auto;
-}
-
-.h2-subtitle{
-margin-bottom: 50px;
-padding: 0;
-font-size: 2rem;
-text-align: center;////
-font-family: $open;
-color:$orange ;
-
-}
-
-
-.initial-text{
-    font-size:2px
-}
-
-
-//////// About us seccion ////////
-
-.About-container{
-    display: flex;
-    font-size:1.7rem ;
-     justify-content: center;
-     align-items: center;
-
-    // flex-wrap: wrap;
-     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-              margin-top: 20px;
-              flex-direction: column;
-
-        }
-
-    .about-us-des{
-
-        margin-left: 30px;
-
-    }
-
-
-}
-
-.text-after{
-    display: flex;
-    font-size:1.3rem ;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-    font-weight: 400;
-    color: $grey2;
-    font-family:$open
-    }
-
-.card-text{
-    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-        font-size: 12px;
-
+.logo3 {
+  width: auto;
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -400px;
+  margin-bottom: -100px;
+  @media (max-width: 769px) {
+    margin-top: -130px;
+    margin-bottom: -30px;
   }
 }
 
 
-/// Titles//
-.arrow {
+// SERVICES
 
-    font-family: 'PT Serif', serif;
+.services {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.frame {
+  font-size: 100px;
+}
+
+.mongo img {
+  height: 100px;
+}
+
+.figure2 {
+  border-top: 3px solid #c84d44;
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 2120px;
+}
+
+.header-text {
+  color: #fff;
+}
+
+.header-text .icon {
+  font-size: 45px;
+}
+
+.header-text .title {
+  font-weight: 700;
+  font-size: 50px;
+  animation: blue-neon 2s infinite alternate;
+}
+
+.header-text .orange-neon-title,
+.header-text .icon {
+  margin: 0;
+  font-size: 60px;
+  animation: orange-neon 2s infinite alternate;
+}
+@media (max-width: 769px) {
+  .header-text .orange-neon-title {
     font-size: 40px;
+  }
+  .header-text .description {
+    margin-top: 40px;
+    font-size: 15px;
+  }
+  .header-text .title {
+    font-size: 35px;
+  }
+  .header-text .icon {
+    font-size: 50px;
+  }
+  .btn-link {
+    font-size: 20px;
+  }
 }
 
-.figure{
-    width:300px;
-    border-top: 3px solid #C84D44;
-
-}
-.arrow-2{
-
-   font-size: 1.20rem;
-   color:rgba(255, 255, 255, 0.7)
+.header-text .description {
+  margin-top: 40px;
+  font-size: 20px;
 }
 
-/// buttons
-
-.botton1{
-    border-radius: 50px;
-    border-color: rgba(255, 255, 255, 0.7) ;
-    width: 200px ;
-    background-color:rgba(255, 255, 255, 0.7) ;
-    color: rgba(255, 255, 255, 0.7);
-}
-.botton1:hover{
-    background-color:$dorado;
-    border-color:$dorado;
-
+.description::first-line {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.botton{
-    border-radius: 50px;
-    border-color: rgba(255, 255, 255, 0.7) ;
-    width: 200px ;
-    background-color:#000;
-    color: rgba(255, 255, 255, 0.7);
-}
-.botton:hover{
-    background-color:$dorado;
-    border-color:$dorado;
-
-}
-
-
-
-.spacer3{
-    margin-bottom:70px
+.btn-link {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 6px dotted #d79e5b;
+  border-radius: 60px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  text-shadow: 0 -1px 4px #fff, 2px 2px 10px #ff0, 2px -2px 20px #ff8000;
+  transition: 0.5s ease;
 }
 
-
-/// contactMe
-
-.info{
-    //color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family:$open ;
-    font-size: 30px;
-    padding: 30px;
-    color:$grey3 ;
-    font-weight: .5px;
-}
-.font-figures{
-    color: $grey3;
-    width: auto;
-    float: left;
-    width: 100%;
-    height:200px;
-    display: flex;
-    flex-direction: initial;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 3.5em;
-
-
-    .mailes{
-        margin-bottom: 15px;
-    }
-
-
+.btn-link:hover {
+  text-shadow: none;
+  border: 6px dotted rgba(255, 255, 255, 0.5);
 }
 
-.mail{
-    color: black;
-    font-family:$open;
-    display: flex;
+// MAIN 
+
+main {
+  color: #000;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+  font-size: 18px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.h2-subtitle {
+  margin-bottom: 50px;
+  padding: 0;
+  font-size: 2rem;
+  text-align: center;
+  font-family: $open;
+  color: $orange;
+}
+
+.initial-text {
+  font-size: 2px;
+}
+
+//About us seccion 
+
+.About-container {
+  display: flex;
+  font-size: 1.7rem;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 769px) {
+    margin-top: 20px;
     flex-direction: column;
-    
-  //  font-size:30px;
-    color:white;
-    margin-top: 26px;
-    @media(max-width: 769px){
+  }
 
-        font-size: 15px;
+  .about-us-des {
+    margin-left: 30px;
+  }
+}
 
-    }
+.text-after {
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  color: $grey2;
+  font-family: $open;
+}
 
+.card-text {
+  @media (max-width: 769px) {
+    font-size: 12px;
+  }
+}
+
+//Titles
+.arrow {
+  font-family: "PT Serif", serif;
+  font-size: 40px;
+}
+
+.figure {
+  width: 300px;
+  border-top: 3px solid #c84d44;
+}
+.arrow-2 {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+//buttons
+
+.botton1 {
+  border-radius: 50px;
+  border-color: rgba(255, 255, 255, 0.7);
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7);
+}
+.botton1:hover {
+  background-color: $dorado;
+  border-color: $dorado;
+}
+
+.botton {
+  border-radius: 50px;
+  border-color: rgba(255, 255, 255, 0.7);
+  width: 200px;
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.7);
+}
+.botton:hover {
+  background-color: $dorado;
+  border-color: $dorado;
+}
+
+.spacer3 {
+  margin-bottom: 70px;
+}
+
+// contactMe
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $open;
+  font-size: 30px;
+  padding: 30px;
+  color: $grey3;
+  font-weight: 0.5px;
+}
+.font-figures {
+  color: $grey3;
+  width: auto;
+  float: left;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5em;
+
+  .mailes {
+    margin-bottom: 15px;
+  }
+}
+
+.mail {
+  color: black;
+  font-family: $open;
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  margin-top: 26px;
+  @media (max-width: 769px) {
+    font-size: 15px;
+  }
 }
 
 .text-p {
-
-    color: $grey3;
-    font-size: 8px;
-    margin-top: 25px;
-
-
+  color: $grey3;
+  font-size: 8px;
+  margin-top: 25px;
 }
 
 .font-figures p {
-    font-family: 'PT Serif', serif;
-    font-size: 18px;
-   // margin-top: 10px;
-    @media(max-width: 769px){
-
-        font-size: 15px;
-
-    }
-
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  // margin-top: 10px;
+  @media (max-width: 769px) {
+    font-size: 15px;
+  }
 }
 
-.facebook-but{
-    display: none;
+.facebook-but {
+  display: none;
 }
 
-//// fixing videos
+// fixing videos
 
-.iframe-vid{
-    width:1000px;
-    height:615px;
-    @media(max-width: 769px){
-        width:350px;
-        height:315px;
-        
-    }
+.iframe-vid {
+  width: 1000px;
+  height: 615px;
+  @media (max-width: 769px) {
+    width: 350px;
+    height: 315px;
+  }
 }
-
-.Sabes img{
-    height:500px;
-    width: auto;
-    @media(max-width: 769px){
-        height: 185px;
-        margin-bottom: -40px;
-        
-    }
-}
-
-.desc-content{
+.desc-content {
     text-align: justify;
     margin-right: 200px;
     margin-left: 200px;
-    @media(max-width: 769px){
-        margin-right: 0px;
-        margin-left: 0px;
-        
+    @media (max-width: 769px) {
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+  }
+
+  
+// Cuando modifiques una nueva imagen de portada solo mueve aqui
+.estrenos {
+  width: 100%;
+  @media (max-width: 769px) {
+    margin-bottom: -40px;
+  }
+}
+
+.estrenos img {
+    width: 100%;
+    @media (max-width: 769px) {
+      width: 100%;
     }
 }
+

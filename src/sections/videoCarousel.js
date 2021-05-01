@@ -1,5 +1,4 @@
 import React from "react";
-import "../sections/pages/Videos.scss";
 
 import ImageGallery from "react-image-gallery";
 import grabando from "../images/grabandomusica.png";
@@ -28,15 +27,25 @@ class videoCarousel extends React.Component {
     };
 
     this.images = [
+    
       {
         thumbnail:
-          "https://res.cloudinary.com/dm8dxwvix/image/upload/c_scale,h_740,w_1000/v1618325747/lost%20Fusion/Captura_de_Pantalla_2021-04-13_a_la_s_16.46.00_cgp1o3.png",
+          "https://res.cloudinary.com/dm8dxwvix/image/upload/v1619869984/lost%20Fusion/Captura_de_Pantalla_2021-05-01_a_la_s_13.50.12_2_eblfe9.png",
         original:
-          "https://res.cloudinary.com/dm8dxwvix/image/upload/c_scale,h_740,w_1000/v1618325747/lost%20Fusion/Captura_de_Pantalla_2021-04-13_a_la_s_16.46.00_cgp1o3.png",
-        embedUrl: "https://www.youtube.com/embed/nd1pGrTzE6Y",
-        description: "Grabando musica",
+          "https://res.cloudinary.com/dm8dxwvix/image/upload/v1619869984/lost%20Fusion/Captura_de_Pantalla_2021-05-01_a_la_s_13.50.12_2_eblfe9.png",
+        embedUrl: "https://www.youtube.com/embed/o_gURSJeCiM",
+        description: "Fuego Lento",
         renderItem: this._renderVideo.bind(this),
       },
+      {
+          thumbnail:
+            "https://res.cloudinary.com/dm8dxwvix/image/upload/c_scale,w_795/v1619870115/lost%20Fusion/Captura_de_Pantalla_2021-05-01_a_la_s_13.54.15_2_ngx76a.png",
+          original:
+          "https://res.cloudinary.com/dm8dxwvix/image/upload/c_scale,w_795/v1619870115/lost%20Fusion/Captura_de_Pantalla_2021-05-01_a_la_s_13.54.15_2_ngx76a.png",
+          embedUrl: "https://www.youtube.com/embed/nd1pGrTzE6Y",
+          description: "Grabando musica",
+          renderItem: this._renderVideo.bind(this),
+        },
       {
         thumbnail:
           "https://res.cloudinary.com/dm8dxwvix/image/upload/v1591224558/lost%20Fusion/serpiente_scbnef.png",
@@ -55,24 +64,7 @@ class videoCarousel extends React.Component {
         description: "Costa Linda",
         renderItem: this._renderVideo.bind(this),
       },
-      {
-        thumbnail:
-          "https://res.cloudinary.com/dm8dxwvix/image/upload/v1591224910/lost%20Fusion/guajira_cowrzl.png",
-        original:
-          "https://res.cloudinary.com/dm8dxwvix/image/upload/v1591224910/lost%20Fusion/guajira_cowrzl.png",
-        embedUrl: "https://www.youtube.com/embed/Ktt1sSlLq3Q",
-        description: "Guajira Radio UNAM",
-        renderItem: this._renderVideo.bind(this),
-      },
-      {
-        thumbnail:
-          "https://res.cloudinary.com/dm8dxwvix/image/upload/v1591226542/lost%20Fusion/cronicas_dskhhe.png",
-        original:
-          "https://res.cloudinary.com/dm8dxwvix/image/upload/v1591226542/lost%20Fusion/cronicas_dskhhe.png",
-        embedUrl: "https://www.youtube.com/embed/vsa_yncP-JI",
-        description: "Cronicas Perdidas Cap. 1",
-        renderItem: this._renderVideo.bind(this),
-      },
+   
     ].concat(this._getStaticImages());
   }
 

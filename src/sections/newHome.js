@@ -1,3 +1,9 @@
+/**
+ * @author David Roman <jobroman83@gmail.com>
+ * @file Main Page
+ * @desc Created on 2021-05-01 11:32:33 am
+ * @copyright Lost fusion
+ */
 import React, { Fragment } from "react";
 import Logo from "../images/Logo.png";
 import "react-jinke-music-player/assets/index.css";
@@ -7,15 +13,15 @@ import ReactFBLike from "react-fb-like";
 import MusicPlayer from "react-responsive-music-player";
 import VideoCarousel from "./videoCarousel";
 import Videos from "./pages/Videos";
-import EstrenosNew from "../images/Fuego.jpg";
-import '../sections/pages/shared/styles.scss'
+import EstrenosNew from "../images/Fuego.png";
+import "../sections/pages/shared/styles.scss";
 
 const newHome = () => {
   const Estrenos = () => {
     return (
-      <div className="text-center mt-5 Sabes">
+      <div className="text-center mt-5 estrenos">
         <a
-          href="https://open.spotify.com/album/1j1PVVtGsyjYh0u3RXloMS"
+          href="https://open.spotify.com/track/5SZJdgJN1ghU7IXRydhjEg?si=2c4f50ab41644953"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -275,7 +281,7 @@ const newHome = () => {
       </div>
 
       {/* GALERIA BOTON */}
-      <div></div>
+      <div/>
       <div className="titles-descGallery text-center"> GALERIA</div>
       <div id="galeria" />
       <Videos />
@@ -323,7 +329,6 @@ const newHome = () => {
       </div>
       <br />
 
-      {/* /// to fix the error */}
       <div className="facebook-but">
         <ReactFBLike
           language="es_ES"
