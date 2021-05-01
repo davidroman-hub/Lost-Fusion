@@ -16,6 +16,10 @@ import Videos from "./pages/Videos";
 import EstrenosNew from "../images/Fuego.png";
 import "../sections/pages/shared/styles.scss";
 
+import Serpiente from "../images/serpiente.jpeg";
+import Sabes from "../images/sabes.jpeg";
+import CostaLinda from "../images/costalinda.jpeg";
+
 const newHome = () => {
   const Estrenos = () => {
     return (
@@ -191,6 +195,47 @@ const newHome = () => {
 
       <br />
       <br />
+      <div className="newSongs">
+        <div className="img img-fluid img-principal mb-5">
+          <a
+            href="https://open.spotify.com/track/40JZVfJGNodqMW0izKtadx?si=aae0b2e26c574c10"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Sabes} alt="serpiente" />
+          </a>
+          <br />
+          <span className="songs-titles">Sabes</span>
+          <br />
+        </div>
+      </div>
+
+      <div className="newSongs">
+        <div className="img img-fluid img-1">
+          <a
+            href="https://open.spotify.com/track/2oA32oiF6S2hSfYX23tkXS?si=bc19cf7a152d4be5"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Serpiente} alt="serpiente" />
+          </a>
+          <br />
+          <span className="songs-titles">Serpiente</span>
+          <br />
+        </div>
+        <div className="img img-fluid img-2">
+          <a
+            href="https://open.spotify.com/track/0LzVR9qqPSkvS8xhjWd8sp?si=7ec194b5f6494b76"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={CostaLinda} alt="serpiente" />
+          </a>
+          <br />
+          <span className="songs-titles">Costa Linda</span>
+          <br />
+        </div>
+      </div>
 
       <div className="musica 1">
         <div className="albums-photo">
@@ -281,7 +326,7 @@ const newHome = () => {
       </div>
 
       {/* GALERIA BOTON */}
-      <div/>
+      <div />
       <div className="titles-descGallery text-center"> GALERIA</div>
       <div id="galeria" />
       <Videos />

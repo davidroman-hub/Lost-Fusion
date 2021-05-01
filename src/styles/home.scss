@@ -1,10 +1,15 @@
+/**
+ * @author Firstname Lastname <firstname.lastname@example.com>
+ * @file Description
+ * @desc Created on 2021-05-01 2:51:04 pm
+ * @copyright APPI SASU
+ */
 body {
   background-color: #080517;
   color: #fff;
 }
 
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
-
 
 /*
 Assets Sass
@@ -76,7 +81,6 @@ p {
   align-items: center;
   text-align: center;
 }
-
 
 .band-4 {
   margin-top: -150px;
@@ -166,9 +170,7 @@ p {
 }
 
 .videos {
-
   background-image: url("https://res.cloudinary.com/dm8dxwvix/image/upload/v1591305665/lost%20Fusion/backgrounds/SECCION1_LFWEB_tu0ptl.png");
-
 
   height: 180vh;
   background-size: cover;
@@ -249,13 +251,10 @@ p {
   background-position: center;
 
   @media (max-width: 769px) {
-
     background-size: 300px;
     height: 80vh;
     margin-bottom: 0px;
-
   }
-
 
   display: flex;
   justify-content: center;
@@ -309,7 +308,6 @@ p {
     height: 80vh;
     padding-top: 450px;
   }
-
 
   display: flex;
   justify-content: center;
@@ -395,8 +393,7 @@ p {
   85%,
   90%,
   100% {
-    text-shadow: 0 -1px 4px #fff,
-      0 -10px 20px #ee46b8;
+    text-shadow: 0 -1px 4px #fff, 0 -10px 20px #ee46b8;
   }
 }
 
@@ -685,7 +682,6 @@ p {
   }
 }
 
-
 // SERVICES
 
 .services {
@@ -778,7 +774,7 @@ p {
   border: 6px dotted rgba(255, 255, 255, 0.5);
 }
 
-// MAIN 
+// MAIN
 
 main {
   color: #000;
@@ -807,7 +803,7 @@ main {
   font-size: 2px;
 }
 
-//About us seccion 
+//About us seccion
 
 .About-container {
   display: flex;
@@ -960,16 +956,15 @@ main {
   }
 }
 .desc-content {
-    text-align: justify;
-    margin-right: 200px;
-    margin-left: 200px;
-    @media (max-width: 769px) {
-      margin-right: 0px;
-      margin-left: 0px;
-    }
+  text-align: justify;
+  margin-right: 200px;
+  margin-left: 200px;
+  @media (max-width: 769px) {
+    margin-right: 0px;
+    margin-left: 0px;
   }
+}
 
-  
 // Cuando modifiques una nueva imagen de portada solo mueve aqui
 .estrenos {
   width: 100%;
@@ -979,9 +974,47 @@ main {
 }
 
 .estrenos img {
+  width: 100%;
+  @media (max-width: 769px) {
     width: 100%;
-    @media (max-width: 769px) {
-      width: 100%;
-    }
+  }
 }
 
+.newSongs {
+  width: auto;
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5em;
+  @media (max-width: 769px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.newSongs img{
+  width: 45%;
+}
+
+.img-principal img{
+  box-shadow: 0px 0px 50px #38E0B1;
+}
+.img-1 img {
+
+  box-shadow: 0px 0px 50px red;
+ 
+}
+
+.img-2 img {
+  box-shadow: 0px 0px 50px #9115b5;
+}
+
+.songs-titles{
+  @media (max-width: 769px) {
+ font-size: 25px;
+  }
+}
